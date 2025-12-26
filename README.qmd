@@ -46,7 +46,7 @@ cat(
 
 ## Overview
 
-`NetLogo-Shapes` provides a library of [NetLogo](https://www.netlogo.org/) [vector graphics](https://en.wikipedia.org/wiki/Vector_graphics). It provides scalable, editable versions of [NetLogo’s iconic shapes](https://docs.netlogo.org/shapes.html), making it easy to customize visuals for simulations and educational materials without loss of quality.
+`NetLogo-Shapes` is a library of [NetLogo](https://www.netlogo.org/) [vector graphics](https://en.wikipedia.org/wiki/Vector_graphics). It provides scalable, editable versions of [NetLogo’s iconic shapes](https://docs.netlogo.org/shapes.html), making it easy to customize visuals for simulations and educational materials without loss of quality.
 
 > If you find this project useful, please consider giving it a star! &nbsp; [![GitHub repo stars](https://img.shields.io/github/stars/danielvartan/netlogo-shapes)](https://github.com/danielvartan/netlogo-shapes/)
 

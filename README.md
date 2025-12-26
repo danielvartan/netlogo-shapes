@@ -14,10 +14,9 @@ Badge](https://img.shields.io/badge/Contributor%20Covenant-3.0-4baaaa.svg)](http
 
 ## Overview
 
-`NetLogo-Shapes` provides a library of
-[NetLogo](https://www.netlogo.org/) [vector
-graphics](https://en.wikipedia.org/wiki/Vector_graphics). It provides
-scalable, editable versions of [NetLogo’s iconic
+`NetLogo-Shapes` is a library of [NetLogo](https://www.netlogo.org/)
+[vector graphics](https://en.wikipedia.org/wiki/Vector_graphics). It
+provides scalable, editable versions of [NetLogo’s iconic
 shapes](https://docs.netlogo.org/shapes.html), making it easy to
 customize visuals for simulations and educational materials without loss
 of quality.
