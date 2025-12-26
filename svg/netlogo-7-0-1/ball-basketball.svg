@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <circle id="circle1" style="fill:#8D8D8D" cx="149.5" cy="149.5" r="123.5" />
+  <path id="polygon2" style="fill:none;stroke:#000000;stroke-width:1" d="m 30,150 v 15 l 15,30 30,30 45,15 h 60 l 45,-15 30,-30 15,-30 v -15 v -15 l -15,-30 -30,-30 -45,-15 h -60 l -45,15 -30,30 -15,30 Z" />
+  <line id="line3" style="stroke:#000000;stroke-width:1" x1="30" y1="150" x2="270" y2="150" />
+  <circle id="circle4" style="fill:none;stroke:#000000;stroke-width:1" cx="149.5" cy="149.5" r="123.5" />
+</svg>

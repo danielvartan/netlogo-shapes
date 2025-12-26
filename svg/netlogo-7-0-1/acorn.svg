@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <path id="polygon1" style="fill:#8D8D8D" d="m 146,297 -26,-12 -15,-15 -30,-45 -15,-45 v -30 l 15,-45 h 150 l 15,45 v 30 l -15,45 -30,45 -15,15 -25,12 Z" />
+  <path id="polygon2" style="fill:#9D6E48" d="m 121,15 15,43 -42,-5 -26,12 -22,25 v 15 l 29,10 159,2 22,-12 v -15 l -17,-22 -30,-11 -52,2 -21,-51 Z" />
+  <circle id="circle3" style="fill:none;stroke:#000000;stroke-width:1" cx="232.0" cy="104.0" r="9.0" />
+  <circle id="circle4" style="fill:none;stroke:#000000;stroke-width:1" cx="228.0" cy="86.0" r="9.0" />
+  <circle id="circle5" style="fill:none;stroke:#000000;stroke-width:1" cx="214.0" cy="97.0" r="9.0" />
+  <line id="line6" style="stroke:#000000;stroke-width:1" x1="214" y1="68" x2="223" y2="71" />
+  <line id="line7" style="stroke:#000000;stroke-width:1" x1="223" y1="72" x2="225" y2="78" />
+  <line id="line8" style="stroke:#000000;stroke-width:1" x1="212" y1="88" x2="207" y2="82" />
+  <line id="line9" style="stroke:#000000;stroke-width:1" x1="206" y1="82" x2="195" y2="82" />
+  <line id="line10" style="stroke:#000000;stroke-width:1" x1="197" y1="114" x2="201" y2="107" />
+  <line id="line11" style="stroke:#000000;stroke-width:1" x1="201" y1="106" x2="193" y2="97" />
+  <line id="line12" style="stroke:#000000;stroke-width:1" x1="198" y1="66" x2="189" y2="60" />
+  <line id="line13" style="stroke:#000000;stroke-width:1" x1="176" y1="87" x2="180" y2="80" />
+  <line id="line14" style="stroke:#000000;stroke-width:1" x1="157" y1="105" x2="161" y2="98" />
+  <line id="line15" style="stroke:#000000;stroke-width:1" x1="158" y1="65" x2="150" y2="56" />
+  <line id="line16" style="stroke:#000000;stroke-width:1" x1="180" y1="79" x2="172" y2="70" />
+  <line id="line17" style="stroke:#000000;stroke-width:1" x1="193" y1="73" x2="197" y2="66" />
+  <line id="line18" style="stroke:#000000;stroke-width:1" x1="237" y1="82" x2="252" y2="84" />
+  <line id="line19" style="stroke:#000000;stroke-width:1" x1="249" y1="86" x2="253" y2="97" />
+  <line id="line20" style="stroke:#000000;stroke-width:1" x1="240" y1="104" x2="252" y2="96" />
+</svg>

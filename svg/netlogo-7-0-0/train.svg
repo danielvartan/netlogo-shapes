@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <rect id="rect1" style="fill:#8D8D8D" x="30.0" y="105.0" width="210.0" height="45.0" />
+  <path id="polygon2" style="fill:#8D8D8D" d="m 240,105 30,-75 h -90 l 30,75 Z" />
+  <path id="polygon3" style="fill:#8D8D8D" d="m 195,180 h 75 l 30,30 h -105 Z" />
+  <circle id="circle4" style="fill:#8D8D8D" cx="45.0" cy="210.0" r="45.0" />
+  <circle id="circle5" style="fill:#8D8D8D" cx="255.0" cy="240.0" r="15.0" />
+  <circle id="circle6" style="fill:#8D8D8D" cx="135.0" cy="210.0" r="45.0" />
+  <circle id="circle7" style="fill:#8D8D8D" cx="210.0" cy="240.0" r="15.0" />
+  <rect id="rect8" style="fill:#8D8D8D" x="0.0" y="30.0" width="105.0" height="120.0" />
+  <rect id="rect9" style="fill:#000000" x="30.0" y="60.0" width="45.0" height="45.0" />
+  <path id="polygon10" style="fill:#8D8D8D" d="m 195,180 -30,-30 h 75 v 30 Z" />
+  <rect id="rect11" style="fill:#8D8D8D" x="135.0" y="75.0" width="30.0" height="30.0" />
+  <rect id="rect12" style="fill:#8D8D8D" x="225.0" y="120.0" width="30.0" height="30.0" />
+  <rect id="rect13" style="fill:#000000" x="30.0" y="203.0" width="120.0" height="15.0" />
+</svg>

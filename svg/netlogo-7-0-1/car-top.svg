@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <path id="polygon1" style="fill:#8D8D8D" d="m 151,8 -32,2 -21,15 -12,23 -4,177 8,45 15,19 45,5 45,-3 15,-21 9,-45 -5,-178 -13,-23 -20,-13 Z" />
+  <path id="polygon2" style="fill:#000000" d="m 210,195 -15,15 v -75 l 15,-30 Z" />
+  <path id="polygon3" style="fill:#000000" d="m 105,255 15,15 h 60 l 15,-15 v -30 h -90 Z" />
+  <path id="polygon4" style="fill:#000000" d="m 90,195 15,15 v -75 l -15,-30 Z" />
+  <path id="polygon5" style="fill:#FFFFFF" d="m 205,29 -25,1 1,-19 Z" />
+  <line id="line6" style="stroke:#8D8D8D;stroke-width:1" x1="210" y1="165" x2="195" y2="165" />
+  <line id="line7" style="stroke:#8D8D8D;stroke-width:1" x1="90" y1="165" x2="105" y2="165" />
+  <path id="polygon8" style="fill:#000000" d="m 121,135 59,-1 24,-37 -22,-8 -29,-4 -33,4 -22,8 Z" />
+  <line id="line9" style="stroke:#000000;stroke-width:1" x1="210" y1="90" x2="195" y2="30" />
+  <line id="line10" style="stroke:#000000;stroke-width:1" x1="90" y1="90" x2="105" y2="30" />
+  <path id="polygon11" style="fill:#FFFFFF" d="m 95,29 25,1 -1,-19 Z" />
+</svg>

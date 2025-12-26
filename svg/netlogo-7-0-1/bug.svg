@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <circle id="circle1" style="fill:#8D8D8D" cx="150.0" cy="236.0" r="54.0" />
+  <circle id="circle2" style="fill:#8D8D8D" cx="150.0" cy="167.0" r="40.0" />
+  <circle id="circle3" style="fill:#8D8D8D" cx="150.0" cy="115.0" r="40.0" />
+  <line id="line4" style="stroke:#8D8D8D;stroke-width:1" x1="150" y1="100" x2="80" y2="30" />
+  <line id="line5" style="stroke:#8D8D8D;stroke-width:1" x1="150" y1="100" x2="220" y2="30" />
+</svg>

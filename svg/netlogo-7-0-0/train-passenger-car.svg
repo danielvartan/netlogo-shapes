@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <path id="polygon1" style="fill:#8D8D8D" d="m 15,206 v -56 v -15 l 15,-15 h 240 l 15,15 v 15 v 56 l -15,4 h -240 Z" />
+  <circle id="circle2" style="fill:#000000" cx="255.0" cy="210.0" r="15.0" />
+  <circle id="circle3" style="fill:#000000" cx="225.0" cy="210.0" r="15.0" />
+  <circle id="circle4" style="fill:#000000" cx="75.0" cy="210.0" r="15.0" />
+  <circle id="circle5" style="fill:#000000" cx="45.0" cy="210.0" r="15.0" />
+  <rect id="rect6" style="fill:#000000" x="30.0" y="140.0" width="238.0" height="25.0" />
+  <line id="line7" style="stroke:#8D8D8D;stroke-width:1" x1="60" y1="135" x2="60" y2="165" />
+  <line id="line8" style="stroke:#8D8D8D;stroke-width:1" x1="60" y1="135" x2="60" y2="165" />
+  <line id="line9" style="stroke:#8D8D8D;stroke-width:1" x1="90" y1="135" x2="90" y2="165" />
+  <line id="line10" style="stroke:#8D8D8D;stroke-width:1" x1="120" y1="135" x2="120" y2="165" />
+  <line id="line11" style="stroke:#8D8D8D;stroke-width:1" x1="150" y1="135" x2="150" y2="165" />
+  <line id="line12" style="stroke:#8D8D8D;stroke-width:1" x1="180" y1="135" x2="180" y2="165" />
+  <line id="line13" style="stroke:#8D8D8D;stroke-width:1" x1="210" y1="135" x2="210" y2="165" />
+  <line id="line14" style="stroke:#8D8D8D;stroke-width:1" x1="240" y1="135" x2="240" y2="165" />
+  <rect id="rect15" style="fill:#000000" x="5.0" y="195.0" width="14.0" height="12.0" />
+  <rect id="rect16" style="fill:#000000" x="281.0" y="195.0" width="14.0" height="12.0" />
+  <rect id="rect17" style="fill:#345DA9" x="15.0" y="165.0" width="270.0" height="8.0" />
+  <rect id="rect18" style="fill:#D73229" x="15.0" y="180.0" width="270.0" height="8.0" />
+</svg>

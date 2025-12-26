@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <rect id="rect1" style="fill:#8D8D8D" x="195.0" y="106.0" width="90.0" height="44.0" />
+  <rect id="rect2" style="fill:#8D8D8D" x="195.0" y="90.0" width="60.0" height="15.0" />
+  <path id="polygon3" style="fill:#8D8D8D" d="m 240,90 -23,-46 -21,46 Z" />
+  <path id="polygon4" style="fill:#000000" d="m 234,89 -16,-30 -15,30 Z" />
+  <rect id="rect5" style="fill:#FFFFFF" x="240.0" y="93.0" width="12.0" height="12.0" />
+  <rect id="rect6" style="fill:#000000" x="242.0" y="96.0" width="7.0" height="8.0" />
+  <rect id="rect7" style="fill:#000000" x="241.0" y="125.0" width="44.0" height="14.0" />
+  <path id="polygon8" style="fill:#FFFFFF" d="m 285,125 -8,13 -8,-13 Z" />
+  <path id="polygon9" style="fill:#FFFFFF" d="m 269,140 -7,-15 -6,15 Z" />
+  <rect id="rect10" style="fill:#8D8D8D" x="45.0" y="120.0" width="150.0" height="75.0" />
+  <rect id="rect11" style="fill:#8D8D8D" x="45.0" y="114.0" width="140.0" height="6.0" />
+  <rect id="rect12" style="fill:#8D8D8D" x="165.0" y="195.0" width="15.0" height="75.0" />
+  <rect id="rect13" style="fill:#8D8D8D" x="60.0" y="195.0" width="15.0" height="75.0" />
+  <path id="polygon14" style="fill:#8D8D8D" d="m 45,105 -30,-75 v 45 l 30,75 15,-30 Z" />
+</svg>

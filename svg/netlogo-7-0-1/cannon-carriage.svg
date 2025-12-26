@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <circle id="circle1" style="fill:none;stroke:#8D8D8D;stroke-width:1" cx="150.0" cy="150.0" r="45.0" />
+  <circle id="circle2" style="fill:none;stroke:#8D8D8D;stroke-width:1" cx="150.0" cy="150.0" r="60.0" />
+  <line id="line3" style="stroke:#8D8D8D;stroke-width:1" x1="180" y1="120" x2="120" y2="180" />
+  <line id="line4" style="stroke:#8D8D8D;stroke-width:1" x1="120" y1="120" x2="180" y2="180" />
+  <line id="line5" style="stroke:#8D8D8D;stroke-width:1" x1="150" y1="105" x2="150" y2="195" />
+  <line id="line6" style="stroke:#8D8D8D;stroke-width:1" x1="105" y1="150" x2="195" y2="150" />
+  <path id="polygon7" style="fill:none;stroke:#8D8D8D;stroke-width:1" d="m 0,195 v 15 l 180,-60 v -15 Z" />
+</svg>

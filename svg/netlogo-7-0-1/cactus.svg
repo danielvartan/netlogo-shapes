@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <path id="polygon1" style="fill:#8D8D8D" d="m 130,300 -6,-94 -14,1 -16,-6 -13,-18 -6,-12 -1,-76 5,-16 9,-5 9,5 3,16 1,56 3,18 11,11 11,-11 3,-138 3,-12 13,-3 8,4 5,12 4,110 4,7 h 11 l 8,-12 v -18 l 4,-11 10,-5 13,5 3,13 v 23 l -5,21 -14,12 -20,4 -12,1 -5,120 Z" />
+  <line id="line2" style="stroke:#000000;stroke-width:1" x1="142" y1="32" x2="146" y2="143" />
+  <line id="line3" style="stroke:#000000;stroke-width:1" x1="148" y1="179" x2="143" y2="300" />
+  <line id="line4" style="stroke:#000000;stroke-width:1" x1="123" y1="191" x2="114" y2="197" />
+  <line id="line5" style="stroke:#000000;stroke-width:1" x1="113" y1="199" x2="96" y2="188" />
+  <line id="line6" style="stroke:#000000;stroke-width:1" x1="95" y1="188" x2="84" y2="168" />
+  <line id="line7" style="stroke:#000000;stroke-width:1" x1="83" y1="168" x2="82" y2="103" />
+  <line id="line8" style="stroke:#000000;stroke-width:1" x1="201" y1="147" x2="202" y2="123" />
+  <line id="line9" style="stroke:#000000;stroke-width:1" x1="190" y1="162" x2="199" y2="148" />
+  <line id="line10" style="stroke:#000000;stroke-width:1" x1="174" y1="164" x2="189" y2="163" />
+</svg>

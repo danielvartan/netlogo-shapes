@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <circle id="circle1" style="fill:#000000" cx="195.0" cy="150.0" r="12.0" />
+  <circle id="circle2" style="fill:#000000" cx="105.0" cy="150.0" r="12.0" />
+  <path id="polygon3" style="fill:#8D8D8D" d="m 30,105 v 45 l 60,45 30,75 v 30 h 60 v -30 l 30,-75 60,-45 v -45 l -60,-30 h -120 Z" />
+  <path id="polygon4" style="fill:#8D8D8D" d="m 255,105 30,-45 -30,-60 -45,45 -15,30 Z" />
+  <path id="polygon5" style="fill:#8D8D8D" d="m 45,105 -30,-45 30,-60 45,45 15,30 Z" />
+  <circle id="circle6" style="fill:#000000" cx="105.0" cy="150.0" r="15.0" />
+  <circle id="circle7" style="fill:#000000" cx="195.0" cy="150.0" r="15.0" />
+  <path id="polygon8" style="fill:#000000" d="m 120,300 30,-45 30,45 Z" />
+</svg>

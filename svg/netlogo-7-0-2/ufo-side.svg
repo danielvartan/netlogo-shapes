@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <path id="polygon1" style="fill:#FFFFFF" d="m 0,150 15,30 45,30 60,15 h 60 l 60,-15 45,-30 15,-30 v -15 l -15,-15 -45,-15 h -45 h -45 h -45 h -45 l -45,15 -15,15 Z" />
+  <path id="polygon2" style="fill:none;stroke:#000000;stroke-width:1" d="m 105,105 h -45 l -45,15 -15,15 v 15 l 15,30 45,30 60,15 h 60 l 60,-15 45,-30 15,-30 v -15 l -15,-15 -45,-15 h -30 Z" />
+  <path id="polygon3" style="fill:#8D8D8D" d="m 60,131 30,30 45,15 h 30 l 45,-15 30,-30 -15,-30 -30,-30 -45,-11 -45,11 -30,30 Z" />
+  <circle id="circle4" style="fill:none;stroke:#000000;stroke-width:1" cx="270.0" cy="150.0" r="15.0" />
+  <circle id="circle5" style="fill:none;stroke:#000000;stroke-width:1" cx="195.0" cy="195.0" r="15.0" />
+  <circle id="circle6" style="fill:none;stroke:#000000;stroke-width:1" cx="105.0" cy="195.0" r="15.0" />
+  <circle id="circle7" style="fill:none;stroke:#000000;stroke-width:1" cx="30.0" cy="150.0" r="15.0" />
+  <circle id="circle8" style="fill:#8D8D8D" cx="30.0" cy="150.0" r="15.0" />
+  <circle id="circle9" style="fill:#8D8D8D" cx="105.0" cy="195.0" r="15.0" />
+  <circle id="circle10" style="fill:#8D8D8D" cx="195.0" cy="195.0" r="15.0" />
+  <circle id="circle11" style="fill:#8D8D8D" cx="270.0" cy="150.0" r="15.0" />
+  <path id="polygon12" style="fill:none;stroke:#000000;stroke-width:1" d="m 150,59 -45,11 -30,30 -15,30 30,30 45,15 h 30 l 45,-15 30,-30 -15,-30 -30,-30 Z" />
+</svg>

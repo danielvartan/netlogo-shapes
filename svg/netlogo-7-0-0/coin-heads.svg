@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <circle id="circle1" style="fill:#8D8D8D" cx="150.0" cy="150.0" r="135.0" />
+  <circle id="circle2" style="fill:none;stroke:#000000;stroke-width:1" cx="150.0" cy="149.0" r="128.0" />
+  <line id="line3" style="stroke:#000000;stroke-width:1" x1="165" y1="180" x2="192" y2="196" />
+  <line id="line4" style="stroke:#000000;stroke-width:1" x1="42" y1="140" x2="83" y2="140" />
+  <line id="line5" style="stroke:#000000;stroke-width:1" x1="37" y1="151" x2="91" y2="151" />
+  <line id="line6" style="stroke:#000000;stroke-width:1" x1="218" y1="167" x2="265" y2="167" />
+  <path id="polygon7" style="fill:none;stroke:#000000;stroke-width:1" d="m 148,265 -73,-36 11,-22 27,-16 7,-16 -11,-13 v -26 l -23,-12 51,-28 39,-3 34,15 12,17 -19,32 1,17 -14,17 42,39 Z" />
+  <path id="polygon8" style="fill:none;stroke:#000000;stroke-width:1" d="m 212,142 -30,-14 -28,4 -14,20 9,10 -5,20 23,22 20,2 6,-13 -3,-4 12,-15 -9,-16 9,17 2,-17 Z" />
+  <line id="line9" style="stroke:#000000;stroke-width:1" x1="164" y1="154" x2="182" y2="152" />
+  <line id="line10" style="stroke:#000000;stroke-width:1" x1="193" y1="152" x2="202" y2="153" />
+  <path id="polygon11" style="fill:none;stroke:#000000;stroke-width:1" d="m 60,75 15,15 15,-15 h 15 l -15,-30 h 15 l 15,15 h 15 v -15 h -15 h -15 l 30,-15 h 30 l 30,15 15,15 15,15 h 15 h -15 l -15,15 15,-15 v -15 h -15 l -15,15 15,-15 -15,-15 h -15 v 15 v -15 l -15,15 h -15 v -15 h 15 h -15 v -15 h -15 l -15,30 -15,15 Z" />
+</svg>

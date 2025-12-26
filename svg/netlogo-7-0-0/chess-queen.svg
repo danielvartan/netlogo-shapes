@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <circle id="circle1" style="fill:#8D8D8D" cx="150.0" cy="21.0" r="10.0" />
+  <circle id="circle2" style="fill:none;stroke:#000000;stroke-width:1" cx="149.0" cy="21.0" r="10.0" />
+  <circle id="circle3" style="fill:#8D8D8D" cx="150.0" cy="52.0" r="30.0" />
+  <circle id="circle4" style="fill:none;stroke:#000000;stroke-width:1" cx="149.0" cy="50.0" r="30.0" />
+  <rect id="rect5" style="fill:#8D8D8D" x="90.0" y="255.0" width="120.0" height="45.0" />
+  <line id="line6" style="stroke:#000000;stroke-width:1" x1="75" y1="255" x2="225" y2="255" />
+  <rect id="rect7" style="fill:none;stroke:#000000;stroke-width:1" x="90.0" y="255.0" width="120.0" height="45.0" />
+  <path id="polygon8" style="fill:#8D8D8D" d="m 105,255 15,-165 h 60 l 15,165 Z" />
+  <path id="polygon9" style="fill:none;stroke:#000000;stroke-width:1" d="m 105,255 15,-165 h 60 l 15,165 Z" />
+  <rect id="rect10" style="fill:#8D8D8D" x="105.0" y="75.0" width="90.0" height="30.0" />
+  <rect id="rect11" style="fill:none;stroke:#000000;stroke-width:1" x="105.0" y="75.0" width="90.0" height="30.0" />
+  <path id="polygon12" style="fill:#8D8D8D" d="m 120,75 -15,-30 h 90 l -15,30 Z" />
+  <path id="polygon13" style="fill:none;stroke:#000000;stroke-width:1" d="m 120,75 -15,-30 h 90 l -15,30 Z" />
+  <circle id="circle14" style="fill:#8D8D8D" cx="190.0" cy="45.0" r="10.0" />
+  <circle id="circle15" style="fill:none;stroke:#000000;stroke-width:1" cx="190.0" cy="45.0" r="10.0" />
+  <circle id="circle16" style="fill:#8D8D8D" cx="150.0" cy="45.0" r="10.0" />
+  <circle id="circle17" style="fill:none;stroke:#000000;stroke-width:1" cx="150.0" cy="45.0" r="10.0" />
+  <circle id="circle18" style="fill:#8D8D8D" cx="110.0" cy="45.0" r="10.0" />
+  <circle id="circle19" style="fill:none;stroke:#000000;stroke-width:1" cx="109.0" cy="45.0" r="10.0" />
+  <line id="line20" style="stroke:#000000;stroke-width:1" x1="105" y1="90" x2="195" y2="90" />
+</svg>

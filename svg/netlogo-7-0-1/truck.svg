@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <rect id="rect1" style="fill:#8D8D8D" x="4.0" y="45.0" width="191.0" height="142.0" />
+  <path id="polygon2" style="fill:#8D8D8D" d="m 296,193 v -43 l -37,-16 -15,-30 h -36 l -1,90 Z" />
+  <rect id="rect3" style="fill:#FFFFFF" x="195.0" y="60.0" width="0.0" height="45.0" />
+  <path id="polygon4" style="fill:#000000" d="m 238,112 14,29 h -33 l -1,-29 Z" />
+  <circle id="circle5" style="fill:#000000" cx="255.0" cy="195.0" r="21.0" />
+  <rect id="rect6" style="fill:#8D8D8D" x="181.0" y="185.0" width="33.0" height="9.0" />
+  <circle id="circle7" style="fill:#000000" cx="165.0" cy="195.0" r="21.0" />
+  <circle id="circle8" style="fill:#000000" cx="45.0" cy="195.0" r="21.0" />
+  <circle id="circle9" style="fill:none;stroke:#8D8D8D;stroke-width:1" cx="45.0" cy="195.0" r="21.0" />
+  <circle id="circle10" style="fill:none;stroke:#8D8D8D;stroke-width:1" cx="165.0" cy="195.0" r="21.0" />
+  <circle id="circle11" style="fill:none;stroke:#8D8D8D;stroke-width:1" cx="255.0" cy="195.0" r="21.0" />
+</svg>

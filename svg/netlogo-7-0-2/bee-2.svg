@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <path id="polygon1" style="fill:#ECEC29" d="m 195,150 h -90 l -15,15 v 60 l 15,45 30,30 h 30 l 30,-30 15,-45 v -60 l -15,-15 Z" />
+  <rect id="rect2" style="fill:#000000" x="90.0" y="165.0" width="122.0" height="20.0" />
+  <path id="polygon3" style="fill:#000000" d="m 90,207 v 19 h 120 v -19 Z" />
+  <path id="polygon4" style="fill:#000000" d="m 103,266 h 95 l 5,-20 h -107 Z" />
+  <path id="polygon5" style="fill:#9D6E48" d="m 120,150 -15,-15 v -60 l 15,-15 h 60 l 15,15 v 60 l -15,15 Z" />
+  <path id="polygon6" style="fill:#9D6E48" d="m 150,15 -30,15 v 30 h 60 v -30 Z" />
+  <circle id="circle7" style="fill:#000000" cx="120.0" cy="45.0" r="15.0" />
+  <circle id="circle8" style="fill:#000000" cx="180.0" cy="45.0" r="15.0" />
+  <path id="polygon9" style="fill:#8D8D8D" d="m 120,90 -45,15 -60,-15 15,-15 h 90 Z" />
+  <path id="polygon10" style="fill:none;stroke:#000000;stroke-width:1" d="m 120,75 h -90 l -15,15 60,15 45,-15 Z" />
+  <path id="polygon11" style="fill:#8D8D8D" d="m 180,75 v 15 l 45,15 60,-15 -15,-15 Z" />
+  <path id="polygon12" style="fill:none;stroke:#000000;stroke-width:1" d="m 180,75 h 90 l 15,15 -60,15 -45,-15 Z" />
+  <path id="polygon13" style="fill:#8D8D8D" d="m 180,75 v 15 l 15,15 45,90 30,15 h 15 v -60 l -30,-45 Z" />
+  <path id="polygon14" style="fill:none;stroke:#000000;stroke-width:1" d="m 180,75 75,30 30,45 v 60 h -15 l -30,-15 -45,-90 -15,-15 Z" />
+  <path id="polygon15" style="fill:#8D8D8D" d="m 120,75 -75,30 -30,45 v 60 h 15 l 30,-15 45,-90 15,-15 Z" />
+  <path id="polygon16" style="fill:none;stroke:#000000;stroke-width:1" d="m 120,75 -75,30 -30,45 v 60 h 15 l 30,-15 45,-90 15,-15 Z" />
+  <path id="polygon17" style="fill:#000000" d="m 135,300 h 30 l 15,-15 h -60 Z" />
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <path id="polygon1" style="fill:#8D8D8D" d="m 150,1 -13,17 -14,28 -13,41 -8,63 4,58 8,50 9,28 52,1 8,-29 10,-49 5,-59 -7,-63 -13,-41 -15,-29 Z" />
+  <rect id="rect2" style="fill:none;stroke:#000000;stroke-width:1" x="129.0" y="92.0" width="41.0" height="86.0" />
+  <rect id="rect3" style="fill:none;stroke:#000000;stroke-width:1" x="120.0" y="63.0" width="60.0" height="30.0" />
+  <rect id="rect4" style="fill:#8D8D8D" x="133.0" y="89.0" width="32.0" height="76.0" />
+  <path id="polygon5" style="fill:#54C4C4" d="m 150,60 -45,45 45,-15 45,15 Z" />
+  <path id="polygon6" style="fill:none;stroke:#000000;stroke-width:1" d="m 150,60 -45,45 45,-15 45,15 Z" />
+  <rect id="rect7" style="fill:none;stroke:#000000;stroke-width:1" x="135.0" y="178.0" width="30.0" height="84.0" />
+  <path id="polygon8" style="fill:none;stroke:#000000;stroke-width:1" d="m 134,262 10,24 h 14 l 8,-24 Z" />
+  <line id="line9" style="stroke:#000000;stroke-width:1" x1="129" y1="149" x2="171" y2="149" />
+  <line id="line10" style="stroke:#000000;stroke-width:1" x1="166" y1="262" x2="188" y2="252" />
+  <line id="line11" style="stroke:#000000;stroke-width:1" x1="134" y1="262" x2="112" y2="252" />
+  <line id="line12" style="stroke:#000000;stroke-width:1" x1="150" y1="2" x2="149" y2="62" />
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <rect id="rect1" style="fill:#8D8D8D" x="270.0" y="75.0" width="15.0" height="180.0" />
+  <rect id="rect2" style="fill:#8D8D8D" x="45.0" y="135.0" width="225.0" height="120.0" />
+  <rect id="rect3" style="fill:#000000" x="124.0" y="195.0" width="63.0" height="61.0" />
+  <rect id="rect4" style="fill:#000000" x="60.0" y="195.0" width="45.0" height="45.0" />
+  <rect id="rect5" style="fill:#000000" x="60.0" y="150.0" width="45.0" height="30.0" />
+  <rect id="rect6" style="fill:#000000" x="210.0" y="150.0" width="45.0" height="30.0" />
+  <line id="line7" style="stroke:#000000;stroke-width:1" x1="270" y1="135" x2="270" y2="255" />
+  <path id="polygon8" style="fill:#8D8D8D" d="m 30,135 h 255 l -45,-45 h -165 Z" />
+  <line id="line9" style="stroke:#000000;stroke-width:1" x1="30" y1="135" x2="285" y2="135" />
+  <line id="line10" style="stroke:#000000;stroke-width:1" x1="255" y1="105" x2="285" y2="135" />
+  <line id="line11" style="stroke:#8D8D8D;stroke-width:1" x1="154" y1="195" x2="154" y2="255" />
+  <rect id="rect12" style="fill:#000000" x="210.0" y="195.0" width="45.0" height="45.0" />
+  <rect id="rect13" style="fill:#000000" x="135.0" y="150.0" width="45.0" height="30.0" />
+</svg>

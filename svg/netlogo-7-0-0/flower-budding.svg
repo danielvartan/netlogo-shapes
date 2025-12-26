@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <path id="polygon1" style="fill:#8D8D8D" d="m 135,120 30,45 15,45 v 30 l -30,60 h 15 l 30,-60 v -45 l -30,-60 Z" />
+  <path id="polygon2" style="fill:#8D8D8D" d="m 189,233 30,-45 30,-15 30,15 -45,30 Z" />
+  <path id="polygon3" style="fill:#8D8D8D" d="m 180,255 -30,-45 h -45 l -30,30 h 60 Z" />
+  <path id="polygon4" style="fill:#8D8D8D" d="m 180,150 v -30 l -15,-23 -30,-13 -7,37 19,27 18,17 Z" />
+  <path id="polygon5" style="fill:#8D8D8D" d="m 170,155 -39,8 44,4 21,-31 Z" />
+</svg>

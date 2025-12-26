@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <rect id="rect1" style="fill:#FFFFFF" x="0.0" y="0.0" width="300.0" height="300.0" />
+  <rect id="rect2" style="fill:#8D8D8D" x="15.0" y="225.0" width="135.0" height="60.0" />
+  <rect id="rect3" style="fill:#8D8D8D" x="165.0" y="225.0" width="135.0" height="60.0" />
+  <rect id="rect4" style="fill:#8D8D8D" x="75.0" y="150.0" width="135.0" height="60.0" />
+  <rect id="rect5" style="fill:#8D8D8D" x="0.0" y="150.0" width="60.0" height="60.0" />
+  <rect id="rect6" style="fill:#8D8D8D" x="225.0" y="150.0" width="75.0" height="60.0" />
+  <rect id="rect7" style="fill:#8D8D8D" x="165.0" y="75.0" width="135.0" height="60.0" />
+  <rect id="rect8" style="fill:#8D8D8D" x="15.0" y="75.0" width="135.0" height="60.0" />
+  <rect id="rect9" style="fill:#8D8D8D" x="0.0" y="0.0" width="60.0" height="60.0" />
+  <rect id="rect10" style="fill:#8D8D8D" x="225.0" y="0.0" width="75.0" height="60.0" />
+  <rect id="rect11" style="fill:#8D8D8D" x="75.0" y="0.0" width="135.0" height="60.0" />
+</svg>

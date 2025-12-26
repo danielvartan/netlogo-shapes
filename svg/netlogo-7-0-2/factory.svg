@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <rect id="rect1" style="fill:#8D8D8D" x="76.0" y="194.0" width="209.0" height="76.0" />
+  <rect id="rect2" style="fill:#8D8D8D" x="36.0" y="95.0" width="23.0" height="136.0" />
+  <rect id="rect3" style="fill:#000000" x="90.0" y="210.0" width="180.0" height="30.0" />
+  <line id="line4" style="stroke:#8D8D8D;stroke-width:1" x1="90" y1="195" x2="90" y2="255" />
+  <line id="line5" style="stroke:#8D8D8D;stroke-width:1" x1="120" y1="195" x2="120" y2="255" />
+  <line id="line6" style="stroke:#8D8D8D;stroke-width:1" x1="150" y1="195" x2="150" y2="240" />
+  <line id="line7" style="stroke:#8D8D8D;stroke-width:1" x1="180" y1="195" x2="180" y2="255" />
+  <line id="line8" style="stroke:#8D8D8D;stroke-width:1" x1="210" y1="210" x2="210" y2="240" />
+  <line id="line9" style="stroke:#8D8D8D;stroke-width:1" x1="240" y1="210" x2="240" y2="240" />
+  <line id="line10" style="stroke:#8D8D8D;stroke-width:1" x1="90" y1="225" x2="270" y2="225" />
+  <circle id="circle11" style="fill:#FFFFFF" cx="53.0" cy="89.0" r="16.0" />
+  <circle id="circle12" style="fill:#FFFFFF" cx="82.0" cy="65.0" r="27.0" />
+  <circle id="circle13" style="fill:#FFFFFF" cx="117.0" cy="42.0" r="21.0" />
+  <circle id="circle14" style="fill:#FFFFFF" cx="121.0" cy="56.0" r="16.0" />
+  <circle id="circle15" style="fill:#FFFFFF" cx="150.0" cy="40.0" r="21.0" />
+  <rect id="rect16" style="fill:#8D8D8D" x="14.0" y="228.0" width="64.0" height="42.0" />
+</svg>

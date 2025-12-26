@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <path id="polygon1" style="fill:#8D8D8D" d="m 135,90 15,195 15,-195 Z" />
+  <path id="polygon2" style="fill:#8D8D8D" d="m 135,285 -30,-30 v -15 l 15,-30 15,-30 15,-15 15,15 15,30 15,30 v 15 l -30,30 Z" />
+  <rect id="rect3" style="fill:#ECEC29" x="135.0" y="45.0" width="30.0" height="45.0" />
+  <line id="line4" style="stroke:#000000;stroke-width:1" x1="150" y1="285" x2="150" y2="180" />
+  <path id="polygon5" style="fill:#000000" d="m 150,45 h -15 l 11,-10 4,-35 5,35 10,10 Z" />
+  <line id="line6" style="stroke:#000000;stroke-width:1" x1="135" y1="75" x2="165" y2="75" />
+  <line id="line7" style="stroke:#000000;stroke-width:1" x1="135" y1="60" x2="165" y2="60" />
+</svg>

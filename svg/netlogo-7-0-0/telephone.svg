@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <path id="polygon1" style="fill:#8D8D8D" d="m 75,273 -15,-18 v -60 l 24,-30 h -9 l -30,-15 v -30 l 15,-30 45,-15 h 90 l 45,15 15,30 v 30 l -32,15 h -8 l 25,30 v 60 l -14,19 Z" />
+  <path id="polygon2" style="fill:none;stroke:#000000;stroke-width:1" d="m 75,273 -15,-18 v -60 l 45,-60 v -15 v -15 h 15 v 15 h 60 v -15 h 15 v 30 l 45,60 v 60 l -15,18 Z" />
+  <path id="polygon3" style="fill:none;stroke:#000000;stroke-width:1" d="m 81,165 h -7 l -30,-15 v -30 l 15,-30 45,-15 h 90 l 45,15 15,30 v 30 l -36,17 -24,-32 v -30 h -15 v 15 h -60 v -15 h -15 v 30 l -23,31 -3,-1 Z" />
+  <rect id="rect4" style="fill:none;stroke:#000000;stroke-width:1" x="120.0" y="165.0" width="15.0" height="15.0" />
+  <rect id="rect5" style="fill:none;stroke:#000000;stroke-width:1" x="165.0" y="165.0" width="15.0" height="15.0" />
+  <rect id="rect6" style="fill:none;stroke:#000000;stroke-width:1" x="142.0" y="165.0" width="15.0" height="15.0" />
+  <rect id="rect7" style="fill:none;stroke:#000000;stroke-width:1" x="165.0" y="188.0" width="15.0" height="15.0" />
+  <rect id="rect8" style="fill:none;stroke:#000000;stroke-width:1" x="142.0" y="188.0" width="15.0" height="15.0" />
+  <rect id="rect9" style="fill:none;stroke:#000000;stroke-width:1" x="120.0" y="188.0" width="15.0" height="15.0" />
+  <rect id="rect10" style="fill:none;stroke:#000000;stroke-width:1" x="120.0" y="210.0" width="15.0" height="15.0" />
+  <rect id="rect11" style="fill:none;stroke:#000000;stroke-width:1" x="142.0" y="210.0" width="15.0" height="15.0" />
+  <rect id="rect12" style="fill:none;stroke:#000000;stroke-width:1" x="165.0" y="210.0" width="15.0" height="15.0" />
+  <rect id="rect13" style="fill:none;stroke:#000000;stroke-width:1" x="120.0" y="233.0" width="15.0" height="15.0" />
+  <rect id="rect14" style="fill:none;stroke:#000000;stroke-width:1" x="142.0" y="233.0" width="15.0" height="15.0" />
+  <rect id="rect15" style="fill:none;stroke:#000000;stroke-width:1" x="165.0" y="233.0" width="15.0" height="15.0" />
+</svg>

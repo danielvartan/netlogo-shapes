@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <rect id="rect1" style="fill:#8D8D8D" x="45.0" y="45.0" width="210.0" height="210.0" />
+  <rect id="rect2" style="fill:none;stroke:#000000;stroke-width:1" x="45.0" y="45.0" width="210.0" height="210.0" />
+  <rect id="rect3" style="fill:none;stroke:#000000;stroke-width:1" x="60.0" y="60.0" width="180.0" height="180.0" />
+  <line id="line4" style="stroke:#000000;stroke-width:1" x1="180" y1="60" x2="180" y2="240" />
+  <line id="line5" style="stroke:#000000;stroke-width:1" x1="150" y1="60" x2="150" y2="240" />
+  <line id="line6" style="stroke:#000000;stroke-width:1" x1="120" y1="60" x2="120" y2="240" />
+  <line id="line7" style="stroke:#000000;stroke-width:1" x1="210" y1="60" x2="210" y2="240" />
+  <line id="line8" style="stroke:#000000;stroke-width:1" x1="90" y1="60" x2="90" y2="240" />
+  <path id="polygon9" style="fill:#8D8D8D" d="m 75,240 165,-165 v -15 h -15 l -165,165 v 15 Z" />
+  <path id="polygon10" style="fill:none;stroke:#000000;stroke-width:1" d="m 60,225 v 15 h 15 l 165,-165 v -15 h -15 Z" />
+</svg>

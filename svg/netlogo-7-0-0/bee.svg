@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <path id="polygon1" style="fill:#ECEC29" d="m 152,149 -75,14 -10,32 v 16 l 7,23 11,18 15,12 16,12 18,10 17,14 16,-15 15,-7 24,-18 14,-18 6,-24 v -23 l -4,-29 Z" />
+  <path id="polygon2" style="fill:#000000" d="m 150,149 -22,2 h -14 l -16,-6 -18,-23 v -19 l 1,-20 14,-16 22,-9 24,-4 10,-1 26,2 18,11 12,16 4,12 v 22 l -7,23 -15,10 -18,3 Z" />
+  <path id="polygon3" style="fill:#8D8D8D" d="m 151,54 -32,5 -23,1 -15,-10 -3,-11 9,-14 16,-7 12,5 6,-10 29,-12 30,13 9,9 8,-6 13,2 12,11 v 14 l -10,13 -20,1 Z" />
+  <path id="polygon4" style="fill:#000000" d="m 70,185 4,-14 149,1 1,14 Z" />
+  <path id="polygon5" style="fill:#000000" d="m 67,211 4,15 h 153 l 1,-15 h -158 Z" />
+  <path id="polygon6" style="fill:#000000" d="m 91,257 15,12 h 89 l 16,-14 Z" />
+  <line id="line7" style="stroke:#FFFFFF;stroke-width:1" x1="144" y1="100" x2="70" y2="87" />
+  <line id="line8" style="stroke:#FFFFFF;stroke-width:1" x1="70" y1="87" x2="45" y2="87" />
+  <line id="line9" style="stroke:#FFFFFF;stroke-width:1" x1="45" y1="86" x2="26" y2="97" />
+  <line id="line10" style="stroke:#FFFFFF;stroke-width:1" x1="26" y1="96" x2="22" y2="115" />
+  <line id="line11" style="stroke:#FFFFFF;stroke-width:1" x1="22" y1="115" x2="25" y2="130" />
+  <line id="line12" style="stroke:#FFFFFF;stroke-width:1" x1="26" y1="131" x2="37" y2="141" />
+  <line id="line13" style="stroke:#FFFFFF;stroke-width:1" x1="37" y1="141" x2="55" y2="144" />
+  <line id="line14" style="stroke:#FFFFFF;stroke-width:1" x1="55" y1="143" x2="143" y2="101" />
+  <line id="line15" style="stroke:#FFFFFF;stroke-width:1" x1="141" y1="100" x2="227" y2="138" />
+  <line id="line16" style="stroke:#FFFFFF;stroke-width:1" x1="227" y1="138" x2="241" y2="137" />
+  <line id="line17" style="stroke:#FFFFFF;stroke-width:1" x1="241" y1="137" x2="249" y2="129" />
+  <line id="line18" style="stroke:#FFFFFF;stroke-width:1" x1="249" y1="129" x2="254" y2="110" />
+  <line id="line19" style="stroke:#FFFFFF;stroke-width:1" x1="253" y1="108" x2="248" y2="97" />
+  <line id="line20" style="stroke:#FFFFFF;stroke-width:1" x1="249" y1="95" x2="235" y2="82" />
+  <line id="line21" style="stroke:#FFFFFF;stroke-width:1" x1="235" y1="82" x2="144" y2="100" />
+</svg>
