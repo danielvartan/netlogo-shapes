@@ -1,6 +1,6 @@
 ## Overview
 
-This document generates XML files for each turtle shape found in a NetLogo XML file (`.nlogox`). Each shape is extracted and saved as a separate XML file in a designated directory.
+This document creates [XML](https://en.wikipedia.org/wiki/XML) files for each turtle shape found in a [NetLogo](https://www.netlogo.org/) XML file (`.nlogox`). Each shape is extracted and saved as a separate XML file in a designated directory.
 
 ## Set the Environment
 
@@ -57,7 +57,7 @@ cli_progress_bar(
 for (i in seq_along(turtle_shapes)) {
   shape <- turtle_shapes |> extract2(i)
   shape_name <- xml_attr(shape, "name")
-  shape_doc <- xml_new_root("turtleShape")
+  shape_doc <- xml_new_root("turtleShapes")
 
   xml_add_child(shape_doc, shape)
 
@@ -68,7 +68,7 @@ for (i in seq_along(turtle_shapes)) {
 
   filepath <- file.path(xml_dir, filename)
 
-  write_xml(shape_doc, filepath)
+  write_xml(shape_doc, filepath, options = c("format", "no_empty_tags"))
 
   cli_progress_update()
 }

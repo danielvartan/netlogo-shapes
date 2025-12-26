@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="die 6" rotatable="false" editableColorIndex="0">
-    <rectangle endX="255" startY="45" marked="true" color="-1920102913" endY="255" startX="45" filled="true"/>
-    <circle x="84" y="69" marked="false" color="255" diameter="42" filled="true"/>
-    <circle x="84" y="129" marked="false" color="255" diameter="42" filled="true"/>
-    <circle x="84" y="189" marked="false" color="255" diameter="42" filled="true"/>
-    <circle x="174" y="69" marked="false" color="255" diameter="42" filled="true"/>
-    <circle x="174" y="129" marked="false" color="255" diameter="42" filled="true"/>
-    <circle x="174" y="189" marked="false" color="255" diameter="42" filled="true"/>
+    <rectangle endX="255" startY="45" marked="true" color="-1920102913" endY="255" startX="45" filled="true"></rectangle>
+    <circle x="84" y="69" marked="false" color="255" diameter="42" filled="true"></circle>
+    <circle x="84" y="129" marked="false" color="255" diameter="42" filled="true"></circle>
+    <circle x="84" y="189" marked="false" color="255" diameter="42" filled="true"></circle>
+    <circle x="174" y="69" marked="false" color="255" diameter="42" filled="true"></circle>
+    <circle x="174" y="129" marked="false" color="255" diameter="42" filled="true"></circle>
+    <circle x="174" y="189" marked="false" color="255" diameter="42" filled="true"></circle>
   </shape>
-</turtleShape>
+</turtleShapes>

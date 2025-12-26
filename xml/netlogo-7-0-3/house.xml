@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="house" rotatable="false" editableColorIndex="0">
-    <rectangle endX="255" startY="120" marked="true" color="-1920102913" endY="285" startX="45" filled="true"/>
-    <rectangle endX="180" startY="210" marked="false" color="255" endY="285" startX="120" filled="true"/>
+    <rectangle endX="255" startY="120" marked="true" color="-1920102913" endY="285" startX="45" filled="true"></rectangle>
+    <rectangle endX="180" startY="210" marked="false" color="255" endY="285" startX="120" filled="true"></rectangle>
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="15" y="120"/>
-      <point x="150" y="15"/>
-      <point x="285" y="120"/>
+      <point x="15" y="120"></point>
+      <point x="150" y="15"></point>
+      <point x="285" y="120"></point>
     </polygon>
-    <line endX="270" startY="120" marked="false" color="255" endY="120" startX="30"/>
+    <line endX="270" startY="120" marked="false" color="255" endY="120" startX="30"></line>
   </shape>
-</turtleShape>
+</turtleShapes>

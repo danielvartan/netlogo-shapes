@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="circle" rotatable="false" editableColorIndex="0">
-    <circle x="0" y="0" marked="true" color="-1920102913" diameter="300" filled="true"/>
+    <circle x="0" y="0" marked="true" color="-1920102913" diameter="300" filled="true"></circle>
   </shape>
-</turtleShape>
+</turtleShapes>

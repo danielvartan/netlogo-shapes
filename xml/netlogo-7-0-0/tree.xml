@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="tree" rotatable="false" editableColorIndex="0">
-    <circle x="118" y="3" marked="true" color="-1920102913" diameter="94" filled="true"/>
-    <rectangle endX="180" startY="195" marked="false" color="-1653716737" endY="300" startX="120" filled="true"/>
-    <circle x="65" y="21" marked="true" color="-1920102913" diameter="108" filled="true"/>
-    <circle x="116" y="41" marked="true" color="-1920102913" diameter="127" filled="true"/>
-    <circle x="45" y="90" marked="true" color="-1920102913" diameter="120" filled="true"/>
-    <circle x="104" y="74" marked="true" color="-1920102913" diameter="152" filled="true"/>
+    <circle x="118" y="3" marked="true" color="-1920102913" diameter="94" filled="true"></circle>
+    <rectangle endX="180" startY="195" marked="false" color="-1653716737" endY="300" startX="120" filled="true"></rectangle>
+    <circle x="65" y="21" marked="true" color="-1920102913" diameter="108" filled="true"></circle>
+    <circle x="116" y="41" marked="true" color="-1920102913" diameter="127" filled="true"></circle>
+    <circle x="45" y="90" marked="true" color="-1920102913" diameter="120" filled="true"></circle>
+    <circle x="104" y="74" marked="true" color="-1920102913" diameter="152" filled="true"></circle>
   </shape>
-</turtleShape>
+</turtleShapes>

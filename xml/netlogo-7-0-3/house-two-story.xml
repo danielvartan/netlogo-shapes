@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="house two story" rotatable="false" editableColorIndex="0">
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="2" y="180"/>
-      <point x="227" y="180"/>
-      <point x="152" y="150"/>
-      <point x="32" y="150"/>
+      <point x="2" y="180"></point>
+      <point x="227" y="180"></point>
+      <point x="152" y="150"></point>
+      <point x="32" y="150"></point>
     </polygon>
-    <rectangle endX="285" startY="75" marked="true" color="-1920102913" endY="255" startX="270" filled="true"/>
-    <rectangle endX="270" startY="135" marked="true" color="-1920102913" endY="255" startX="75" filled="true"/>
-    <rectangle endX="187" startY="195" marked="false" color="255" endY="256" startX="124" filled="true"/>
-    <rectangle endX="255" startY="195" marked="false" color="255" endY="240" startX="210" filled="true"/>
-    <rectangle endX="135" startY="150" marked="false" color="255" endY="180" startX="90" filled="true"/>
-    <rectangle endX="255" startY="150" marked="false" color="255" endY="180" startX="210" filled="true"/>
-    <line endX="270" startY="135" marked="false" color="255" endY="255" startX="270"/>
-    <rectangle endX="75" startY="180" marked="true" color="-1920102913" endY="255" startX="15" filled="true"/>
+    <rectangle endX="285" startY="75" marked="true" color="-1920102913" endY="255" startX="270" filled="true"></rectangle>
+    <rectangle endX="270" startY="135" marked="true" color="-1920102913" endY="255" startX="75" filled="true"></rectangle>
+    <rectangle endX="187" startY="195" marked="false" color="255" endY="256" startX="124" filled="true"></rectangle>
+    <rectangle endX="255" startY="195" marked="false" color="255" endY="240" startX="210" filled="true"></rectangle>
+    <rectangle endX="135" startY="150" marked="false" color="255" endY="180" startX="90" filled="true"></rectangle>
+    <rectangle endX="255" startY="150" marked="false" color="255" endY="180" startX="210" filled="true"></rectangle>
+    <line endX="270" startY="135" marked="false" color="255" endY="255" startX="270"></line>
+    <rectangle endX="75" startY="180" marked="true" color="-1920102913" endY="255" startX="15" filled="true"></rectangle>
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="60" y="135"/>
-      <point x="285" y="135"/>
-      <point x="240" y="90"/>
-      <point x="105" y="90"/>
+      <point x="60" y="135"></point>
+      <point x="285" y="135"></point>
+      <point x="240" y="90"></point>
+      <point x="105" y="90"></point>
     </polygon>
-    <line endX="75" startY="135" marked="false" color="255" endY="180" startX="75"/>
-    <rectangle endX="93" startY="195" marked="false" color="255" endY="240" startX="30" filled="true"/>
-    <line endX="285" startY="135" marked="false" color="255" endY="135" startX="60"/>
-    <line endX="285" startY="105" marked="false" color="255" endY="135" startX="255"/>
-    <line endX="75" startY="180" marked="false" color="255" endY="180" startX="0"/>
-    <line endX="60" startY="195" marked="true" color="-1920102913" endY="240" startX="60"/>
-    <line endX="154" startY="195" marked="true" color="-1920102913" endY="255" startX="154"/>
+    <line endX="75" startY="135" marked="false" color="255" endY="180" startX="75"></line>
+    <rectangle endX="93" startY="195" marked="false" color="255" endY="240" startX="30" filled="true"></rectangle>
+    <line endX="285" startY="135" marked="false" color="255" endY="135" startX="60"></line>
+    <line endX="285" startY="105" marked="false" color="255" endY="135" startX="255"></line>
+    <line endX="75" startY="180" marked="false" color="255" endY="180" startX="0"></line>
+    <line endX="60" startY="195" marked="true" color="-1920102913" endY="240" startX="60"></line>
+    <line endX="154" startY="195" marked="true" color="-1920102913" endY="255" startX="154"></line>
   </shape>
-</turtleShape>
+</turtleShapes>

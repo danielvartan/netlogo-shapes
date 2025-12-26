@@ -1,44 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="logs" rotatable="false" editableColorIndex="0">
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="15" y="241"/>
-      <point x="75" y="271"/>
-      <point x="89" y="245"/>
-      <point x="135" y="271"/>
-      <point x="150" y="246"/>
-      <point x="195" y="271"/>
-      <point x="285" y="121"/>
-      <point x="235" y="96"/>
-      <point x="255" y="61"/>
-      <point x="195" y="31"/>
-      <point x="181" y="55"/>
-      <point x="135" y="31"/>
-      <point x="45" y="181"/>
-      <point x="49" y="183"/>
+      <point x="15" y="241"></point>
+      <point x="75" y="271"></point>
+      <point x="89" y="245"></point>
+      <point x="135" y="271"></point>
+      <point x="150" y="246"></point>
+      <point x="195" y="271"></point>
+      <point x="285" y="121"></point>
+      <point x="235" y="96"></point>
+      <point x="255" y="61"></point>
+      <point x="195" y="31"></point>
+      <point x="181" y="55"></point>
+      <point x="135" y="31"></point>
+      <point x="45" y="181"></point>
+      <point x="49" y="183"></point>
     </polygon>
-    <circle x="132" y="222" marked="false" color="-1" diameter="66" filled="true"/>
-    <circle x="132" y="222" marked="false" color="255" diameter="66" filled="false"/>
-    <circle x="72" y="222" marked="false" color="-1" diameter="66" filled="true"/>
-    <circle x="102" y="162" marked="false" color="-1" diameter="66" filled="true"/>
-    <circle x="222" y="72" marked="true" color="-1920102913" diameter="66" filled="true"/>
-    <circle x="192" y="12" marked="true" color="-1920102913" diameter="66" filled="true"/>
-    <circle x="132" y="12" marked="true" color="-1920102913" diameter="66" filled="true"/>
-    <circle x="102" y="162" marked="false" color="255" diameter="66" filled="false"/>
-    <circle x="72" y="222" marked="false" color="255" diameter="66" filled="false"/>
-    <circle x="12" y="222" marked="false" color="-1" diameter="66" filled="true"/>
-    <circle x="30" y="240" marked="false" color="255" diameter="30" filled="false"/>
-    <circle x="42" y="162" marked="false" color="-1" diameter="66" filled="true"/>
-    <circle x="42" y="162" marked="false" color="255" diameter="66" filled="false"/>
-    <line endX="105" startY="30" marked="false" color="255" endY="180" startX="195"/>
-    <line endX="165" startY="60" marked="false" color="255" endY="210" startX="255"/>
-    <circle x="12" y="222" marked="false" color="255" diameter="66" filled="false"/>
-    <circle x="90" y="240" marked="false" color="255" diameter="30" filled="false"/>
-    <circle x="150" y="240" marked="false" color="255" diameter="30" filled="false"/>
-    <circle x="120" y="180" marked="false" color="255" diameter="30" filled="false"/>
-    <circle x="60" y="180" marked="false" color="255" diameter="30" filled="false"/>
-    <line endX="285" startY="270" marked="false" color="255" endY="120" startX="195"/>
-    <line endX="45" startY="240" marked="false" color="255" endY="180" startX="15"/>
-    <line endX="135" startY="180" marked="false" color="255" endY="30" startX="45"/>
+    <circle x="132" y="222" marked="false" color="-1" diameter="66" filled="true"></circle>
+    <circle x="132" y="222" marked="false" color="255" diameter="66" filled="false"></circle>
+    <circle x="72" y="222" marked="false" color="-1" diameter="66" filled="true"></circle>
+    <circle x="102" y="162" marked="false" color="-1" diameter="66" filled="true"></circle>
+    <circle x="222" y="72" marked="true" color="-1920102913" diameter="66" filled="true"></circle>
+    <circle x="192" y="12" marked="true" color="-1920102913" diameter="66" filled="true"></circle>
+    <circle x="132" y="12" marked="true" color="-1920102913" diameter="66" filled="true"></circle>
+    <circle x="102" y="162" marked="false" color="255" diameter="66" filled="false"></circle>
+    <circle x="72" y="222" marked="false" color="255" diameter="66" filled="false"></circle>
+    <circle x="12" y="222" marked="false" color="-1" diameter="66" filled="true"></circle>
+    <circle x="30" y="240" marked="false" color="255" diameter="30" filled="false"></circle>
+    <circle x="42" y="162" marked="false" color="-1" diameter="66" filled="true"></circle>
+    <circle x="42" y="162" marked="false" color="255" diameter="66" filled="false"></circle>
+    <line endX="105" startY="30" marked="false" color="255" endY="180" startX="195"></line>
+    <line endX="165" startY="60" marked="false" color="255" endY="210" startX="255"></line>
+    <circle x="12" y="222" marked="false" color="255" diameter="66" filled="false"></circle>
+    <circle x="90" y="240" marked="false" color="255" diameter="30" filled="false"></circle>
+    <circle x="150" y="240" marked="false" color="255" diameter="30" filled="false"></circle>
+    <circle x="120" y="180" marked="false" color="255" diameter="30" filled="false"></circle>
+    <circle x="60" y="180" marked="false" color="255" diameter="30" filled="false"></circle>
+    <line endX="285" startY="270" marked="false" color="255" endY="120" startX="195"></line>
+    <line endX="45" startY="240" marked="false" color="255" endY="180" startX="15"></line>
+    <line endX="135" startY="180" marked="false" color="255" endY="30" startX="45"></line>
   </shape>
-</turtleShape>
+</turtleShapes>

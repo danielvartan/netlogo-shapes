@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="clock" rotatable="true" editableColorIndex="0">
-    <circle x="30" y="30" marked="true" color="-1920102913" diameter="240" filled="true"/>
+    <circle x="30" y="30" marked="true" color="-1920102913" diameter="240" filled="true"></circle>
     <polygon color="255" filled="true" marked="false">
-      <point x="150" y="31"/>
-      <point x="128" y="75"/>
-      <point x="143" y="75"/>
-      <point x="143" y="150"/>
-      <point x="158" y="150"/>
-      <point x="158" y="75"/>
-      <point x="173" y="75"/>
+      <point x="150" y="31"></point>
+      <point x="128" y="75"></point>
+      <point x="143" y="75"></point>
+      <point x="143" y="150"></point>
+      <point x="158" y="150"></point>
+      <point x="158" y="75"></point>
+      <point x="173" y="75"></point>
     </polygon>
-    <circle x="135" y="135" marked="false" color="255" diameter="30" filled="true"/>
+    <circle x="135" y="135" marked="false" color="255" diameter="30" filled="true"></circle>
   </shape>
-</turtleShape>
+</turtleShapes>

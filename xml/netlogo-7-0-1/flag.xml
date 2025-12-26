@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="flag" rotatable="false" editableColorIndex="0">
-    <rectangle endX="75" startY="15" marked="true" color="-1920102913" endY="300" startX="60" filled="true"/>
+    <rectangle endX="75" startY="15" marked="true" color="-1920102913" endY="300" startX="60" filled="true"></rectangle>
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="90" y="150"/>
-      <point x="270" y="90"/>
-      <point x="90" y="30"/>
+      <point x="90" y="150"></point>
+      <point x="270" y="90"></point>
+      <point x="90" y="30"></point>
     </polygon>
-    <line endX="90" startY="135" marked="true" color="-1920102913" endY="135" startX="75"/>
-    <line endX="90" startY="45" marked="true" color="-1920102913" endY="45" startX="75"/>
+    <line endX="90" startY="135" marked="true" color="-1920102913" endY="135" startX="75"></line>
+    <line endX="90" startY="45" marked="true" color="-1920102913" endY="45" startX="75"></line>
   </shape>
-</turtleShape>
+</turtleShapes>

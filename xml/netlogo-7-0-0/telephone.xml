@@ -1,77 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="telephone" rotatable="false" editableColorIndex="0">
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="75" y="273"/>
-      <point x="60" y="255"/>
-      <point x="60" y="195"/>
-      <point x="84" y="165"/>
-      <point x="75" y="165"/>
-      <point x="45" y="150"/>
-      <point x="45" y="120"/>
-      <point x="60" y="90"/>
-      <point x="105" y="75"/>
-      <point x="195" y="75"/>
-      <point x="240" y="90"/>
-      <point x="255" y="120"/>
-      <point x="255" y="150"/>
-      <point x="223" y="165"/>
-      <point x="215" y="165"/>
-      <point x="240" y="195"/>
-      <point x="240" y="255"/>
-      <point x="226" y="274"/>
+      <point x="75" y="273"></point>
+      <point x="60" y="255"></point>
+      <point x="60" y="195"></point>
+      <point x="84" y="165"></point>
+      <point x="75" y="165"></point>
+      <point x="45" y="150"></point>
+      <point x="45" y="120"></point>
+      <point x="60" y="90"></point>
+      <point x="105" y="75"></point>
+      <point x="195" y="75"></point>
+      <point x="240" y="90"></point>
+      <point x="255" y="120"></point>
+      <point x="255" y="150"></point>
+      <point x="223" y="165"></point>
+      <point x="215" y="165"></point>
+      <point x="240" y="195"></point>
+      <point x="240" y="255"></point>
+      <point x="226" y="274"></point>
     </polygon>
     <polygon color="255" filled="false" marked="false">
-      <point x="75" y="273"/>
-      <point x="60" y="255"/>
-      <point x="60" y="195"/>
-      <point x="105" y="135"/>
-      <point x="105" y="120"/>
-      <point x="105" y="105"/>
-      <point x="120" y="105"/>
-      <point x="120" y="120"/>
-      <point x="180" y="120"/>
-      <point x="180" y="105"/>
-      <point x="195" y="105"/>
-      <point x="195" y="135"/>
-      <point x="240" y="195"/>
-      <point x="240" y="255"/>
-      <point x="225" y="273"/>
+      <point x="75" y="273"></point>
+      <point x="60" y="255"></point>
+      <point x="60" y="195"></point>
+      <point x="105" y="135"></point>
+      <point x="105" y="120"></point>
+      <point x="105" y="105"></point>
+      <point x="120" y="105"></point>
+      <point x="120" y="120"></point>
+      <point x="180" y="120"></point>
+      <point x="180" y="105"></point>
+      <point x="195" y="105"></point>
+      <point x="195" y="135"></point>
+      <point x="240" y="195"></point>
+      <point x="240" y="255"></point>
+      <point x="225" y="273"></point>
     </polygon>
     <polygon color="255" filled="false" marked="false">
-      <point x="81" y="165"/>
-      <point x="74" y="165"/>
-      <point x="44" y="150"/>
-      <point x="44" y="120"/>
-      <point x="59" y="90"/>
-      <point x="104" y="75"/>
-      <point x="194" y="75"/>
-      <point x="239" y="90"/>
-      <point x="254" y="120"/>
-      <point x="254" y="150"/>
-      <point x="218" y="167"/>
-      <point x="194" y="135"/>
-      <point x="194" y="105"/>
-      <point x="179" y="105"/>
-      <point x="179" y="120"/>
-      <point x="119" y="120"/>
-      <point x="119" y="105"/>
-      <point x="104" y="105"/>
-      <point x="104" y="135"/>
-      <point x="81" y="166"/>
-      <point x="78" y="165"/>
+      <point x="81" y="165"></point>
+      <point x="74" y="165"></point>
+      <point x="44" y="150"></point>
+      <point x="44" y="120"></point>
+      <point x="59" y="90"></point>
+      <point x="104" y="75"></point>
+      <point x="194" y="75"></point>
+      <point x="239" y="90"></point>
+      <point x="254" y="120"></point>
+      <point x="254" y="150"></point>
+      <point x="218" y="167"></point>
+      <point x="194" y="135"></point>
+      <point x="194" y="105"></point>
+      <point x="179" y="105"></point>
+      <point x="179" y="120"></point>
+      <point x="119" y="120"></point>
+      <point x="119" y="105"></point>
+      <point x="104" y="105"></point>
+      <point x="104" y="135"></point>
+      <point x="81" y="166"></point>
+      <point x="78" y="165"></point>
     </polygon>
-    <rectangle endX="135" startY="165" marked="false" color="255" endY="180" startX="120" filled="false"/>
-    <rectangle endX="180" startY="165" marked="false" color="255" endY="180" startX="165" filled="false"/>
-    <rectangle endX="157" startY="165" marked="false" color="255" endY="180" startX="142" filled="false"/>
-    <rectangle endX="180" startY="188" marked="false" color="255" endY="203" startX="165" filled="false"/>
-    <rectangle endX="157" startY="188" marked="false" color="255" endY="203" startX="142" filled="false"/>
-    <rectangle endX="135" startY="188" marked="false" color="255" endY="203" startX="120" filled="false"/>
-    <rectangle endX="135" startY="210" marked="false" color="255" endY="225" startX="120" filled="false"/>
-    <rectangle endX="157" startY="210" marked="false" color="255" endY="225" startX="142" filled="false"/>
-    <rectangle endX="180" startY="210" marked="false" color="255" endY="225" startX="165" filled="false"/>
-    <rectangle endX="135" startY="233" marked="false" color="255" endY="248" startX="120" filled="false"/>
-    <rectangle endX="157" startY="233" marked="false" color="255" endY="248" startX="142" filled="false"/>
-    <rectangle endX="180" startY="233" marked="false" color="255" endY="248" startX="165" filled="false"/>
+    <rectangle endX="135" startY="165" marked="false" color="255" endY="180" startX="120" filled="false"></rectangle>
+    <rectangle endX="180" startY="165" marked="false" color="255" endY="180" startX="165" filled="false"></rectangle>
+    <rectangle endX="157" startY="165" marked="false" color="255" endY="180" startX="142" filled="false"></rectangle>
+    <rectangle endX="180" startY="188" marked="false" color="255" endY="203" startX="165" filled="false"></rectangle>
+    <rectangle endX="157" startY="188" marked="false" color="255" endY="203" startX="142" filled="false"></rectangle>
+    <rectangle endX="135" startY="188" marked="false" color="255" endY="203" startX="120" filled="false"></rectangle>
+    <rectangle endX="135" startY="210" marked="false" color="255" endY="225" startX="120" filled="false"></rectangle>
+    <rectangle endX="157" startY="210" marked="false" color="255" endY="225" startX="142" filled="false"></rectangle>
+    <rectangle endX="180" startY="210" marked="false" color="255" endY="225" startX="165" filled="false"></rectangle>
+    <rectangle endX="135" startY="233" marked="false" color="255" endY="248" startX="120" filled="false"></rectangle>
+    <rectangle endX="157" startY="233" marked="false" color="255" endY="248" startX="142" filled="false"></rectangle>
+    <rectangle endX="180" startY="233" marked="false" color="255" endY="248" startX="165" filled="false"></rectangle>
   </shape>
-</turtleShape>
+</turtleShapes>

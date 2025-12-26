@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="molecule oxygen" rotatable="true" editableColorIndex="0">
-    <circle x="120" y="75" marked="true" color="-1920102913" diameter="150" filled="true"/>
-    <circle x="120" y="75" marked="false" color="255" diameter="150" filled="false"/>
-    <circle x="30" y="75" marked="true" color="-1920102913" diameter="150" filled="true"/>
-    <circle x="30" y="75" marked="false" color="255" diameter="150" filled="false"/>
+    <circle x="120" y="75" marked="true" color="-1920102913" diameter="150" filled="true"></circle>
+    <circle x="120" y="75" marked="false" color="255" diameter="150" filled="false"></circle>
+    <circle x="30" y="75" marked="true" color="-1920102913" diameter="150" filled="true"></circle>
+    <circle x="30" y="75" marked="false" color="255" diameter="150" filled="false"></circle>
   </shape>
-</turtleShape>
+</turtleShapes>

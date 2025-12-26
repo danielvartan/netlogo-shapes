@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="warning" rotatable="false" editableColorIndex="0">
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="0" y="240"/>
-      <point x="15" y="270"/>
-      <point x="285" y="270"/>
-      <point x="300" y="240"/>
-      <point x="165" y="15"/>
-      <point x="135" y="15"/>
+      <point x="0" y="240"></point>
+      <point x="15" y="270"></point>
+      <point x="285" y="270"></point>
+      <point x="300" y="240"></point>
+      <point x="165" y="15"></point>
+      <point x="135" y="15"></point>
     </polygon>
     <polygon color="255" filled="true" marked="false">
-      <point x="180" y="75"/>
-      <point x="120" y="75"/>
-      <point x="135" y="180"/>
-      <point x="165" y="180"/>
+      <point x="180" y="75"></point>
+      <point x="120" y="75"></point>
+      <point x="135" y="180"></point>
+      <point x="165" y="180"></point>
     </polygon>
-    <circle x="129" y="204" marked="false" color="255" diameter="42" filled="true"/>
+    <circle x="129" y="204" marked="false" color="255" diameter="42" filled="true"></circle>
   </shape>
-</turtleShape>
+</turtleShapes>

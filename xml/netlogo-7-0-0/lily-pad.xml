@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="lily pad" rotatable="false" editableColorIndex="0">
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="148" y="151"/>
-      <point x="137" y="37"/>
-      <point x="119" y="25"/>
-      <point x="111" y="36"/>
-      <point x="78" y="54"/>
-      <point x="40" y="99"/>
-      <point x="30" y="137"/>
-      <point x="32" y="175"/>
-      <point x="56" y="223"/>
-      <point x="87" y="251"/>
-      <point x="137" y="275"/>
-      <point x="157" y="275"/>
-      <point x="213" y="250"/>
-      <point x="239" y="221"/>
-      <point x="257" y="178"/>
-      <point x="262" y="137"/>
-      <point x="244" y="91"/>
-      <point x="210" y="53"/>
-      <point x="172" y="37"/>
-      <point x="160" y="22"/>
-      <point x="154" y="36"/>
+      <point x="148" y="151"></point>
+      <point x="137" y="37"></point>
+      <point x="119" y="25"></point>
+      <point x="111" y="36"></point>
+      <point x="78" y="54"></point>
+      <point x="40" y="99"></point>
+      <point x="30" y="137"></point>
+      <point x="32" y="175"></point>
+      <point x="56" y="223"></point>
+      <point x="87" y="251"></point>
+      <point x="137" y="275"></point>
+      <point x="157" y="275"></point>
+      <point x="213" y="250"></point>
+      <point x="239" y="221"></point>
+      <point x="257" y="178"></point>
+      <point x="262" y="137"></point>
+      <point x="244" y="91"></point>
+      <point x="210" y="53"></point>
+      <point x="172" y="37"></point>
+      <point x="160" y="22"></point>
+      <point x="154" y="36"></point>
     </polygon>
-    <line endX="207" startY="151" marked="false" color="751909887" endY="97" startX="154"/>
-    <circle x="133" y="148" marked="false" color="751909887" diameter="26" filled="false"/>
-    <line endX="134" startY="122" marked="false" color="751909887" endY="157" startX="52"/>
-    <line endX="89" startY="171" marked="false" color="751909887" endY="196" startX="133"/>
-    <line endX="147" startY="193" marked="false" color="751909887" endY="254" startX="147"/>
-    <line endX="205" startY="171" marked="false" color="751909887" endY="233" startX="157"/>
-    <line endX="204" startY="161" marked="false" color="751909887" endY="163" startX="161"/>
-    <line endX="111" startY="149" marked="false" color="751909887" endY="72" startX="141"/>
+    <line endX="207" startY="151" marked="false" color="751909887" endY="97" startX="154"></line>
+    <circle x="133" y="148" marked="false" color="751909887" diameter="26" filled="false"></circle>
+    <line endX="134" startY="122" marked="false" color="751909887" endY="157" startX="52"></line>
+    <line endX="89" startY="171" marked="false" color="751909887" endY="196" startX="133"></line>
+    <line endX="147" startY="193" marked="false" color="751909887" endY="254" startX="147"></line>
+    <line endX="205" startY="171" marked="false" color="751909887" endY="233" startX="157"></line>
+    <line endX="204" startY="161" marked="false" color="751909887" endY="163" startX="161"></line>
+    <line endX="111" startY="149" marked="false" color="751909887" endY="72" startX="141"></line>
   </shape>
-</turtleShape>
+</turtleShapes>

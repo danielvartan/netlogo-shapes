@@ -1,72 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="tile log" rotatable="false" editableColorIndex="0">
-    <rectangle endX="300" startY="0" marked="true" color="-1920102913" endY="300" startX="0" filled="true"/>
-    <line endX="45" startY="30" marked="false" color="255" endY="15" startX="0"/>
-    <line endX="120" startY="15" marked="false" color="255" endY="30" startX="45"/>
-    <line endX="180" startY="30" marked="false" color="255" endY="45" startX="120"/>
-    <line endX="225" startY="45" marked="false" color="255" endY="45" startX="180"/>
-    <line endX="165" startY="45" marked="false" color="255" endY="60" startX="225"/>
-    <line endX="120" startY="60" marked="false" color="255" endY="75" startX="165"/>
-    <line endX="30" startY="75" marked="false" color="255" endY="60" startX="120"/>
-    <line endX="0" startY="60" marked="false" color="255" endY="60" startX="30"/>
-    <line endX="270" startY="30" marked="false" color="255" endY="45" startX="300"/>
-    <line endX="255" startY="45" marked="false" color="255" endY="60" startX="270"/>
-    <line endX="300" startY="60" marked="false" color="255" endY="60" startX="255"/>
+    <rectangle endX="300" startY="0" marked="true" color="-1920102913" endY="300" startX="0" filled="true"></rectangle>
+    <line endX="45" startY="30" marked="false" color="255" endY="15" startX="0"></line>
+    <line endX="120" startY="15" marked="false" color="255" endY="30" startX="45"></line>
+    <line endX="180" startY="30" marked="false" color="255" endY="45" startX="120"></line>
+    <line endX="225" startY="45" marked="false" color="255" endY="45" startX="180"></line>
+    <line endX="165" startY="45" marked="false" color="255" endY="60" startX="225"></line>
+    <line endX="120" startY="60" marked="false" color="255" endY="75" startX="165"></line>
+    <line endX="30" startY="75" marked="false" color="255" endY="60" startX="120"></line>
+    <line endX="0" startY="60" marked="false" color="255" endY="60" startX="30"></line>
+    <line endX="270" startY="30" marked="false" color="255" endY="45" startX="300"></line>
+    <line endX="255" startY="45" marked="false" color="255" endY="60" startX="270"></line>
+    <line endX="300" startY="60" marked="false" color="255" endY="60" startX="255"></line>
     <polygon color="255" filled="false" marked="false">
-      <point x="15" y="120"/>
-      <point x="90" y="90"/>
-      <point x="136" y="95"/>
-      <point x="210" y="75"/>
-      <point x="270" y="90"/>
-      <point x="300" y="120"/>
-      <point x="270" y="150"/>
-      <point x="195" y="165"/>
-      <point x="150" y="150"/>
-      <point x="60" y="150"/>
-      <point x="30" y="135"/>
+      <point x="15" y="120"></point>
+      <point x="90" y="90"></point>
+      <point x="136" y="95"></point>
+      <point x="210" y="75"></point>
+      <point x="270" y="90"></point>
+      <point x="300" y="120"></point>
+      <point x="270" y="150"></point>
+      <point x="195" y="165"></point>
+      <point x="150" y="150"></point>
+      <point x="60" y="150"></point>
+      <point x="30" y="135"></point>
     </polygon>
     <polygon color="255" filled="false" marked="false">
-      <point x="63" y="134"/>
-      <point x="166" y="135"/>
-      <point x="230" y="142"/>
-      <point x="270" y="120"/>
-      <point x="210" y="105"/>
-      <point x="116" y="120"/>
-      <point x="88" y="122"/>
+      <point x="63" y="134"></point>
+      <point x="166" y="135"></point>
+      <point x="230" y="142"></point>
+      <point x="270" y="120"></point>
+      <point x="210" y="105"></point>
+      <point x="116" y="120"></point>
+      <point x="88" y="122"></point>
     </polygon>
     <polygon color="255" filled="false" marked="false">
-      <point x="22" y="45"/>
-      <point x="84" y="53"/>
-      <point x="144" y="49"/>
-      <point x="50" y="31"/>
+      <point x="22" y="45"></point>
+      <point x="84" y="53"></point>
+      <point x="144" y="49"></point>
+      <point x="50" y="31"></point>
     </polygon>
-    <line endX="15" startY="180" marked="false" color="255" endY="180" startX="0"/>
-    <line endX="105" startY="180" marked="false" color="255" endY="195" startX="15"/>
-    <line endX="180" startY="195" marked="false" color="255" endY="195" startX="105"/>
-    <line endX="165" startY="210" marked="false" color="255" endY="225" startX="225"/>
-    <line endX="60" startY="225" marked="false" color="255" endY="225" startX="165"/>
-    <line endX="0" startY="225" marked="false" color="255" endY="210" startX="60"/>
-    <line endX="264" startY="180" marked="false" color="255" endY="191" startX="300"/>
-    <line endX="300" startY="225" marked="false" color="255" endY="210" startX="255"/>
-    <line endX="116" startY="196" marked="false" color="255" endY="211" startX="16"/>
-    <line endX="105" startY="300" marked="false" color="255" endY="285" startX="180"/>
-    <line endX="240" startY="255" marked="false" color="255" endY="240" startX="135"/>
-    <line endX="300" startY="240" marked="false" color="255" endY="255" startX="240"/>
-    <line endX="105" startY="255" marked="false" color="255" endY="285" startX="135"/>
-    <line endX="240" startY="0" marked="false" color="255" endY="15" startX="180"/>
-    <line endX="300" startY="15" marked="false" color="255" endY="0" startX="240"/>
-    <line endX="45" startY="300" marked="false" color="255" endY="285" startX="0"/>
-    <line endX="45" startY="285" marked="false" color="255" endY="270" startX="45"/>
-    <line endX="0" startY="270" marked="false" color="255" endY="255" startX="45"/>
+    <line endX="15" startY="180" marked="false" color="255" endY="180" startX="0"></line>
+    <line endX="105" startY="180" marked="false" color="255" endY="195" startX="15"></line>
+    <line endX="180" startY="195" marked="false" color="255" endY="195" startX="105"></line>
+    <line endX="165" startY="210" marked="false" color="255" endY="225" startX="225"></line>
+    <line endX="60" startY="225" marked="false" color="255" endY="225" startX="165"></line>
+    <line endX="0" startY="225" marked="false" color="255" endY="210" startX="60"></line>
+    <line endX="264" startY="180" marked="false" color="255" endY="191" startX="300"></line>
+    <line endX="300" startY="225" marked="false" color="255" endY="210" startX="255"></line>
+    <line endX="116" startY="196" marked="false" color="255" endY="211" startX="16"></line>
+    <line endX="105" startY="300" marked="false" color="255" endY="285" startX="180"></line>
+    <line endX="240" startY="255" marked="false" color="255" endY="240" startX="135"></line>
+    <line endX="300" startY="240" marked="false" color="255" endY="255" startX="240"></line>
+    <line endX="105" startY="255" marked="false" color="255" endY="285" startX="135"></line>
+    <line endX="240" startY="0" marked="false" color="255" endY="15" startX="180"></line>
+    <line endX="300" startY="15" marked="false" color="255" endY="0" startX="240"></line>
+    <line endX="45" startY="300" marked="false" color="255" endY="285" startX="0"></line>
+    <line endX="45" startY="285" marked="false" color="255" endY="270" startX="45"></line>
+    <line endX="0" startY="270" marked="false" color="255" endY="255" startX="45"></line>
     <polygon color="255" filled="false" marked="false">
-      <point x="150" y="270"/>
-      <point x="225" y="300"/>
-      <point x="300" y="285"/>
-      <point x="228" y="264"/>
+      <point x="150" y="270"></point>
+      <point x="225" y="300"></point>
+      <point x="300" y="285"></point>
+      <point x="228" y="264"></point>
     </polygon>
-    <line endX="255" startY="209" marked="false" color="255" endY="225" startX="223"/>
-    <line endX="227" startY="196" marked="false" color="255" endY="183" startX="179"/>
-    <line endX="266" startY="183" marked="false" color="255" endY="192" startX="228"/>
+    <line endX="255" startY="209" marked="false" color="255" endY="225" startX="223"></line>
+    <line endX="227" startY="196" marked="false" color="255" endY="183" startX="179"></line>
+    <line endX="266" startY="183" marked="false" color="255" endY="192" startX="228"></line>
   </shape>
-</turtleShape>
+</turtleShapes>

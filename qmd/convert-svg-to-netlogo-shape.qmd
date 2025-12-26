@@ -1,56 +1,116 @@
-# Generated with Posit Databot and Claude Opus 4.5
+## Overview
 
-# --------------------------------------------------
+This document convert a SVG file into a [NetLogo](https://www.netlogo.org/) [XML](https://en.wikipedia.org/wiki/XML) shape (`.nlogox`). Each shape is extracted and saved in a designated directory.
 
-# Convert Inkscape SVG to NetLogo Turtle Shape XML
-#
-# This script reads an Inkscape SVG file and converts it to NetLogo
-# turtle shape XML format.
+## Set the Environment
 
+### Load Packages
+
+```{r}
+library(cli)
+library(here)
+library(groomr) # github.com/danielvartan/groomr
+library(magrittr)
+library(readr)
+library(stringr)
 library(xml2)
+```
 
-# --- NetLogo Color Mapping (reverse lookup) ---
+### Set Source
+
+```{r}
+svg_file <- here("svg", "netlogo-7-0-3", "acorn.svg")
+```
+
+### Set SVG Directory
+
+```{r}
+xml_dir <- here("xml", "test")
+```
+
+```{r}
+if (!dir.exists(xml_dir)) {
+  dir.create(xml_dir)
+}
+```
+
+### Import Functions
+
+::: {.callout-note}
+Generated with [Posit](https://posit.co/) [Databot](https://positron.posit.co/databot.html) and [Claude Opus 4.5](https://claude.ai/).
+
+This code needs to be refactored.
+:::
+
+```{r}
 netlogo_base_colors <- c(
-  "black (0)" = "#000000",
-  "white (10)" = "#FFFFFF",
-  "gray (5)" = "#8D8D8D",
-  "red (15)" = "#D73229",
-  "orange (25)" = "#F16A15",
-  "brown (35)" = "#9D6E48",
-  "yellow (45)" = "#ECEC29",
-  "green (55)" = "#59B03C",
-  "lime (65)" = "#2CD13B",
-  "turquoise (75)" = "#1D9F78",
-  "cyan (85)" = "#54C4C4",
-  "sky (95)" = "#2D8DBE",
-  "blue (105)" = "#345DA9",
-  "violet (115)" = "#7C50A4",
-  "magenta (125)" = "#A71B6A",
-  "pink (135)" = "#D9637F"
+  "black" = 0,
+  "white" = 10,
+  "gray" = 5,
+  "red" = 15,
+  "orange" = 25,
+  "brown" = 35,
+  "yellow" = 45,
+  "green" = 55,
+  "lime" = 65,
+  "turquoise" = 75,
+  "cyan" = 85,
+  "sky" = 95,
+  "blue" = 105,
+  "violet" = 115,
+  "magenta" = 125,
+  "pink" = 135
 )
+```
 
+```{r}
+netlogo_hex_colors <- c(
+  "black" = "#000000",
+  "white" = "#FFFFFF",
+  "gray" = "#8D8D8D",
+  "red" = "#D73229",
+  "orange" = "#F16A15",
+  "brown" = "#9D6E48",
+  "yellow" = "#ECEC29",
+  "green" = "#59B03C",
+  "lime" = "#2CD13B",
+  "turquoise" = "#1D9F78",
+  "cyan" = "#54C4C4",
+  "sky" = "#2D8DBE",
+  "blue" = "#345DA9",
+  "violet" = "#7C50A4",
+  "magenta" = "#A71B6A",
+  "pink" = "#D9637F"
+)
+```
+
+```{r}
 netlogo_xml_colors <- c(
-  "black (0)" = "255",
-  "white (10)" = "-1",
-  "gray (5)" = "-1920102913",
-  "red (15)" = "-684578305",
-  "orange (25)" = "-244705793",
-  "brown (35)" = "-1653716737",
-  "yellow (45)" = "-303222273",
-  "green (55)" = "1504722175",
-  "lime (65)" = "751909887",
-  "turquoise (75)" = "496990463",
-  "cyan (85)" = "1422181631",
-  "sky (95)" = "764264191",
-  "blue (105)" = "878553599",
-  "violet (115)" = "2085659903",
-  "magenta (125)" = "-1491375361",
-  "pink (135)" = "-528509185"
+  "black" = "255",
+  "white" = "-1",
+  "gray" = "-1920102913",
+  "red" = "-684578305",
+  "orange" = "-244705793",
+  "brown" = "-1653716737",
+  "yellow" = "-303222273",
+  "green" = "1504722175",
+  "lime" = "751909887",
+  "turquoise" = "496990463",
+  "cyan" = "1422181631",
+  "sky" = "764264191",
+  "blue" = "878553599",
+  "violet" = "2085659903",
+  "magenta" = "-1491375361",
+  "pink" = "-528509185"
 )
+```
 
+```{r}
 # Create reverse lookup: hex -> XML color code
-hex_to_xml <- setNames(netlogo_xml_colors, toupper(netlogo_base_colors))
+hex_to_xml <- setNames(netlogo_xml_colors, toupper(netlogo_hex_colors))
+```
 
+```{r}
 #' Convert hex color to NetLogo XML color code
 #' @param hex_color The hex color string (e.g., "#8D8D8D")
 #' @return NetLogo XML color code as string
@@ -60,9 +120,11 @@ hex_to_netlogo_color <- function(hex_color) {
     return(hex_to_xml[[hex_upper]])
   }
   # Default to gray for unknown colors
-  return("-1920102913")
+  "-1920102913"
 }
+```
 
+```{r}
 #' Parse SVG path d attribute to absolute coordinates
 #' @param d The path d attribute string
 #' @return Matrix of x,y coordinates
@@ -186,7 +248,9 @@ parse_svg_path <- function(d) {
 
   coords
 }
+```
 
+```{r}
 #' Extract color from SVG style attribute
 #' @param style The style attribute string
 #' @param attr_name The attribute to extract ("fill" or "stroke")
@@ -213,7 +277,9 @@ extract_color_from_style <- function(style, attr_name = "fill") {
 
   toupper(color)
 }
+```
 
+```{r}
 #' Check if element is filled based on style
 #' @param style The style attribute string
 #' @return Logical indicating if element is filled
@@ -225,7 +291,9 @@ is_filled <- function(style) {
   fill <- extract_color_from_style(style, "fill")
   !is.null(fill) && fill != "NONE"
 }
+```
 
+```{r}
 #' Convert SVG element to NetLogo XML
 #' @param elem An xml_node representing an SVG element
 #' @return String containing NetLogo XML for the element
@@ -257,7 +325,7 @@ svg_element_to_netlogo <- function(elem) {
 
     # Build polygon XML
     lines <- sprintf(
-      '      <polygon color="%s" filled="%s" marked="true">',
+      '    <polygon color="%s" filled="%s" marked="true">',
       xml_color,
       filled_str
     )
@@ -265,13 +333,13 @@ svg_element_to_netlogo <- function(elem) {
       lines <- c(
         lines,
         sprintf(
-          '        <point x="%d" y="%d"></point>',
+          '      <point x="%d" y="%d"></point>',
           round(coords[i, 1]),
           round(coords[i, 2])
         )
       )
     }
-    lines <- c(lines, '      </polygon>')
+    lines <- c(lines, '    </polygon>')
 
     return(paste(lines, collapse = "\n"))
   } else if (elem_name == "circle") {
@@ -298,7 +366,7 @@ svg_element_to_netlogo <- function(elem) {
     filled_str <- if (filled) "true" else "false"
 
     return(sprintf(
-      '      <circle x="%d" y="%d" marked="false" color="%s" diameter="%d" filled="%s"></circle>',
+      '    <circle x="%d" y="%d" marked="false" color="%s" diameter="%d" filled="%s"></circle>',
       x,
       y,
       xml_color,
@@ -318,7 +386,7 @@ svg_element_to_netlogo <- function(elem) {
     xml_color <- hex_to_netlogo_color(color)
 
     return(sprintf(
-      '      <line endX="%s" startY="%s" marked="false" color="%s" endY="%s" startX="%s"></line>',
+      '    <line endX="%s" startY="%s" marked="false" color="%s" endY="%s" startX="%s"></line>',
       x2,
       y1,
       xml_color,
@@ -350,7 +418,7 @@ svg_element_to_netlogo <- function(elem) {
     filled_str <- if (filled) "true" else "false"
 
     return(sprintf(
-      '      <rectangle endX="%d" startY="%d" marked="true" color="%s" endY="%d" startX="%d" filled="%s"></rectangle>',
+      '    <rectangle endX="%d" startY="%d" marked="true" color="%s" endY="%d" startX="%d" filled="%s"></rectangle>',
       endX,
       startY,
       xml_color,
@@ -362,7 +430,9 @@ svg_element_to_netlogo <- function(elem) {
 
   ""
 }
+```
 
+```{r}
 #' Convert Inkscape SVG file to NetLogo shape XML
 #' @param svg_file Path to the SVG file
 #' @param shape_name Name for the shape (defaults to filename without extension)
@@ -385,7 +455,7 @@ convert_svg_to_netlogo <- function(
 
   # Start shape XML
   xml_lines <- sprintf(
-    '    <shape name="%s" rotatable="%s" editableColorIndex="0">',
+    '  <shape name="%s" rotatable="%s" editableColorIndex="0">',
     shape_name,
     rotatable_str
   )
@@ -403,44 +473,43 @@ convert_svg_to_netlogo <- function(
     }
   }
 
-  xml_lines <- c(xml_lines, '    </shape>')
+  xml_lines <- c(xml_lines, '  </shape>')
 
   paste(xml_lines, collapse = "\n")
 }
+```
 
+```{r}
 #' Convert multiple SVG files to a complete NetLogo shapes XML file
 #' @param svg_files Vector of paths to SVG files
-#' @param output_file Path to output XML file (optional)
+#' @param output_dir Directory to save the XML files.
 #' @return String containing complete NetLogo turtleShapes XML
-convert_multiple_svg_to_netlogo <- function(svg_files, output_file = NULL) {
-  xml_lines <- c('<turtleShapes>')
+convert_multiple_svg_to_netlogo <- function(svg_files, output_dir = xml_dir) {
+  xml_lines <- c(
+    '<?xml version="1.0" encoding="UTF-8"?>',
+    '<turtleShapes>'
+  )
 
   for (svg_file in svg_files) {
-    cat("Processing:", svg_file, "\n")
     shape_xml <- convert_svg_to_netlogo(svg_file)
     xml_lines <- c(xml_lines, shape_xml)
   }
 
-  xml_lines <- c(xml_lines, '</turtleShapes>')
+  c(xml_lines, '</turtleShapes>') |>
+    paste(collapse = "\n") |>
+    write_lines(
+      svg_files |>
+        basename() |>
+        str_replace("\\.svg$", ".xml") |>
+        file.path(output_dir, x = _)
+    )
 
-  result <- paste(xml_lines, collapse = "\n")
-
-  if (!is.null(output_file)) {
-    writeLines(result, output_file)
-    cat("Saved to:", output_file, "\n")
-  }
-
-  invisible(result)
+  invisible()
 }
+```
 
-# --- Main execution ---
-if (interactive()) {
-  cat("To convert an SVG to NetLogo XML, run:\n")
-  cat('  netlogo_xml <- convert_svg_to_netlogo("my_shape.svg")\n')
-  cat('  cat(netlogo_xml)\n\n')
-  cat("To convert multiple SVGs:\n")
-  cat(
-    '  svg_files <- list.files("svg_shapes", pattern = "\\\\.svg$", full.names = TRUE)\n'
-  )
-  cat('  convert_multiple_svg_to_netlogo(svg_files, "output_shapes.xml")\n')
-}
+## Create SVG Shapes
+
+```{r}
+svg_file |> convert_multiple_svg_to_netlogo()
+```

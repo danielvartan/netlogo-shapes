@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="eyeball" rotatable="false" editableColorIndex="0">
-    <circle x="22" y="20" marked="false" color="-1" diameter="248" filled="true"/>
-    <circle x="83" y="81" marked="true" color="-1920102913" diameter="122" filled="true"/>
-    <circle x="122" y="120" marked="false" color="255" diameter="44" filled="true"/>
+    <circle x="22" y="20" marked="false" color="-1" diameter="248" filled="true"></circle>
+    <circle x="83" y="81" marked="true" color="-1920102913" diameter="122" filled="true"></circle>
+    <circle x="122" y="120" marked="false" color="255" diameter="44" filled="true"></circle>
   </shape>
-</turtleShape>
+</turtleShapes>

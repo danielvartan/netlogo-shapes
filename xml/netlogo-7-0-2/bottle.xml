@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="bottle" rotatable="false" editableColorIndex="0">
-    <circle x="90" y="240" marked="true" color="-1920102913" diameter="60" filled="true"/>
-    <rectangle endX="165" startY="8" marked="false" color="-1" endY="31" startX="135" filled="true"/>
-    <line endX="175" startY="30" marked="true" color="-1920102913" endY="30" startX="123"/>
-    <circle x="150" y="240" marked="true" color="-1920102913" diameter="60" filled="true"/>
-    <rectangle endX="210" startY="105" marked="true" color="-1920102913" endY="270" startX="90" filled="true"/>
-    <rectangle endX="180" startY="270" marked="true" color="-1920102913" endY="300" startX="120" filled="true"/>
-    <circle x="90" y="45" marked="true" color="-1920102913" diameter="120" filled="true"/>
-    <rectangle endX="165" startY="27" marked="true" color="-1920102913" endY="51" startX="135" filled="true"/>
+    <circle x="90" y="240" marked="true" color="-1920102913" diameter="60" filled="true"></circle>
+    <rectangle endX="165" startY="8" marked="false" color="-1" endY="31" startX="135" filled="true"></rectangle>
+    <line endX="175" startY="30" marked="true" color="-1920102913" endY="30" startX="123"></line>
+    <circle x="150" y="240" marked="true" color="-1920102913" diameter="60" filled="true"></circle>
+    <rectangle endX="210" startY="105" marked="true" color="-1920102913" endY="270" startX="90" filled="true"></rectangle>
+    <rectangle endX="180" startY="270" marked="true" color="-1920102913" endY="300" startX="120" filled="true"></rectangle>
+    <circle x="90" y="45" marked="true" color="-1920102913" diameter="120" filled="true"></circle>
+    <rectangle endX="165" startY="27" marked="true" color="-1920102913" endY="51" startX="135" filled="true"></rectangle>
   </shape>
-</turtleShape>
+</turtleShapes>

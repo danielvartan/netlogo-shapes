@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="checker piece 2" rotatable="false" editableColorIndex="0">
-    <circle x="60" y="60" marked="true" color="-1920102913" diameter="180" filled="true"/>
-    <circle x="60" y="60" marked="false" color="255" diameter="180" filled="false"/>
-    <circle x="75" y="45" marked="true" color="-1920102913" diameter="180" filled="true"/>
-    <circle x="83" y="36" marked="false" color="255" diameter="180" filled="false"/>
-    <circle x="105" y="15" marked="true" color="-1920102913" diameter="180" filled="true"/>
-    <circle x="105" y="15" marked="false" color="255" diameter="180" filled="false"/>
+    <circle x="60" y="60" marked="true" color="-1920102913" diameter="180" filled="true"></circle>
+    <circle x="60" y="60" marked="false" color="255" diameter="180" filled="false"></circle>
+    <circle x="75" y="45" marked="true" color="-1920102913" diameter="180" filled="true"></circle>
+    <circle x="83" y="36" marked="false" color="255" diameter="180" filled="false"></circle>
+    <circle x="105" y="15" marked="true" color="-1920102913" diameter="180" filled="true"></circle>
+    <circle x="105" y="15" marked="false" color="255" diameter="180" filled="false"></circle>
   </shape>
-</turtleShape>
+</turtleShapes>

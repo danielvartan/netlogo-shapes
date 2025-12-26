@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="boat 2" rotatable="false" editableColorIndex="0">
     <polygon color="-1" filled="true" marked="false">
-      <point x="63" y="162"/>
-      <point x="90" y="207"/>
-      <point x="223" y="207"/>
-      <point x="290" y="162"/>
+      <point x="63" y="162"></point>
+      <point x="90" y="207"></point>
+      <point x="223" y="207"></point>
+      <point x="290" y="162"></point>
     </polygon>
-    <rectangle endX="157" startY="32" marked="false" color="-1653716737" endY="162" startX="150" filled="true"/>
+    <rectangle endX="157" startY="32" marked="false" color="-1653716737" endY="162" startX="150" filled="true"></rectangle>
     <polygon color="878553599" filled="true" marked="false">
-      <point x="150" y="34"/>
-      <point x="131" y="49"/>
-      <point x="145" y="47"/>
-      <point x="147" y="48"/>
-      <point x="149" y="49"/>
+      <point x="150" y="34"></point>
+      <point x="131" y="49"></point>
+      <point x="145" y="47"></point>
+      <point x="147" y="48"></point>
+      <point x="149" y="49"></point>
     </polygon>
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="157" y="54"/>
-      <point x="175" y="79"/>
-      <point x="174" y="96"/>
-      <point x="185" y="102"/>
-      <point x="178" y="112"/>
-      <point x="194" y="124"/>
-      <point x="196" y="131"/>
-      <point x="190" y="139"/>
-      <point x="192" y="146"/>
-      <point x="211" y="151"/>
-      <point x="216" y="154"/>
-      <point x="157" y="154"/>
+      <point x="157" y="54"></point>
+      <point x="175" y="79"></point>
+      <point x="174" y="96"></point>
+      <point x="185" y="102"></point>
+      <point x="178" y="112"></point>
+      <point x="194" y="124"></point>
+      <point x="196" y="131"></point>
+      <point x="190" y="139"></point>
+      <point x="192" y="146"></point>
+      <point x="211" y="151"></point>
+      <point x="216" y="154"></point>
+      <point x="157" y="154"></point>
     </polygon>
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="150" y="74"/>
-      <point x="146" y="91"/>
-      <point x="139" y="99"/>
-      <point x="143" y="114"/>
-      <point x="141" y="123"/>
-      <point x="137" y="126"/>
-      <point x="131" y="129"/>
-      <point x="132" y="139"/>
-      <point x="142" y="136"/>
-      <point x="126" y="142"/>
-      <point x="119" y="147"/>
-      <point x="148" y="147"/>
+      <point x="150" y="74"></point>
+      <point x="146" y="91"></point>
+      <point x="139" y="99"></point>
+      <point x="143" y="114"></point>
+      <point x="141" y="123"></point>
+      <point x="137" y="126"></point>
+      <point x="131" y="129"></point>
+      <point x="132" y="139"></point>
+      <point x="142" y="136"></point>
+      <point x="126" y="142"></point>
+      <point x="119" y="147"></point>
+      <point x="148" y="147"></point>
     </polygon>
   </shape>
-</turtleShape>
+</turtleShapes>

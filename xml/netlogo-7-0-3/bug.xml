@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="bug" rotatable="true" editableColorIndex="0">
-    <circle x="96" y="182" marked="true" color="-1920102913" diameter="108" filled="true"/>
-    <circle x="110" y="127" marked="true" color="-1920102913" diameter="80" filled="true"/>
-    <circle x="110" y="75" marked="true" color="-1920102913" diameter="80" filled="true"/>
-    <line endX="80" startY="100" marked="true" color="-1920102913" endY="30" startX="150"/>
-    <line endX="220" startY="100" marked="true" color="-1920102913" endY="30" startX="150"/>
+    <circle x="96" y="182" marked="true" color="-1920102913" diameter="108" filled="true"></circle>
+    <circle x="110" y="127" marked="true" color="-1920102913" diameter="80" filled="true"></circle>
+    <circle x="110" y="75" marked="true" color="-1920102913" diameter="80" filled="true"></circle>
+    <line endX="80" startY="100" marked="true" color="-1920102913" endY="30" startX="150"></line>
+    <line endX="220" startY="100" marked="true" color="-1920102913" endY="30" startX="150"></line>
   </shape>
-</turtleShape>
+</turtleShapes>

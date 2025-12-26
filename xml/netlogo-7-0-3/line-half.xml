@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="line half" rotatable="true" editableColorIndex="0">
-    <line endX="150" startY="0" marked="true" color="-1920102913" endY="150" startX="150"/>
+    <line endX="150" startY="0" marked="true" color="-1920102913" endY="150" startX="150"></line>
   </shape>
-</turtleShape>
+</turtleShapes>

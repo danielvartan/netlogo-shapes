@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="book" rotatable="false" editableColorIndex="0">
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="30" y="195"/>
-      <point x="150" y="255"/>
-      <point x="270" y="135"/>
-      <point x="150" y="75"/>
+      <point x="30" y="195"></point>
+      <point x="150" y="255"></point>
+      <point x="270" y="135"></point>
+      <point x="150" y="75"></point>
     </polygon>
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="30" y="135"/>
-      <point x="150" y="195"/>
-      <point x="270" y="75"/>
-      <point x="150" y="15"/>
+      <point x="30" y="135"></point>
+      <point x="150" y="195"></point>
+      <point x="270" y="75"></point>
+      <point x="150" y="15"></point>
     </polygon>
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="30" y="135"/>
-      <point x="30" y="195"/>
-      <point x="90" y="150"/>
+      <point x="30" y="135"></point>
+      <point x="30" y="195"></point>
+      <point x="90" y="150"></point>
     </polygon>
     <polygon color="-1" filled="true" marked="false">
-      <point x="39" y="139"/>
-      <point x="39" y="184"/>
-      <point x="151" y="239"/>
-      <point x="156" y="199"/>
+      <point x="39" y="139"></point>
+      <point x="39" y="184"></point>
+      <point x="151" y="239"></point>
+      <point x="156" y="199"></point>
     </polygon>
     <polygon color="-1" filled="true" marked="false">
-      <point x="151" y="239"/>
-      <point x="254" y="135"/>
-      <point x="254" y="90"/>
-      <point x="151" y="197"/>
+      <point x="151" y="239"></point>
+      <point x="254" y="135"></point>
+      <point x="254" y="90"></point>
+      <point x="151" y="197"></point>
     </polygon>
-    <line endX="150" startY="196" marked="true" color="-1920102913" endY="247" startX="150"/>
-    <line endX="138" startY="159" marked="true" color="-1920102913" endY="207" startX="43"/>
-    <line endX="138" startY="174" marked="true" color="-1920102913" endY="222" startX="43"/>
-    <line endX="248" startY="206" marked="true" color="-1920102913" endY="113" startX="153"/>
-    <line endX="248" startY="221" marked="true" color="-1920102913" endY="128" startX="153"/>
+    <line endX="150" startY="196" marked="true" color="-1920102913" endY="247" startX="150"></line>
+    <line endX="138" startY="159" marked="true" color="-1920102913" endY="207" startX="43"></line>
+    <line endX="138" startY="174" marked="true" color="-1920102913" endY="222" startX="43"></line>
+    <line endX="248" startY="206" marked="true" color="-1920102913" endY="113" startX="153"></line>
+    <line endX="248" startY="221" marked="true" color="-1920102913" endY="128" startX="153"></line>
     <polygon color="-1" filled="true" marked="false">
-      <point x="159" y="52"/>
-      <point x="144" y="67"/>
-      <point x="204" y="97"/>
-      <point x="219" y="82"/>
+      <point x="159" y="52"></point>
+      <point x="144" y="67"></point>
+      <point x="204" y="97"></point>
+      <point x="219" y="82"></point>
     </polygon>
   </shape>
-</turtleShape>
+</turtleShapes>

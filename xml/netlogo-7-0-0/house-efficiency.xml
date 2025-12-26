@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="house efficiency" rotatable="false" editableColorIndex="0">
-    <rectangle endX="195" startY="90" marked="true" color="-1920102913" endY="195" startX="180" filled="true"/>
-    <rectangle endX="210" startY="165" marked="true" color="-1920102913" endY="255" startX="90" filled="true"/>
-    <rectangle endX="195" startY="195" marked="false" color="255" endY="255" startX="165" filled="true"/>
-    <rectangle endX="135" startY="202" marked="false" color="255" endY="240" startX="105" filled="true"/>
+    <rectangle endX="195" startY="90" marked="true" color="-1920102913" endY="195" startX="180" filled="true"></rectangle>
+    <rectangle endX="210" startY="165" marked="true" color="-1920102913" endY="255" startX="90" filled="true"></rectangle>
+    <rectangle endX="195" startY="195" marked="false" color="255" endY="255" startX="165" filled="true"></rectangle>
+    <rectangle endX="135" startY="202" marked="false" color="255" endY="240" startX="105" filled="true"></rectangle>
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="225" y="165"/>
-      <point x="75" y="165"/>
-      <point x="150" y="90"/>
+      <point x="225" y="165"></point>
+      <point x="75" y="165"></point>
+      <point x="150" y="90"></point>
     </polygon>
-    <line endX="225" startY="165" marked="false" color="255" endY="165" startX="75"/>
+    <line endX="225" startY="165" marked="false" color="255" endY="165" startX="75"></line>
   </shape>
-</turtleShape>
+</turtleShapes>

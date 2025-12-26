@@ -1,6 +1,6 @@
 ## Overview
 
-This document generates PNG color swatches for use in GitHub-flavored Markdown documentation.
+This document creates [PNG](https://en.wikipedia.org/wiki/PNG) color swatches for use in GitHub-flavored Markdown documentations.
 
 ## Set the Environment
 

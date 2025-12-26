@@ -1,56 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="police" rotatable="false" editableColorIndex="0">
-    <circle x="45" y="45" marked="true" color="-1920102913" diameter="210" filled="false"/>
+    <circle x="45" y="45" marked="true" color="-1920102913" diameter="210" filled="false"></circle>
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="96" y="225"/>
-      <point x="150" y="60"/>
-      <point x="206" y="224"/>
-      <point x="63" y="120"/>
-      <point x="236" y="120"/>
+      <point x="96" y="225"></point>
+      <point x="150" y="60"></point>
+      <point x="206" y="224"></point>
+      <point x="63" y="120"></point>
+      <point x="236" y="120"></point>
     </polygon>
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="120" y="120"/>
-      <point x="195" y="120"/>
-      <point x="180" y="180"/>
-      <point x="180" y="185"/>
-      <point x="113" y="183"/>
+      <point x="120" y="120"></point>
+      <point x="195" y="120"></point>
+      <point x="180" y="180"></point>
+      <point x="180" y="185"></point>
+      <point x="113" y="183"></point>
     </polygon>
     <polygon color="-1920102913" filled="false" marked="true">
-      <point x="30" y="15"/>
-      <point x="0" y="45"/>
-      <point x="15" y="60"/>
-      <point x="30" y="90"/>
-      <point x="30" y="105"/>
-      <point x="15" y="165"/>
-      <point x="3" y="209"/>
-      <point x="3" y="225"/>
-      <point x="15" y="255"/>
-      <point x="60" y="270"/>
-      <point x="75" y="270"/>
-      <point x="99" y="256"/>
-      <point x="105" y="270"/>
-      <point x="120" y="285"/>
-      <point x="150" y="300"/>
-      <point x="180" y="285"/>
-      <point x="195" y="270"/>
-      <point x="203" y="256"/>
-      <point x="240" y="270"/>
-      <point x="255" y="270"/>
-      <point x="285" y="255"/>
-      <point x="294" y="225"/>
-      <point x="294" y="210"/>
-      <point x="285" y="165"/>
-      <point x="270" y="105"/>
-      <point x="270" y="90"/>
-      <point x="285" y="60"/>
-      <point x="300" y="45"/>
-      <point x="270" y="15"/>
-      <point x="225" y="30"/>
-      <point x="210" y="30"/>
-      <point x="150" y="15"/>
-      <point x="90" y="30"/>
-      <point x="75" y="30"/>
+      <point x="30" y="15"></point>
+      <point x="0" y="45"></point>
+      <point x="15" y="60"></point>
+      <point x="30" y="90"></point>
+      <point x="30" y="105"></point>
+      <point x="15" y="165"></point>
+      <point x="3" y="209"></point>
+      <point x="3" y="225"></point>
+      <point x="15" y="255"></point>
+      <point x="60" y="270"></point>
+      <point x="75" y="270"></point>
+      <point x="99" y="256"></point>
+      <point x="105" y="270"></point>
+      <point x="120" y="285"></point>
+      <point x="150" y="300"></point>
+      <point x="180" y="285"></point>
+      <point x="195" y="270"></point>
+      <point x="203" y="256"></point>
+      <point x="240" y="270"></point>
+      <point x="255" y="270"></point>
+      <point x="285" y="255"></point>
+      <point x="294" y="225"></point>
+      <point x="294" y="210"></point>
+      <point x="285" y="165"></point>
+      <point x="270" y="105"></point>
+      <point x="270" y="90"></point>
+      <point x="285" y="60"></point>
+      <point x="300" y="45"></point>
+      <point x="270" y="15"></point>
+      <point x="225" y="30"></point>
+      <point x="210" y="30"></point>
+      <point x="150" y="15"></point>
+      <point x="90" y="30"></point>
+      <point x="75" y="30"></point>
     </polygon>
   </shape>
-</turtleShape>
+</turtleShapes>

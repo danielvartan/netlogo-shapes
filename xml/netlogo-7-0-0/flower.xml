@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="flower" rotatable="false" editableColorIndex="0">
     <polygon color="1504722175" filled="true" marked="false">
-      <point x="135" y="120"/>
-      <point x="165" y="165"/>
-      <point x="180" y="210"/>
-      <point x="180" y="240"/>
-      <point x="150" y="300"/>
-      <point x="165" y="300"/>
-      <point x="195" y="240"/>
-      <point x="195" y="195"/>
-      <point x="165" y="135"/>
+      <point x="135" y="120"></point>
+      <point x="165" y="165"></point>
+      <point x="180" y="210"></point>
+      <point x="180" y="240"></point>
+      <point x="150" y="300"></point>
+      <point x="165" y="300"></point>
+      <point x="195" y="240"></point>
+      <point x="195" y="195"></point>
+      <point x="165" y="135"></point>
     </polygon>
-    <circle x="85" y="132" marked="true" color="-1920102913" diameter="38" filled="true"/>
-    <circle x="130" y="147" marked="true" color="-1920102913" diameter="38" filled="true"/>
-    <circle x="192" y="85" marked="true" color="-1920102913" diameter="38" filled="true"/>
-    <circle x="85" y="40" marked="true" color="-1920102913" diameter="38" filled="true"/>
-    <circle x="177" y="40" marked="true" color="-1920102913" diameter="38" filled="true"/>
-    <circle x="177" y="132" marked="true" color="-1920102913" diameter="38" filled="true"/>
-    <circle x="70" y="85" marked="true" color="-1920102913" diameter="38" filled="true"/>
-    <circle x="130" y="25" marked="true" color="-1920102913" diameter="38" filled="true"/>
-    <circle x="96" y="51" marked="true" color="-1920102913" diameter="108" filled="true"/>
-    <circle x="113" y="68" marked="false" color="255" diameter="74" filled="true"/>
+    <circle x="85" y="132" marked="true" color="-1920102913" diameter="38" filled="true"></circle>
+    <circle x="130" y="147" marked="true" color="-1920102913" diameter="38" filled="true"></circle>
+    <circle x="192" y="85" marked="true" color="-1920102913" diameter="38" filled="true"></circle>
+    <circle x="85" y="40" marked="true" color="-1920102913" diameter="38" filled="true"></circle>
+    <circle x="177" y="40" marked="true" color="-1920102913" diameter="38" filled="true"></circle>
+    <circle x="177" y="132" marked="true" color="-1920102913" diameter="38" filled="true"></circle>
+    <circle x="70" y="85" marked="true" color="-1920102913" diameter="38" filled="true"></circle>
+    <circle x="130" y="25" marked="true" color="-1920102913" diameter="38" filled="true"></circle>
+    <circle x="96" y="51" marked="true" color="-1920102913" diameter="108" filled="true"></circle>
+    <circle x="113" y="68" marked="false" color="255" diameter="74" filled="true"></circle>
     <polygon color="1504722175" filled="true" marked="false">
-      <point x="189" y="233"/>
-      <point x="219" y="188"/>
-      <point x="249" y="173"/>
-      <point x="279" y="188"/>
-      <point x="234" y="218"/>
+      <point x="189" y="233"></point>
+      <point x="219" y="188"></point>
+      <point x="249" y="173"></point>
+      <point x="279" y="188"></point>
+      <point x="234" y="218"></point>
     </polygon>
     <polygon color="1504722175" filled="true" marked="false">
-      <point x="180" y="255"/>
-      <point x="150" y="210"/>
-      <point x="105" y="210"/>
-      <point x="75" y="240"/>
-      <point x="135" y="240"/>
+      <point x="180" y="255"></point>
+      <point x="150" y="210"></point>
+      <point x="105" y="210"></point>
+      <point x="75" y="240"></point>
+      <point x="135" y="240"></point>
     </polygon>
   </shape>
-</turtleShape>
+</turtleShapes>

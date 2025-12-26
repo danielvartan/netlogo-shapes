@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="x" rotatable="false" editableColorIndex="0">
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="270" y="75"/>
-      <point x="225" y="30"/>
-      <point x="30" y="225"/>
-      <point x="75" y="270"/>
+      <point x="270" y="75"></point>
+      <point x="225" y="30"></point>
+      <point x="30" y="225"></point>
+      <point x="75" y="270"></point>
     </polygon>
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="30" y="75"/>
-      <point x="75" y="30"/>
-      <point x="270" y="225"/>
-      <point x="225" y="270"/>
+      <point x="30" y="75"></point>
+      <point x="75" y="30"></point>
+      <point x="270" y="225"></point>
+      <point x="225" y="270"></point>
     </polygon>
   </shape>
-</turtleShape>
+</turtleShapes>

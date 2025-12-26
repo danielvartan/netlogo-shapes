@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="train" rotatable="false" editableColorIndex="0">
-    <rectangle endX="240" startY="105" marked="true" color="-1920102913" endY="150" startX="30" filled="true"/>
+    <rectangle endX="240" startY="105" marked="true" color="-1920102913" endY="150" startX="30" filled="true"></rectangle>
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="240" y="105"/>
-      <point x="270" y="30"/>
-      <point x="180" y="30"/>
-      <point x="210" y="105"/>
+      <point x="240" y="105"></point>
+      <point x="270" y="30"></point>
+      <point x="180" y="30"></point>
+      <point x="210" y="105"></point>
     </polygon>
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="195" y="180"/>
-      <point x="270" y="180"/>
-      <point x="300" y="210"/>
-      <point x="195" y="210"/>
+      <point x="195" y="180"></point>
+      <point x="270" y="180"></point>
+      <point x="300" y="210"></point>
+      <point x="195" y="210"></point>
     </polygon>
-    <circle x="0" y="165" marked="true" color="-1920102913" diameter="90" filled="true"/>
-    <circle x="240" y="225" marked="true" color="-1920102913" diameter="30" filled="true"/>
-    <circle x="90" y="165" marked="true" color="-1920102913" diameter="90" filled="true"/>
-    <circle x="195" y="225" marked="true" color="-1920102913" diameter="30" filled="true"/>
-    <rectangle endX="105" startY="30" marked="true" color="-1920102913" endY="150" startX="0" filled="true"/>
-    <rectangle endX="75" startY="60" marked="false" color="255" endY="105" startX="30" filled="true"/>
+    <circle x="0" y="165" marked="true" color="-1920102913" diameter="90" filled="true"></circle>
+    <circle x="240" y="225" marked="true" color="-1920102913" diameter="30" filled="true"></circle>
+    <circle x="90" y="165" marked="true" color="-1920102913" diameter="90" filled="true"></circle>
+    <circle x="195" y="225" marked="true" color="-1920102913" diameter="30" filled="true"></circle>
+    <rectangle endX="105" startY="30" marked="true" color="-1920102913" endY="150" startX="0" filled="true"></rectangle>
+    <rectangle endX="75" startY="60" marked="false" color="255" endY="105" startX="30" filled="true"></rectangle>
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="195" y="180"/>
-      <point x="165" y="150"/>
-      <point x="240" y="150"/>
-      <point x="240" y="180"/>
+      <point x="195" y="180"></point>
+      <point x="165" y="150"></point>
+      <point x="240" y="150"></point>
+      <point x="240" y="180"></point>
     </polygon>
-    <rectangle endX="165" startY="75" marked="true" color="-1920102913" endY="105" startX="135" filled="true"/>
-    <rectangle endX="255" startY="120" marked="true" color="-1920102913" endY="150" startX="225" filled="true"/>
-    <rectangle endX="150" startY="203" marked="false" color="255" endY="218" startX="30" filled="true"/>
+    <rectangle endX="165" startY="75" marked="true" color="-1920102913" endY="105" startX="135" filled="true"></rectangle>
+    <rectangle endX="255" startY="120" marked="true" color="-1920102913" endY="150" startX="225" filled="true"></rectangle>
+    <rectangle endX="150" startY="203" marked="false" color="255" endY="218" startX="30" filled="true"></rectangle>
   </shape>
-</turtleShape>
+</turtleShapes>

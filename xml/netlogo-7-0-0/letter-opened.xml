@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="letter opened" rotatable="false" editableColorIndex="0">
-    <rectangle endX="270" startY="90" marked="true" color="-1920102913" endY="225" startX="30" filled="true"/>
-    <rectangle endX="270" startY="90" marked="false" color="255" endY="225" startX="30" filled="false"/>
-    <line endX="270" startY="30" marked="false" color="255" endY="105" startX="150"/>
-    <line endX="150" startY="105" marked="false" color="255" endY="30" startX="30"/>
-    <line endX="181" startY="225" marked="false" color="255" endY="161" startX="270"/>
-    <line endX="119" startY="225" marked="false" color="255" endY="161" startX="30"/>
+    <rectangle endX="270" startY="90" marked="true" color="-1920102913" endY="225" startX="30" filled="true"></rectangle>
+    <rectangle endX="270" startY="90" marked="false" color="255" endY="225" startX="30" filled="false"></rectangle>
+    <line endX="270" startY="30" marked="false" color="255" endY="105" startX="150"></line>
+    <line endX="150" startY="105" marked="false" color="255" endY="30" startX="30"></line>
+    <line endX="181" startY="225" marked="false" color="255" endY="161" startX="270"></line>
+    <line endX="119" startY="225" marked="false" color="255" endY="161" startX="30"></line>
     <polygon color="-1653716737" filled="true" marked="false">
-      <point x="30" y="105"/>
-      <point x="150" y="30"/>
-      <point x="270" y="105"/>
-      <point x="150" y="180"/>
+      <point x="30" y="105"></point>
+      <point x="150" y="30"></point>
+      <point x="270" y="105"></point>
+      <point x="150" y="180"></point>
     </polygon>
-    <line endX="270" startY="105" marked="false" color="255" endY="105" startX="30"/>
-    <line endX="150" startY="105" marked="false" color="255" endY="180" startX="270"/>
-    <line endX="150" startY="105" marked="false" color="255" endY="180" startX="30"/>
+    <line endX="270" startY="105" marked="false" color="255" endY="105" startX="30"></line>
+    <line endX="150" startY="105" marked="false" color="255" endY="180" startX="270"></line>
+    <line endX="150" startY="105" marked="false" color="255" endY="180" startX="30"></line>
   </shape>
-</turtleShape>
+</turtleShapes>

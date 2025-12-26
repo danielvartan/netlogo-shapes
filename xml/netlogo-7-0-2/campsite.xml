@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="campsite" rotatable="false" editableColorIndex="0">
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="150" y="11"/>
-      <point x="30" y="221"/>
-      <point x="270" y="221"/>
+      <point x="150" y="11"></point>
+      <point x="30" y="221"></point>
+      <point x="270" y="221"></point>
     </polygon>
     <polygon color="255" filled="true" marked="false">
-      <point x="151" y="90"/>
-      <point x="92" y="221"/>
-      <point x="212" y="221"/>
+      <point x="151" y="90"></point>
+      <point x="92" y="221"></point>
+      <point x="212" y="221"></point>
     </polygon>
-    <line endX="150" startY="30" marked="true" color="-1920102913" endY="225" startX="150"/>
+    <line endX="150" startY="30" marked="true" color="-1920102913" endY="225" startX="150"></line>
   </shape>
-</turtleShape>
+</turtleShapes>

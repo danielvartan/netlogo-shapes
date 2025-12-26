@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="face happy" rotatable="false" editableColorIndex="0">
-    <circle x="8" y="8" marked="true" color="-1920102913" diameter="285" filled="true"/>
-    <circle x="60" y="75" marked="false" color="255" diameter="60" filled="true"/>
-    <circle x="180" y="75" marked="false" color="255" diameter="60" filled="true"/>
+    <circle x="8" y="8" marked="true" color="-1920102913" diameter="285" filled="true"></circle>
+    <circle x="60" y="75" marked="false" color="255" diameter="60" filled="true"></circle>
+    <circle x="180" y="75" marked="false" color="255" diameter="60" filled="true"></circle>
     <polygon color="255" filled="true" marked="false">
-      <point x="150" y="255"/>
-      <point x="90" y="239"/>
-      <point x="62" y="213"/>
-      <point x="47" y="191"/>
-      <point x="67" y="179"/>
-      <point x="90" y="203"/>
-      <point x="109" y="218"/>
-      <point x="150" y="225"/>
-      <point x="192" y="218"/>
-      <point x="210" y="203"/>
-      <point x="227" y="181"/>
-      <point x="251" y="194"/>
-      <point x="236" y="217"/>
-      <point x="212" y="240"/>
+      <point x="150" y="255"></point>
+      <point x="90" y="239"></point>
+      <point x="62" y="213"></point>
+      <point x="47" y="191"></point>
+      <point x="67" y="179"></point>
+      <point x="90" y="203"></point>
+      <point x="109" y="218"></point>
+      <point x="150" y="225"></point>
+      <point x="192" y="218"></point>
+      <point x="210" y="203"></point>
+      <point x="227" y="181"></point>
+      <point x="251" y="194"></point>
+      <point x="236" y="217"></point>
+      <point x="212" y="240"></point>
     </polygon>
   </shape>
-</turtleShape>
+</turtleShapes>

@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="train freight engine" rotatable="false" editableColorIndex="0">
-    <rectangle endX="300" startY="180" marked="true" color="-1920102913" endY="195" startX="0" filled="true"/>
+    <rectangle endX="300" startY="180" marked="true" color="-1920102913" endY="195" startX="0" filled="true"></rectangle>
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="281" y="194"/>
-      <point x="282" y="134"/>
-      <point x="278" y="126"/>
-      <point x="165" y="120"/>
-      <point x="165" y="105"/>
-      <point x="15" y="105"/>
-      <point x="15" y="150"/>
-      <point x="15" y="195"/>
-      <point x="15" y="210"/>
-      <point x="285" y="210"/>
+      <point x="281" y="194"></point>
+      <point x="282" y="134"></point>
+      <point x="278" y="126"></point>
+      <point x="165" y="120"></point>
+      <point x="165" y="105"></point>
+      <point x="15" y="105"></point>
+      <point x="15" y="150"></point>
+      <point x="15" y="195"></point>
+      <point x="15" y="210"></point>
+      <point x="285" y="210"></point>
     </polygon>
     <polygon color="-244705793" filled="true" marked="false">
-      <point x="281" y="179"/>
-      <point x="263" y="150"/>
-      <point x="225" y="150"/>
-      <point x="15" y="150"/>
-      <point x="15" y="135"/>
-      <point x="270" y="135"/>
-      <point x="282" y="148"/>
+      <point x="281" y="179"></point>
+      <point x="263" y="150"></point>
+      <point x="225" y="150"></point>
+      <point x="15" y="150"></point>
+      <point x="15" y="135"></point>
+      <point x="270" y="135"></point>
+      <point x="282" y="148"></point>
     </polygon>
-    <circle x="17" y="195" marked="false" color="255" diameter="30" filled="true"/>
-    <circle x="50" y="195" marked="false" color="255" diameter="30" filled="true"/>
-    <circle x="205" y="195" marked="false" color="255" diameter="30" filled="true"/>
-    <circle x="238" y="195" marked="false" color="255" diameter="30" filled="true"/>
-    <rectangle endX="224" startY="90" marked="true" color="-1920102913" endY="195" startX="164" filled="true"/>
-    <rectangle endX="214" startY="98" marked="false" color="255" endY="120" startX="176" filled="true"/>
-    <line endX="196" startY="90" marked="true" color="-1920102913" endY="150" startX="196"/>
-    <rectangle endX="225" startY="90" marked="false" color="255" endY="180" startX="165" filled="false"/>
-    <rectangle endX="300" startY="195" marked="false" color="255" endY="180" startX="0" filled="false"/>
-    <rectangle endX="18" startY="111" marked="false" color="-1" endY="118" startX="11" filled="true"/>
-    <rectangle endX="287" startY="131" marked="false" color="-1" endY="138" startX="280" filled="true"/>
-    <rectangle endX="201" startY="195" marked="false" color="255" endY="212" startX="91" filled="true"/>
-    <rectangle endX="10" startY="180" marked="false" color="255" endY="195" startX="1" filled="true"/>
-    <line endX="291" startY="150" marked="false" color="255" endY="182" startX="290"/>
-    <rectangle endX="119" startY="97" marked="true" color="-1920102913" endY="106" startX="88" filled="true"/>
-    <rectangle endX="73" startY="96" marked="true" color="-1920102913" endY="105" startX="42" filled="true"/>
-    <line endX="15" startY="105" marked="false" color="255" endY="105" startX="165"/>
-    <rectangle endX="195" startY="90" marked="false" color="255" endY="90" startX="165" filled="true"/>
-    <line endX="237" startY="116" marked="false" color="255" endY="116" startX="252"/>
-    <rectangle endX="208" startY="85" marked="false" color="-303222273" endY="92" startX="199" filled="true"/>
-    <rectangle endX="299" startY="180" marked="false" color="255" endY="195" startX="290" filled="true"/>
-    <line endX="165" startY="98" marked="false" color="255" endY="98" startX="224"/>
+    <circle x="17" y="195" marked="false" color="255" diameter="30" filled="true"></circle>
+    <circle x="50" y="195" marked="false" color="255" diameter="30" filled="true"></circle>
+    <circle x="205" y="195" marked="false" color="255" diameter="30" filled="true"></circle>
+    <circle x="238" y="195" marked="false" color="255" diameter="30" filled="true"></circle>
+    <rectangle endX="224" startY="90" marked="true" color="-1920102913" endY="195" startX="164" filled="true"></rectangle>
+    <rectangle endX="214" startY="98" marked="false" color="255" endY="120" startX="176" filled="true"></rectangle>
+    <line endX="196" startY="90" marked="true" color="-1920102913" endY="150" startX="196"></line>
+    <rectangle endX="225" startY="90" marked="false" color="255" endY="180" startX="165" filled="false"></rectangle>
+    <rectangle endX="300" startY="195" marked="false" color="255" endY="180" startX="0" filled="false"></rectangle>
+    <rectangle endX="18" startY="111" marked="false" color="-1" endY="118" startX="11" filled="true"></rectangle>
+    <rectangle endX="287" startY="131" marked="false" color="-1" endY="138" startX="280" filled="true"></rectangle>
+    <rectangle endX="201" startY="195" marked="false" color="255" endY="212" startX="91" filled="true"></rectangle>
+    <rectangle endX="10" startY="180" marked="false" color="255" endY="195" startX="1" filled="true"></rectangle>
+    <line endX="291" startY="150" marked="false" color="255" endY="182" startX="290"></line>
+    <rectangle endX="119" startY="97" marked="true" color="-1920102913" endY="106" startX="88" filled="true"></rectangle>
+    <rectangle endX="73" startY="96" marked="true" color="-1920102913" endY="105" startX="42" filled="true"></rectangle>
+    <line endX="15" startY="105" marked="false" color="255" endY="105" startX="165"></line>
+    <rectangle endX="195" startY="90" marked="false" color="255" endY="90" startX="165" filled="true"></rectangle>
+    <line endX="237" startY="116" marked="false" color="255" endY="116" startX="252"></line>
+    <rectangle endX="208" startY="85" marked="false" color="-303222273" endY="92" startX="199" filled="true"></rectangle>
+    <rectangle endX="299" startY="180" marked="false" color="255" endY="195" startX="290" filled="true"></rectangle>
+    <line endX="165" startY="98" marked="false" color="255" endY="98" startX="224"></line>
   </shape>
-</turtleShape>
+</turtleShapes>

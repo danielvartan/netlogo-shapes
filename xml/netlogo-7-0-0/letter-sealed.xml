@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="letter sealed" rotatable="false" editableColorIndex="0">
-    <rectangle endX="270" startY="90" marked="true" color="-1920102913" endY="225" startX="30" filled="true"/>
-    <rectangle endX="270" startY="90" marked="false" color="255" endY="225" startX="30" filled="false"/>
-    <line endX="150" startY="105" marked="false" color="255" endY="180" startX="270"/>
-    <line endX="150" startY="105" marked="false" color="255" endY="180" startX="30"/>
-    <line endX="181" startY="225" marked="false" color="255" endY="161" startX="270"/>
-    <line endX="119" startY="225" marked="false" color="255" endY="161" startX="30"/>
+    <rectangle endX="270" startY="90" marked="true" color="-1920102913" endY="225" startX="30" filled="true"></rectangle>
+    <rectangle endX="270" startY="90" marked="false" color="255" endY="225" startX="30" filled="false"></rectangle>
+    <line endX="150" startY="105" marked="false" color="255" endY="180" startX="270"></line>
+    <line endX="150" startY="105" marked="false" color="255" endY="180" startX="30"></line>
+    <line endX="181" startY="225" marked="false" color="255" endY="161" startX="270"></line>
+    <line endX="119" startY="225" marked="false" color="255" endY="161" startX="30"></line>
   </shape>
-</turtleShape>
+</turtleShapes>

@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="sun" rotatable="false" editableColorIndex="0">
-    <circle x="75" y="75" marked="true" color="-1920102913" diameter="150" filled="true"/>
+    <circle x="75" y="75" marked="true" color="-1920102913" diameter="150" filled="true"></circle>
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="300" y="150"/>
-      <point x="240" y="120"/>
-      <point x="240" y="180"/>
+      <point x="300" y="150"></point>
+      <point x="240" y="120"></point>
+      <point x="240" y="180"></point>
     </polygon>
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="150" y="0"/>
-      <point x="120" y="60"/>
-      <point x="180" y="60"/>
+      <point x="150" y="0"></point>
+      <point x="120" y="60"></point>
+      <point x="180" y="60"></point>
     </polygon>
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="150" y="300"/>
-      <point x="120" y="240"/>
-      <point x="180" y="240"/>
+      <point x="150" y="300"></point>
+      <point x="120" y="240"></point>
+      <point x="180" y="240"></point>
     </polygon>
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="0" y="150"/>
-      <point x="60" y="120"/>
-      <point x="60" y="180"/>
+      <point x="0" y="150"></point>
+      <point x="60" y="120"></point>
+      <point x="60" y="180"></point>
     </polygon>
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="60" y="195"/>
-      <point x="105" y="240"/>
-      <point x="45" y="255"/>
+      <point x="60" y="195"></point>
+      <point x="105" y="240"></point>
+      <point x="45" y="255"></point>
     </polygon>
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="60" y="105"/>
-      <point x="105" y="60"/>
-      <point x="45" y="45"/>
+      <point x="60" y="105"></point>
+      <point x="105" y="60"></point>
+      <point x="45" y="45"></point>
     </polygon>
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="195" y="60"/>
-      <point x="240" y="105"/>
-      <point x="255" y="45"/>
+      <point x="195" y="60"></point>
+      <point x="240" y="105"></point>
+      <point x="255" y="45"></point>
     </polygon>
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="240" y="195"/>
-      <point x="195" y="240"/>
-      <point x="255" y="255"/>
+      <point x="240" y="195"></point>
+      <point x="195" y="240"></point>
+      <point x="255" y="255"></point>
     </polygon>
   </shape>
-</turtleShape>
+</turtleShapes>

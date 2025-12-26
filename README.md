@@ -980,8 +980,9 @@ is located at the top-left corner.
 
 The library uses the standard [NetLogo base
 colors](https://docs.netlogo.org/dictionary.html#base-colors). The table
-below maps these to Hexadecimal and NetLogo’s internal XML integer
-format for cross-compatibility.
+below maps these to Hexadecimal and NetLogo’s internal
+[XML](https://en.wikipedia.org/wiki/XML) integer format for
+cross-compatibility.
 
 | Color                          | Name      | NetLogo | Hex      | XML         |
 |:-------------------------------|:----------|--------:|:---------|:------------|

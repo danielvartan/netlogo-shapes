@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="face neutral" rotatable="false" editableColorIndex="0">
-    <circle x="8" y="7" marked="true" color="-1920102913" diameter="285" filled="true"/>
-    <circle x="60" y="75" marked="false" color="255" diameter="60" filled="true"/>
-    <circle x="180" y="75" marked="false" color="255" diameter="60" filled="true"/>
-    <rectangle endX="240" startY="195" marked="false" color="255" endY="225" startX="60" filled="true"/>
+    <circle x="8" y="7" marked="true" color="-1920102913" diameter="285" filled="true"></circle>
+    <circle x="60" y="75" marked="false" color="255" diameter="60" filled="true"></circle>
+    <circle x="180" y="75" marked="false" color="255" diameter="60" filled="true"></circle>
+    <rectangle endX="240" startY="195" marked="false" color="255" endY="225" startX="60" filled="true"></rectangle>
   </shape>
-</turtleShape>
+</turtleShapes>

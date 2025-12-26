@@ -1,66 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<turtleShape>
+<turtleShapes>
   <shape name="chess knight" rotatable="false" editableColorIndex="0">
-    <line endX="225" startY="255" marked="false" color="255" endY="255" startX="75"/>
+    <line endX="225" startY="255" marked="false" color="255" endY="255" startX="75"></line>
     <polygon color="-1920102913" filled="true" marked="true">
-      <point x="90" y="255"/>
-      <point x="60" y="255"/>
-      <point x="60" y="225"/>
-      <point x="75" y="180"/>
-      <point x="75" y="165"/>
-      <point x="60" y="135"/>
-      <point x="45" y="90"/>
-      <point x="60" y="75"/>
-      <point x="60" y="45"/>
-      <point x="90" y="30"/>
-      <point x="120" y="30"/>
-      <point x="135" y="45"/>
-      <point x="240" y="60"/>
-      <point x="255" y="75"/>
-      <point x="255" y="90"/>
-      <point x="255" y="105"/>
-      <point x="240" y="120"/>
-      <point x="225" y="105"/>
-      <point x="180" y="120"/>
-      <point x="210" y="150"/>
-      <point x="225" y="195"/>
-      <point x="225" y="210"/>
-      <point x="210" y="255"/>
+      <point x="90" y="255"></point>
+      <point x="60" y="255"></point>
+      <point x="60" y="225"></point>
+      <point x="75" y="180"></point>
+      <point x="75" y="165"></point>
+      <point x="60" y="135"></point>
+      <point x="45" y="90"></point>
+      <point x="60" y="75"></point>
+      <point x="60" y="45"></point>
+      <point x="90" y="30"></point>
+      <point x="120" y="30"></point>
+      <point x="135" y="45"></point>
+      <point x="240" y="60"></point>
+      <point x="255" y="75"></point>
+      <point x="255" y="90"></point>
+      <point x="255" y="105"></point>
+      <point x="240" y="120"></point>
+      <point x="225" y="105"></point>
+      <point x="180" y="120"></point>
+      <point x="210" y="150"></point>
+      <point x="225" y="195"></point>
+      <point x="225" y="210"></point>
+      <point x="210" y="255"></point>
     </polygon>
     <polygon color="255" filled="false" marked="false">
-      <point x="210" y="255"/>
-      <point x="60" y="255"/>
-      <point x="60" y="225"/>
-      <point x="75" y="180"/>
-      <point x="75" y="165"/>
-      <point x="60" y="135"/>
-      <point x="45" y="90"/>
-      <point x="60" y="75"/>
-      <point x="60" y="45"/>
-      <point x="90" y="30"/>
-      <point x="120" y="30"/>
-      <point x="135" y="45"/>
-      <point x="240" y="60"/>
-      <point x="255" y="75"/>
-      <point x="255" y="90"/>
-      <point x="255" y="105"/>
-      <point x="240" y="120"/>
-      <point x="225" y="105"/>
-      <point x="180" y="120"/>
-      <point x="210" y="150"/>
-      <point x="225" y="195"/>
-      <point x="225" y="210"/>
+      <point x="210" y="255"></point>
+      <point x="60" y="255"></point>
+      <point x="60" y="225"></point>
+      <point x="75" y="180"></point>
+      <point x="75" y="165"></point>
+      <point x="60" y="135"></point>
+      <point x="45" y="90"></point>
+      <point x="60" y="75"></point>
+      <point x="60" y="45"></point>
+      <point x="90" y="30"></point>
+      <point x="120" y="30"></point>
+      <point x="135" y="45"></point>
+      <point x="240" y="60"></point>
+      <point x="255" y="75"></point>
+      <point x="255" y="90"></point>
+      <point x="255" y="105"></point>
+      <point x="240" y="120"></point>
+      <point x="225" y="105"></point>
+      <point x="180" y="120"></point>
+      <point x="210" y="150"></point>
+      <point x="225" y="195"></point>
+      <point x="225" y="210"></point>
     </polygon>
-    <line endX="240" startY="90" marked="false" color="255" endY="90" startX="255"/>
-    <circle x="134" y="63" marked="false" color="255" diameter="24" filled="true"/>
-    <line endX="108" startY="34" marked="false" color="255" endY="45" startX="103"/>
-    <line endX="88" startY="41" marked="false" color="255" endY="49" startX="80"/>
-    <line endX="70" startY="53" marked="false" color="255" endY="58" startX="61"/>
-    <line endX="79" startY="75" marked="false" color="255" endY="75" startX="64"/>
-    <line endX="67" startY="100" marked="false" color="255" endY="98" startX="53"/>
-    <line endX="69" startY="126" marked="false" color="255" endY="123" startX="63"/>
-    <line endX="77" startY="148" marked="false" color="255" endY="145" startX="71"/>
-    <rectangle endX="210" startY="255" marked="true" color="-1920102913" endY="300" startX="90" filled="true"/>
-    <rectangle endX="210" startY="255" marked="false" color="255" endY="300" startX="90" filled="false"/>
+    <line endX="240" startY="90" marked="false" color="255" endY="90" startX="255"></line>
+    <circle x="134" y="63" marked="false" color="255" diameter="24" filled="true"></circle>
+    <line endX="108" startY="34" marked="false" color="255" endY="45" startX="103"></line>
+    <line endX="88" startY="41" marked="false" color="255" endY="49" startX="80"></line>
+    <line endX="70" startY="53" marked="false" color="255" endY="58" startX="61"></line>
+    <line endX="79" startY="75" marked="false" color="255" endY="75" startX="64"></line>
+    <line endX="67" startY="100" marked="false" color="255" endY="98" startX="53"></line>
+    <line endX="69" startY="126" marked="false" color="255" endY="123" startX="63"></line>
+    <line endX="77" startY="148" marked="false" color="255" endY="145" startX="71"></line>
+    <rectangle endX="210" startY="255" marked="true" color="-1920102913" endY="300" startX="90" filled="true"></rectangle>
+    <rectangle endX="210" startY="255" marked="false" color="255" endY="300" startX="90" filled="false"></rectangle>
   </shape>
-</turtleShape>
+</turtleShapes>

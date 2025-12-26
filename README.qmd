@@ -119,7 +119,7 @@ Each shape is drawn on a **300×300 pixel** canvas. The origin `(0, 0)` is locat
 
 ### Color Mapping
 
-The library uses the standard [NetLogo base colors](https://docs.netlogo.org/dictionary.html#base-colors). The table below maps these to Hexadecimal and NetLogo’s internal XML integer format for cross-compatibility.
+The library uses the standard [NetLogo base colors](https://docs.netlogo.org/dictionary.html#base-colors). The table below maps these to Hexadecimal and NetLogo’s internal [XML](https://en.wikipedia.org/wiki/XML) integer format for cross-compatibility.
 
 ```{r}
 #| include: false
