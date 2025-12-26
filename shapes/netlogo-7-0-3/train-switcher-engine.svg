@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <path id="polygon1" style="fill:#8D8D8D" d="m 45,210 v -30 v -30 l 8,-20 98,-7 97,8 7,19 v 45 v 15 h -195 Z" />
+  <circle id="circle2" style="fill:#000000" cx="240.0" cy="210.0" r="15.0" />
+  <circle id="circle3" style="fill:#000000" cx="210.0" cy="210.0" r="15.0" />
+  <circle id="circle4" style="fill:#000000" cx="90.0" cy="210.0" r="15.0" />
+  <circle id="circle5" style="fill:#000000" cx="60.0" cy="210.0" r="15.0" />
+  <line id="line6" style="stroke:#8D8D8D;stroke-width:1" x1="150" y1="135" x2="150" y2="165" />
+  <rect id="rect7" style="fill:#8D8D8D" x="120.0" y="90.0" width="60.0" height="105.0" />
+  <rect id="rect8" style="fill:#000000" x="132.0" y="98.0" width="38.0" height="22.0" />
+  <line id="line9" style="stroke:#8D8D8D;stroke-width:1" x1="150" y1="90" x2="150" y2="150" />
+  <rect id="rect10" style="fill:none;stroke:#000000;stroke-width:1" x="120.0" y="90.0" width="60.0" height="90.0" />
+  <rect id="rect11" style="fill:#8D8D8D" x="30.0" y="180.0" width="240.0" height="15.0" />
+  <rect id="rect12" style="fill:none;stroke:#000000;stroke-width:1" x="30.0" y="180.0" width="240.0" height="15.0" />
+  <line id="line13" style="stroke:#000000;stroke-width:1" x1="270" y1="150" x2="270" y2="180" />
+  <rect id="rect14" style="fill:#FFFFFF" x="245.0" y="131.0" width="7.0" height="7.0" />
+  <rect id="rect15" style="fill:#FFFFFF" x="48.0" y="131.0" width="7.0" height="7.0" />
+  <path id="polygon16" style="fill:#000000" d="m 255,179 -28,-10 v -11 l 28,10 Z" />
+  <path id="polygon17" style="fill:#000000" d="m 255,162 -28,-10 v -11 l 28,10 Z" />
+  <path id="polygon18" style="fill:#000000" d="m 45,162 28,-10 v -11 l -28,10 Z" />
+  <path id="polygon19" style="fill:#000000" d="m 45,179 28,-10 v -11 l -28,10 Z" />
+  <rect id="rect20" style="fill:#000000" x="112.0" y="195.0" width="75.0" height="15.0" />
+  <rect id="rect21" style="fill:#000000" x="264.0" y="180.0" width="15.0" height="15.0" />
+  <rect id="rect22" style="fill:#000000" x="21.0" y="180.0" width="15.0" height="15.0" />
+  <line id="line23" style="stroke:#000000;stroke-width:1" x1="30" y1="150" x2="30" y2="180" />
+  <line id="line24" style="stroke:#000000;stroke-width:1" x1="120" y1="98" x2="180" y2="98" />
+</svg>

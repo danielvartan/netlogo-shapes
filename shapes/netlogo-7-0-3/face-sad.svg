@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <circle id="circle1" style="fill:#8D8D8D" cx="150.5" cy="150.5" r="142.5" />
+  <circle id="circle2" style="fill:#000000" cx="90.0" cy="105.0" r="30.0" />
+  <circle id="circle3" style="fill:#000000" cx="210.0" cy="105.0" r="30.0" />
+  <path id="polygon4" style="fill:#000000" d="m 150,168 -60,16 -28,26 -15,22 20,12 23,-24 19,-15 41,-7 42,7 18,15 17,22 24,-13 -15,-23 -24,-23 Z" />
+</svg>

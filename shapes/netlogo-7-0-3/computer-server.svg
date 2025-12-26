@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <rect id="rect1" style="fill:#8D8D8D" x="75.0" y="30.0" width="150.0" height="240.0" />
+  <line id="line2" style="stroke:#000000;stroke-width:1" x1="210" y1="30" x2="210" y2="195" />
+  <line id="line3" style="stroke:#000000;stroke-width:1" x1="90" y1="30" x2="90" y2="195" />
+  <line id="line4" style="stroke:#000000;stroke-width:1" x1="90" y1="195" x2="210" y2="195" />
+  <rect id="rect5" style="fill:#59B03C" x="184.0" y="34.0" width="16.0" height="6.0" />
+  <rect id="rect6" style="fill:#59B03C" x="184.0" y="47.0" width="16.0" height="6.0" />
+  <rect id="rect7" style="fill:#59B03C" x="184.0" y="63.0" width="16.0" height="6.0" />
+  <line id="line8" style="stroke:#000000;stroke-width:1" x1="90" y1="210" x2="90" y2="255" />
+  <line id="line9" style="stroke:#000000;stroke-width:1" x1="105" y1="210" x2="105" y2="255" />
+  <line id="line10" style="stroke:#000000;stroke-width:1" x1="120" y1="210" x2="120" y2="255" />
+  <line id="line11" style="stroke:#000000;stroke-width:1" x1="135" y1="210" x2="135" y2="255" />
+  <line id="line12" style="stroke:#000000;stroke-width:1" x1="165" y1="210" x2="165" y2="255" />
+  <line id="line13" style="stroke:#000000;stroke-width:1" x1="180" y1="210" x2="180" y2="255" />
+  <line id="line14" style="stroke:#000000;stroke-width:1" x1="195" y1="210" x2="195" y2="255" />
+  <line id="line15" style="stroke:#000000;stroke-width:1" x1="210" y1="210" x2="210" y2="255" />
+  <rect id="rect16" style="fill:#8D8D8D" x="84.0" y="232.0" width="135.0" height="4.0" />
+  <rect id="rect17" style="fill:none;stroke:#000000;stroke-width:1" x="101.0" y="172.0" width="11.0" height="12.0" />
+</svg>

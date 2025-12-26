@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <rect id="rect1" style="fill:#8D8D8D" x="0.0" y="180.0" width="300.0" height="15.0" />
+  <path id="polygon2" style="fill:#8D8D8D" d="m 283,161 -9,-33 -19,-14 -24,-9 h -66 h -150 v 45 v 45 v 15 h 270 Z" />
+  <circle id="circle3" style="fill:#000000" cx="32.0" cy="210.0" r="15.0" />
+  <circle id="circle4" style="fill:#000000" cx="65.0" cy="210.0" r="15.0" />
+  <circle id="circle5" style="fill:#000000" cx="235.0" cy="210.0" r="15.0" />
+  <circle id="circle6" style="fill:#000000" cx="268.0" cy="210.0" r="15.0" />
+  <rect id="rect7" style="fill:none;stroke:#000000;stroke-width:1" x="0.0" y="180.0" width="300.0" height="15.0" />
+  <rect id="rect8" style="fill:#FFFFFF" x="11.0" y="111.0" width="7.0" height="7.0" />
+  <rect id="rect9" style="fill:#FFFFFF" x="270.0" y="129.0" width="7.0" height="7.0" />
+  <rect id="rect10" style="fill:#000000" x="91.0" y="195.0" width="119.0" height="15.0" />
+  <rect id="rect11" style="fill:#000000" x="1.0" y="180.0" width="9.0" height="15.0" />
+  <line id="line12" style="stroke:#000000;stroke-width:1" x1="290" y1="150" x2="291" y2="182" />
+  <rect id="rect13" style="fill:#000000" x="165.0" y="90.0" width="30.0" height="0.0" />
+  <rect id="rect14" style="fill:#000000" x="290.0" y="180.0" width="9.0" height="15.0" />
+  <path id="polygon15" style="fill:#345DA9" d="m 285,180 -18,-22 -28,-23 -59,-15 h -165 l 1,-7 h 164 l 60,7 30,15 12,19 Z" />
+  <path id="polygon16" style="fill:#D73229" d="m 284,179 -17,-19 -28,-21 -59,-12 h -165 l 1,-7 h 164 l 60,7 30,15 12,19 Z" />
+  <rect id="rect17" style="fill:#000000" x="210.0" y="115.0" width="44.0" height="20.0" />
+  <line id="line18" style="stroke:#8D8D8D;stroke-width:1" x1="225" y1="105" x2="225" y2="150" />
+  <line id="line19" style="stroke:#8D8D8D;stroke-width:1" x1="240" y1="105" x2="240" y2="150" />
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <rect id="rect1" style="fill:#8D8D8D" x="195.0" y="60.0" width="60.0" height="195.0" />
+  <rect id="rect2" style="fill:none;stroke:#000000;stroke-width:1" x="195.0" y="60.0" width="60.0" height="195.0" />
+  <rect id="rect3" style="fill:#8D8D8D" x="45.0" y="60.0" width="60.0" height="195.0" />
+  <rect id="rect4" style="fill:none;stroke:#000000;stroke-width:1" x="45.0" y="60.0" width="60.0" height="195.0" />
+  <line id="line5" style="stroke:#000000;stroke-width:1" x1="45" y1="75" x2="255" y2="75" />
+  <line id="line6" style="stroke:#000000;stroke-width:1" x1="45" y1="105" x2="255" y2="105" />
+  <line id="line7" style="stroke:#000000;stroke-width:1" x1="45" y1="60" x2="255" y2="60" />
+  <line id="line8" style="stroke:#000000;stroke-width:1" x1="45" y1="240" x2="255" y2="240" />
+  <line id="line9" style="stroke:#000000;stroke-width:1" x1="45" y1="225" x2="255" y2="225" />
+  <line id="line10" style="stroke:#000000;stroke-width:1" x1="45" y1="195" x2="255" y2="195" />
+  <line id="line11" style="stroke:#000000;stroke-width:1" x1="45" y1="150" x2="255" y2="150" />
+  <path id="polygon12" style="fill:#ECEC29" d="m 90,60 -15,30 v 150 l 45,15 h 60 l 45,-15 v -150 l -15,-30 Z" />
+  <path id="polygon13" style="fill:none;stroke:#000000;stroke-width:1" d="m 225,90 -15,-30 1,186 14,-6 Z" />
+  <path id="polygon14" style="fill:none;stroke:#000000;stroke-width:1" d="m 75,90 15,-30 -1,186 -14,-6 Z" />
+  <path id="polygon15" style="fill:none;stroke:#000000;stroke-width:1" d="m 89,247 27,7 67,1 28,-9 v -35 l -121,-1 Z" />
+  <rect id="rect16" style="fill:none;stroke:#000000;stroke-width:1" x="90.0" y="60.0" width="120.0" height="30.0" />
+  <rect id="rect17" style="fill:#ECEC29" x="180.0" y="30.0" width="15.0" height="60.0" />
+  <rect id="rect18" style="fill:none;stroke:#000000;stroke-width:1" x="105.0" y="30.0" width="15.0" height="60.0" />
+  <rect id="rect19" style="fill:#ECEC29" x="105.0" y="45.0" width="15.0" height="45.0" />
+  <rect id="rect20" style="fill:none;stroke:#000000;stroke-width:1" x="180.0" y="45.0" width="15.0" height="45.0" />
+  <path id="polygon21" style="fill:#000000" d="m 195,105 -15,15 h -60 l -15,-15 Z" />
+  <path id="polygon22" style="fill:#000000" d="m 105,199 15,-11 h 60 l 15,11 Z" />
+  <path id="polygon23" style="fill:#000000" d="m 195,120 -15,15 v 45 l 15,15 Z" />
+  <path id="polygon24" style="fill:#000000" d="m 105,120 15,15 v 45 l -15,15 Z" />
+  <line id="line25" style="stroke:#ECEC29;stroke-width:1" x1="105" y1="165" x2="195" y2="165" />
+  <circle id="circle26" style="fill:#000000" cx="120.0" cy="233.0" r="7.0" />
+  <path id="polygon27" style="fill:#ECEC29" d="m 105,15 -45,15 v 15 h 180 v -15 l -45,-15 Z" />
+  <path id="polygon28" style="fill:none;stroke:#000000;stroke-width:1" d="m 105,15 -45,15 v 15 h 180 v -15 l -45,-15 Z" />
+</svg>

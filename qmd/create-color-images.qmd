@@ -1,0 +1,111 @@
+## Overview
+
+This document generates PNG color swatches for use in GitHub-flavored Markdown documentation.
+
+## Set the Environment
+
+### Load Packages
+
+```{r}
+library(here)
+library(magick)
+library(stringr)
+```
+
+### Set Images Directory
+
+```{r}
+images_dir <- here("images")
+```
+
+```{r}
+if (!dir.exists(images_dir)) {
+  dir.create(images_dir)
+}
+```
+
+### Set Colors
+
+```{r}
+netlogo_base_colors <- c(
+  "black" = 0,
+  "white" = 10,
+  "gray" = 5,
+  "red" = 15,
+  "orange" = 25,
+  "brown" = 35,
+  "yellow" = 45,
+  "green" = 55,
+  "lime" = 65,
+  "turquoise" = 75,
+  "cyan" = 85,
+  "sky" = 95,
+  "blue" = 105,
+  "violet" = 115,
+  "magenta" = 125,
+  "pink" = 135
+)
+```
+
+```{r}
+netlogo_hex_colors <- c(
+  "black" = "#000000",
+  "white" = "#FFFFFF",
+  "gray" = "#8D8D8D",
+  "red" = "#D73229",
+  "orange" = "#F16A15",
+  "brown" = "#9D6E48",
+  "yellow" = "#ECEC29",
+  "green" = "#59B03C",
+  "lime" = "#2CD13B",
+  "turquoise" = "#1D9F78",
+  "cyan" = "#54C4C4",
+  "sky" = "#2D8DBE",
+  "blue" = "#345DA9",
+  "violet" = "#7C50A4",
+  "magenta" = "#A71B6A",
+  "pink" = "#D9637F"
+)
+```
+
+```{r}
+netlogo_xml_colors <- c(
+  "black" = "255",
+  "white" = "-1",
+  "gray" = "-1920102913",
+  "red" = "-684578305",
+  "orange" = "-244705793",
+  "brown" = "-1653716737",
+  "yellow" = "-303222273",
+  "green" = "1504722175",
+  "lime" = "751909887",
+  "turquoise" = "496990463",
+  "cyan" = "1422181631",
+  "sky" = "764264191",
+  "blue" = "878553599",
+  "violet" = "2085659903",
+  "magenta" = "-1491375361",
+  "pink" = "-528509185"
+)
+```
+
+## Create Images
+
+```{r}
+for (i in netlogo_hex_colors) {
+  image_blank(
+    width = 75,
+    height = 25,
+    color = i
+  ) |>
+    image_write(
+      path = file.path(
+        images_dir,
+        paste0(
+          str_remove(i, "#"),
+          ".png"
+        )
+      )
+    )
+}
+```
