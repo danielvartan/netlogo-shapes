@@ -1,6 +1,6 @@
 ## Overview
 
-This document convert a SVG file into a [NetLogo](https://www.netlogo.org/) [XML](https://en.wikipedia.org/wiki/XML) shape (`.nlogox`). Each shape is extracted and saved in a designated directory.
+This document converts a SVG file into a [NetLogo](https://www.netlogo.org/) [XML](https://en.wikipedia.org/wiki/XML) shape (`.nlogox`).
 
 ## Set the Environment
 
@@ -22,7 +22,7 @@ library(xml2)
 svg_file <- here("svg", "netlogo-7-0-3", "acorn.svg")
 ```
 
-### Set SVG Directory
+### Set XML Directory
 
 ```{r}
 xml_dir <- here("xml", "test")
@@ -435,21 +435,17 @@ svg_element_to_netlogo <- function(elem) {
 ```{r}
 #' Convert Inkscape SVG file to NetLogo shape XML
 #' @param svg_file Path to the SVG file
-#' @param shape_name Name for the shape (defaults to filename without extension)
 #' @param rotatable Whether the shape is rotatable (default TRUE)
+#' @param output_dir Directory to save the XML file.
 #' @return String containing NetLogo shape XML
 convert_svg_to_netlogo <- function(
   svg_file,
-  shape_name = NULL,
-  rotatable = TRUE
+  rotatable = TRUE,
+  output_dir = xml_dir
 ) {
   # Read SVG file
   svg <- read_xml(svg_file)
-
-  # Get shape name from filename if not provided
-  if (is.null(shape_name)) {
-    shape_name <- gsub("_", " ", tools::file_path_sans_ext(basename(svg_file)))
-  }
+  shape_name <- gsub("_", " ", tools::file_path_sans_ext(basename(svg_file)))
 
   rotatable_str <- if (rotatable) "true" else "false"
 
@@ -473,32 +469,20 @@ convert_svg_to_netlogo <- function(
     }
   }
 
-  xml_lines <- c(xml_lines, '  </shape>')
+  shape_xml <-
+    c(xml_lines, '  </shape>') |>
+    paste(collapse = "\n")
 
-  paste(xml_lines, collapse = "\n")
-}
-```
-
-```{r}
-#' Convert multiple SVG files to a complete NetLogo shapes XML file
-#' @param svg_files Vector of paths to SVG files
-#' @param output_dir Directory to save the XML files.
-#' @return String containing complete NetLogo turtleShapes XML
-convert_multiple_svg_to_netlogo <- function(svg_files, output_dir = xml_dir) {
   xml_lines <- c(
     '<?xml version="1.0" encoding="UTF-8"?>',
-    '<turtleShapes>'
+    '<turtleShapes>',
+    shape_xml
   )
-
-  for (svg_file in svg_files) {
-    shape_xml <- convert_svg_to_netlogo(svg_file)
-    xml_lines <- c(xml_lines, shape_xml)
-  }
 
   c(xml_lines, '</turtleShapes>') |>
     paste(collapse = "\n") |>
     write_lines(
-      svg_files |>
+      svg_file |>
         basename() |>
         str_replace("\\.svg$", ".xml") |>
         file.path(output_dir, x = _)
@@ -508,8 +492,8 @@ convert_multiple_svg_to_netlogo <- function(svg_files, output_dir = xml_dir) {
 }
 ```
 
-## Create SVG Shapes
+## Create NetLogo XML Shape
 
 ```{r}
-svg_file |> convert_multiple_svg_to_netlogo()
+svg_file |> convert_svg_to_netlogo()
 ```
