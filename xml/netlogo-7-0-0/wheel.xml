@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="wheel" rotatable="false" editableColorIndex="0">
+    <circle x="3" y="3" marked="true" color="-1920102913" diameter="294" filled="true"/>
+    <circle x="30" y="30" marked="false" color="255" diameter="240" filled="true"/>
+    <line endX="150" startY="285" marked="true" color="-1920102913" endY="15" startX="150"/>
+    <line endX="285" startY="150" marked="true" color="-1920102913" endY="150" startX="15"/>
+    <circle x="120" y="120" marked="true" color="-1920102913" diameter="60" filled="true"/>
+    <line endX="79" startY="40" marked="true" color="-1920102913" endY="269" startX="216"/>
+    <line endX="269" startY="84" marked="true" color="-1920102913" endY="221" startX="40"/>
+    <line endX="269" startY="216" marked="true" color="-1920102913" endY="79" startX="40"/>
+    <line endX="221" startY="40" marked="true" color="-1920102913" endY="269" startX="84"/>
+  </shape>
+</turtleShape>

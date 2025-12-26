@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="tree pine" rotatable="false" editableColorIndex="0">
+    <rectangle endX="180" startY="225" marked="false" color="-1653716737" endY="300" startX="120" filled="true"/>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="150" y="240"/>
+      <point x="240" y="270"/>
+      <point x="150" y="135"/>
+      <point x="60" y="270"/>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="150" y="75"/>
+      <point x="75" y="210"/>
+      <point x="150" y="195"/>
+      <point x="225" y="210"/>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="150" y="7"/>
+      <point x="90" y="157"/>
+      <point x="150" y="142"/>
+      <point x="210" y="157"/>
+      <point x="150" y="7"/>
+    </polygon>
+  </shape>
+</turtleShape>

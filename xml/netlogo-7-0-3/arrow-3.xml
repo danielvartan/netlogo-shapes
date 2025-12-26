@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="arrow 3" rotatable="true" editableColorIndex="0">
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="135" y="255"/>
+      <point x="105" y="300"/>
+      <point x="105" y="225"/>
+      <point x="135" y="195"/>
+      <point x="135" y="75"/>
+      <point x="105" y="90"/>
+      <point x="150" y="0"/>
+      <point x="195" y="90"/>
+      <point x="165" y="75"/>
+      <point x="165" y="195"/>
+      <point x="195" y="225"/>
+      <point x="195" y="300"/>
+      <point x="165" y="255"/>
+    </polygon>
+  </shape>
+</turtleShape>

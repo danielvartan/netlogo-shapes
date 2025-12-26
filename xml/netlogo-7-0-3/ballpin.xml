@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="ballpin" rotatable="false" editableColorIndex="0">
+    <polygon color="-1" filled="true" marked="false">
+      <point x="150" y="135"/>
+      <point x="150" y="150"/>
+      <point x="165" y="150"/>
+      <point x="255" y="60"/>
+      <point x="240" y="45"/>
+      <point x="150" y="135"/>
+    </polygon>
+    <circle x="181" y="31" marked="true" color="-1920102913" diameter="86" filled="true"/>
+  </shape>
+</turtleShape>

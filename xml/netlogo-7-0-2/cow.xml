@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="cow" rotatable="false" editableColorIndex="0">
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="200" y="193"/>
+      <point x="197" y="249"/>
+      <point x="179" y="249"/>
+      <point x="177" y="196"/>
+      <point x="166" y="187"/>
+      <point x="140" y="189"/>
+      <point x="93" y="191"/>
+      <point x="78" y="179"/>
+      <point x="72" y="211"/>
+      <point x="49" y="209"/>
+      <point x="48" y="181"/>
+      <point x="37" y="149"/>
+      <point x="25" y="120"/>
+      <point x="25" y="89"/>
+      <point x="45" y="72"/>
+      <point x="103" y="84"/>
+      <point x="179" y="75"/>
+      <point x="198" y="76"/>
+      <point x="252" y="64"/>
+      <point x="272" y="81"/>
+      <point x="293" y="103"/>
+      <point x="285" y="121"/>
+      <point x="255" y="121"/>
+      <point x="242" y="118"/>
+      <point x="224" y="167"/>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="73" y="210"/>
+      <point x="86" y="251"/>
+      <point x="62" y="249"/>
+      <point x="48" y="208"/>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="25" y="114"/>
+      <point x="16" y="195"/>
+      <point x="9" y="204"/>
+      <point x="23" y="213"/>
+      <point x="25" y="200"/>
+      <point x="39" y="123"/>
+    </polygon>
+  </shape>
+</turtleShape>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="cactus" rotatable="false" editableColorIndex="0">
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="130" y="300"/>
+      <point x="124" y="206"/>
+      <point x="110" y="207"/>
+      <point x="94" y="201"/>
+      <point x="81" y="183"/>
+      <point x="75" y="171"/>
+      <point x="74" y="95"/>
+      <point x="79" y="79"/>
+      <point x="88" y="74"/>
+      <point x="97" y="79"/>
+      <point x="100" y="95"/>
+      <point x="101" y="151"/>
+      <point x="104" y="169"/>
+      <point x="115" y="180"/>
+      <point x="126" y="169"/>
+      <point x="129" y="31"/>
+      <point x="132" y="19"/>
+      <point x="145" y="16"/>
+      <point x="153" y="20"/>
+      <point x="158" y="32"/>
+      <point x="162" y="142"/>
+      <point x="166" y="149"/>
+      <point x="177" y="149"/>
+      <point x="185" y="137"/>
+      <point x="185" y="119"/>
+      <point x="189" y="108"/>
+      <point x="199" y="103"/>
+      <point x="212" y="108"/>
+      <point x="215" y="121"/>
+      <point x="215" y="144"/>
+      <point x="210" y="165"/>
+      <point x="196" y="177"/>
+      <point x="176" y="181"/>
+      <point x="164" y="182"/>
+      <point x="159" y="302"/>
+    </polygon>
+    <line endX="146" startY="32" marked="false" color="255" endY="143" startX="142"/>
+    <line endX="143" startY="179" marked="false" color="255" endY="300" startX="148"/>
+    <line endX="114" startY="191" marked="false" color="255" endY="197" startX="123"/>
+    <line endX="96" startY="199" marked="false" color="255" endY="188" startX="113"/>
+    <line endX="84" startY="188" marked="false" color="255" endY="168" startX="95"/>
+    <line endX="82" startY="168" marked="false" color="255" endY="103" startX="83"/>
+    <line endX="202" startY="147" marked="false" color="255" endY="123" startX="201"/>
+    <line endX="199" startY="162" marked="false" color="255" endY="148" startX="190"/>
+    <line endX="189" startY="164" marked="false" color="255" endY="163" startX="174"/>
+  </shape>
+</turtleShape>

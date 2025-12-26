@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="arrow" rotatable="true" editableColorIndex="0">
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="150" y="0"/>
+      <point x="0" y="150"/>
+      <point x="105" y="150"/>
+      <point x="105" y="293"/>
+      <point x="195" y="293"/>
+      <point x="195" y="150"/>
+      <point x="300" y="150"/>
+    </polygon>
+  </shape>
+</turtleShape>

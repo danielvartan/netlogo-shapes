@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="triangle 2" rotatable="false" editableColorIndex="0">
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="150" y="30"/>
+      <point x="15" y="255"/>
+      <point x="285" y="255"/>
+    </polygon>
+    <polygon color="255" filled="true" marked="false">
+      <point x="151" y="99"/>
+      <point x="225" y="223"/>
+      <point x="75" y="224"/>
+    </polygon>
+  </shape>
+</turtleShape>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="cloud" rotatable="false" editableColorIndex="0">
+    <circle x="13" y="118" marked="true" color="-1920102913" diameter="94" filled="true"/>
+    <circle x="86" y="101" marked="true" color="-1920102913" diameter="127" filled="true"/>
+    <circle x="51" y="51" marked="true" color="-1920102913" diameter="108" filled="true"/>
+    <circle x="118" y="43" marked="true" color="-1920102913" diameter="95" filled="true"/>
+    <circle x="158" y="68" marked="true" color="-1920102913" diameter="134" filled="true"/>
+  </shape>
+</turtleShape>

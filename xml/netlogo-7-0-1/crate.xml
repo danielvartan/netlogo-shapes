@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="crate" rotatable="false" editableColorIndex="0">
+    <rectangle endX="255" startY="45" marked="true" color="-1920102913" endY="255" startX="45" filled="true"/>
+    <rectangle endX="255" startY="45" marked="false" color="255" endY="255" startX="45" filled="false"/>
+    <rectangle endX="240" startY="60" marked="false" color="255" endY="240" startX="60" filled="false"/>
+    <line endX="180" startY="60" marked="false" color="255" endY="240" startX="180"/>
+    <line endX="150" startY="60" marked="false" color="255" endY="240" startX="150"/>
+    <line endX="120" startY="60" marked="false" color="255" endY="240" startX="120"/>
+    <line endX="210" startY="60" marked="false" color="255" endY="240" startX="210"/>
+    <line endX="90" startY="60" marked="false" color="255" endY="240" startX="90"/>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="75" y="240"/>
+      <point x="240" y="75"/>
+      <point x="240" y="60"/>
+      <point x="225" y="60"/>
+      <point x="60" y="225"/>
+      <point x="60" y="240"/>
+    </polygon>
+    <polygon color="255" filled="false" marked="false">
+      <point x="60" y="225"/>
+      <point x="60" y="240"/>
+      <point x="75" y="240"/>
+      <point x="240" y="75"/>
+      <point x="240" y="60"/>
+      <point x="225" y="60"/>
+    </polygon>
+  </shape>
+</turtleShape>

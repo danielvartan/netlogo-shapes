@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="spinner" rotatable="true" editableColorIndex="0">
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="150" y="0"/>
+      <point x="105" y="75"/>
+      <point x="195" y="75"/>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="135" y="74"/>
+      <point x="135" y="150"/>
+      <point x="139" y="159"/>
+      <point x="147" y="164"/>
+      <point x="154" y="164"/>
+      <point x="161" y="159"/>
+      <point x="165" y="151"/>
+      <point x="165" y="74"/>
+    </polygon>
+  </shape>
+</turtleShape>

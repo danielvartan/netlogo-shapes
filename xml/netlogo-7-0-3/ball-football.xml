@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="ball football" rotatable="false" editableColorIndex="0">
+    <polygon color="-1920102913" filled="false" marked="true">
+      <point x="301" y="133"/>
+      <point x="301" y="164"/>
+      <point x="275" y="192"/>
+      <point x="229" y="224"/>
+      <point x="167" y="236"/>
+      <point x="137" y="236"/>
+      <point x="74" y="224"/>
+      <point x="30" y="194"/>
+      <point x="3" y="162"/>
+      <point x="2" y="138"/>
+      <point x="30" y="104"/>
+      <point x="76" y="74"/>
+      <point x="134" y="62"/>
+      <point x="168" y="62"/>
+      <point x="228" y="74"/>
+      <point x="274" y="105"/>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="300" y="150"/>
+      <point x="300" y="165"/>
+      <point x="270" y="195"/>
+      <point x="225" y="225"/>
+      <point x="163" y="236"/>
+      <point x="134" y="236"/>
+      <point x="75" y="225"/>
+      <point x="30" y="195"/>
+      <point x="2" y="162"/>
+      <point x="2" y="140"/>
+      <point x="30" y="105"/>
+      <point x="75" y="75"/>
+      <point x="136" y="63"/>
+      <point x="165" y="63"/>
+      <point x="225" y="75"/>
+      <point x="270" y="105"/>
+      <point x="300" y="135"/>
+    </polygon>
+    <line endX="5" startY="155" marked="false" color="255" endY="155" startX="300"/>
+    <polygon color="-1" filled="true" marked="false">
+      <point x="28" y="193"/>
+      <point x="28" y="107"/>
+      <point x="51" y="91"/>
+      <point x="51" y="209"/>
+    </polygon>
+    <rectangle endX="210" startY="150" marked="false" color="-1" endY="160" startX="90" filled="true"/>
+    <rectangle endX="205" startY="141" marked="false" color="-1" endY="170" startX="198" filled="true"/>
+    <rectangle endX="190" startY="141" marked="false" color="-1" endY="170" startX="183" filled="true"/>
+    <rectangle endX="175" startY="141" marked="false" color="-1" endY="170" startX="168" filled="true"/>
+    <rectangle endX="160" startY="141" marked="false" color="-1" endY="170" startX="153" filled="true"/>
+    <rectangle endX="145" startY="141" marked="false" color="-1" endY="170" startX="138" filled="true"/>
+    <rectangle endX="130" startY="141" marked="false" color="-1" endY="170" startX="123" filled="true"/>
+    <rectangle endX="115" startY="141" marked="false" color="-1" endY="170" startX="108" filled="true"/>
+    <rectangle endX="100" startY="141" marked="false" color="-1" endY="170" startX="93" filled="true"/>
+    <polygon color="-1" filled="true" marked="false">
+      <point x="272" y="193"/>
+      <point x="272" y="107"/>
+      <point x="249" y="91"/>
+      <point x="249" y="209"/>
+    </polygon>
+  </shape>
+</turtleShape>

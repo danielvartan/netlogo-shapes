@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="house ranch" rotatable="false" editableColorIndex="0">
+    <rectangle endX="285" startY="120" marked="true" color="-1920102913" endY="255" startX="270" filled="true"/>
+    <rectangle endX="270" startY="180" marked="true" color="-1920102913" endY="255" startX="15" filled="true"/>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="0" y="180"/>
+      <point x="300" y="180"/>
+      <point x="240" y="135"/>
+      <point x="60" y="135"/>
+      <point x="0" y="180"/>
+    </polygon>
+    <rectangle endX="180" startY="195" marked="false" color="255" endY="255" startX="120" filled="true"/>
+    <line endX="150" startY="195" marked="true" color="-1920102913" endY="255" startX="150"/>
+    <rectangle endX="105" startY="195" marked="false" color="255" endY="240" startX="45" filled="true"/>
+    <rectangle endX="255" startY="195" marked="false" color="255" endY="240" startX="195" filled="true"/>
+    <line endX="75" startY="195" marked="true" color="-1920102913" endY="240" startX="75"/>
+    <line endX="225" startY="195" marked="true" color="-1920102913" endY="240" startX="225"/>
+    <line endX="270" startY="180" marked="false" color="255" endY="255" startX="270"/>
+    <line endX="300" startY="180" marked="false" color="255" endY="180" startX="0"/>
+  </shape>
+</turtleShape>

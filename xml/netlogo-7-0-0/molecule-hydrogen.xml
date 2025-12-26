@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="molecule hydrogen" rotatable="true" editableColorIndex="0">
+    <circle x="138" y="108" marked="false" color="-1" diameter="84" filled="true"/>
+    <circle x="138" y="108" marked="false" color="255" diameter="84" filled="false"/>
+    <circle x="78" y="108" marked="false" color="-1" diameter="84" filled="true"/>
+    <circle x="78" y="108" marked="false" color="255" diameter="84" filled="false"/>
+  </shape>
+</turtleShape>

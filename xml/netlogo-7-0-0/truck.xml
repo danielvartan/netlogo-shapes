@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="truck" rotatable="false" editableColorIndex="0">
+    <rectangle endX="195" startY="45" marked="true" color="-1920102913" endY="187" startX="4" filled="true"/>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="296" y="193"/>
+      <point x="296" y="150"/>
+      <point x="259" y="134"/>
+      <point x="244" y="104"/>
+      <point x="208" y="104"/>
+      <point x="207" y="194"/>
+    </polygon>
+    <rectangle endX="195" startY="60" marked="false" color="-1" endY="105" startX="195" filled="true"/>
+    <polygon color="255" filled="true" marked="false">
+      <point x="238" y="112"/>
+      <point x="252" y="141"/>
+      <point x="219" y="141"/>
+      <point x="218" y="112"/>
+    </polygon>
+    <circle x="234" y="174" marked="false" color="255" diameter="42" filled="true"/>
+    <rectangle endX="214" startY="185" marked="true" color="-1920102913" endY="194" startX="181" filled="true"/>
+    <circle x="144" y="174" marked="false" color="255" diameter="42" filled="true"/>
+    <circle x="24" y="174" marked="false" color="255" diameter="42" filled="true"/>
+    <circle x="24" y="174" marked="true" color="-1920102913" diameter="42" filled="false"/>
+    <circle x="144" y="174" marked="true" color="-1920102913" diameter="42" filled="false"/>
+    <circle x="234" y="174" marked="true" color="-1920102913" diameter="42" filled="false"/>
+  </shape>
+</turtleShape>

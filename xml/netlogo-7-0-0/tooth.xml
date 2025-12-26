@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="tooth" rotatable="false" editableColorIndex="0">
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="75" y="30"/>
+      <point x="60" y="45"/>
+      <point x="45" y="75"/>
+      <point x="45" y="90"/>
+      <point x="60" y="135"/>
+      <point x="73" y="156"/>
+      <point x="75" y="170"/>
+      <point x="60" y="240"/>
+      <point x="60" y="270"/>
+      <point x="75" y="285"/>
+      <point x="90" y="285"/>
+      <point x="105" y="255"/>
+      <point x="135" y="180"/>
+      <point x="150" y="165"/>
+      <point x="165" y="165"/>
+      <point x="180" y="185"/>
+      <point x="195" y="270"/>
+      <point x="210" y="285"/>
+      <point x="240" y="270"/>
+      <point x="245" y="209"/>
+      <point x="244" y="179"/>
+      <point x="237" y="154"/>
+      <point x="237" y="143"/>
+      <point x="255" y="90"/>
+      <point x="255" y="60"/>
+      <point x="225" y="30"/>
+      <point x="210" y="30"/>
+      <point x="180" y="45"/>
+      <point x="135" y="45"/>
+      <point x="90" y="30"/>
+    </polygon>
+    <polygon color="-1920102913" filled="false" marked="true">
+      <point x="75" y="30"/>
+      <point x="60" y="45"/>
+      <point x="45" y="75"/>
+      <point x="45" y="90"/>
+      <point x="60" y="135"/>
+      <point x="73" y="158"/>
+      <point x="74" y="170"/>
+      <point x="60" y="240"/>
+      <point x="60" y="270"/>
+      <point x="75" y="285"/>
+      <point x="90" y="285"/>
+      <point x="105" y="255"/>
+      <point x="135" y="180"/>
+      <point x="150" y="165"/>
+      <point x="165" y="165"/>
+      <point x="177" y="183"/>
+      <point x="195" y="270"/>
+      <point x="210" y="285"/>
+      <point x="240" y="270"/>
+      <point x="245" y="210"/>
+      <point x="244" y="179"/>
+      <point x="236" y="153"/>
+      <point x="236" y="144"/>
+      <point x="255" y="90"/>
+      <point x="255" y="60"/>
+      <point x="225" y="30"/>
+      <point x="210" y="30"/>
+      <point x="180" y="45"/>
+      <point x="135" y="45"/>
+      <point x="90" y="30"/>
+      <point x="75" y="30"/>
+    </polygon>
+  </shape>
+</turtleShape>

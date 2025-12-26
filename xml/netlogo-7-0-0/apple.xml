@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="apple" rotatable="false" editableColorIndex="0">
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="33" y="58"/>
+      <point x="0" y="150"/>
+      <point x="30" y="240"/>
+      <point x="105" y="285"/>
+      <point x="135" y="285"/>
+      <point x="150" y="270"/>
+      <point x="165" y="285"/>
+      <point x="195" y="285"/>
+      <point x="255" y="255"/>
+      <point x="300" y="150"/>
+      <point x="268" y="62"/>
+      <point x="226" y="43"/>
+      <point x="194" y="36"/>
+      <point x="148" y="32"/>
+      <point x="105" y="35"/>
+    </polygon>
+    <line endX="151" startY="55" marked="false" color="255" endY="62" startX="106"/>
+    <line endX="209" startY="62" marked="false" color="255" endY="57" startX="157"/>
+    <polygon color="-1653716737" filled="true" marked="false">
+      <point x="152" y="62"/>
+      <point x="158" y="62"/>
+      <point x="160" y="46"/>
+      <point x="156" y="30"/>
+      <point x="147" y="18"/>
+      <point x="132" y="26"/>
+      <point x="142" y="35"/>
+      <point x="148" y="46"/>
+    </polygon>
+    <polygon color="255" filled="false" marked="false">
+      <point x="132" y="25"/>
+      <point x="144" y="38"/>
+      <point x="147" y="48"/>
+      <point x="151" y="62"/>
+      <point x="158" y="63"/>
+      <point x="159" y="47"/>
+      <point x="155" y="30"/>
+      <point x="147" y="18"/>
+    </polygon>
+  </shape>
+</turtleShape>

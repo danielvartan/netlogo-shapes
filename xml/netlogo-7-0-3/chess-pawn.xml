@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="chess pawn" rotatable="false" editableColorIndex="0">
+    <circle x="105" y="65" marked="true" color="-1920102913" diameter="90" filled="true"/>
+    <circle x="105" y="65" marked="false" color="255" diameter="90" filled="false"/>
+    <rectangle endX="210" startY="255" marked="true" color="-1920102913" endY="300" startX="90" filled="true"/>
+    <line endX="225" startY="255" marked="false" color="255" endY="255" startX="75"/>
+    <rectangle endX="210" startY="255" marked="false" color="255" endY="300" startX="90" filled="false"/>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="105" y="255"/>
+      <point x="120" y="165"/>
+      <point x="180" y="165"/>
+      <point x="195" y="255"/>
+    </polygon>
+    <polygon color="255" filled="false" marked="false">
+      <point x="105" y="255"/>
+      <point x="120" y="165"/>
+      <point x="180" y="165"/>
+      <point x="195" y="255"/>
+    </polygon>
+    <rectangle endX="195" startY="165" marked="true" color="-1920102913" endY="150" startX="105" filled="true"/>
+    <rectangle endX="195" startY="150" marked="false" color="255" endY="165" startX="105" filled="false"/>
+  </shape>
+</turtleShape>

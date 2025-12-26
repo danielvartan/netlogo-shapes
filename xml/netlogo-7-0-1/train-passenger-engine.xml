@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="train passenger engine" rotatable="false" editableColorIndex="0">
+    <rectangle endX="300" startY="180" marked="true" color="-1920102913" endY="195" startX="0" filled="true"/>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="283" y="161"/>
+      <point x="274" y="128"/>
+      <point x="255" y="114"/>
+      <point x="231" y="105"/>
+      <point x="165" y="105"/>
+      <point x="15" y="105"/>
+      <point x="15" y="150"/>
+      <point x="15" y="195"/>
+      <point x="15" y="210"/>
+      <point x="285" y="210"/>
+    </polygon>
+    <circle x="17" y="195" marked="false" color="255" diameter="30" filled="true"/>
+    <circle x="50" y="195" marked="false" color="255" diameter="30" filled="true"/>
+    <circle x="220" y="195" marked="false" color="255" diameter="30" filled="true"/>
+    <circle x="253" y="195" marked="false" color="255" diameter="30" filled="true"/>
+    <rectangle endX="300" startY="195" marked="false" color="255" endY="180" startX="0" filled="false"/>
+    <rectangle endX="18" startY="111" marked="false" color="-1" endY="118" startX="11" filled="true"/>
+    <rectangle endX="277" startY="129" marked="false" color="-1" endY="136" startX="270" filled="true"/>
+    <rectangle endX="210" startY="195" marked="false" color="255" endY="210" startX="91" filled="true"/>
+    <rectangle endX="10" startY="180" marked="false" color="255" endY="195" startX="1" filled="true"/>
+    <line endX="291" startY="150" marked="false" color="255" endY="182" startX="290"/>
+    <rectangle endX="195" startY="90" marked="false" color="255" endY="90" startX="165" filled="true"/>
+    <rectangle endX="299" startY="180" marked="false" color="255" endY="195" startX="290" filled="true"/>
+    <polygon color="878553599" filled="true" marked="false">
+      <point x="285" y="180"/>
+      <point x="267" y="158"/>
+      <point x="239" y="135"/>
+      <point x="180" y="120"/>
+      <point x="15" y="120"/>
+      <point x="16" y="113"/>
+      <point x="180" y="113"/>
+      <point x="240" y="120"/>
+      <point x="270" y="135"/>
+      <point x="282" y="154"/>
+    </polygon>
+    <polygon color="-684578305" filled="true" marked="false">
+      <point x="284" y="179"/>
+      <point x="267" y="160"/>
+      <point x="239" y="139"/>
+      <point x="180" y="127"/>
+      <point x="15" y="127"/>
+      <point x="16" y="120"/>
+      <point x="180" y="120"/>
+      <point x="240" y="127"/>
+      <point x="270" y="142"/>
+      <point x="282" y="161"/>
+    </polygon>
+    <rectangle endX="254" startY="115" marked="false" color="255" endY="135" startX="210" filled="true"/>
+    <line endX="225" startY="105" marked="true" color="-1920102913" endY="150" startX="225"/>
+    <line endX="240" startY="105" marked="true" color="-1920102913" endY="150" startX="240"/>
+  </shape>
+</turtleShape>

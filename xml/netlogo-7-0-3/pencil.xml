@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="pencil" rotatable="false" editableColorIndex="0">
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="255" y="60"/>
+      <point x="255" y="90"/>
+      <point x="105" y="240"/>
+      <point x="90" y="225"/>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="60" y="195"/>
+      <point x="75" y="210"/>
+      <point x="240" y="45"/>
+      <point x="210" y="45"/>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="90" y="195"/>
+      <point x="105" y="210"/>
+      <point x="255" y="60"/>
+      <point x="240" y="45"/>
+    </polygon>
+    <polygon color="-1653716737" filled="true" marked="false">
+      <point x="90" y="195"/>
+      <point x="60" y="195"/>
+      <point x="45" y="255"/>
+      <point x="105" y="240"/>
+      <point x="105" y="210"/>
+    </polygon>
+    <polygon color="255" filled="true" marked="false">
+      <point x="45" y="255"/>
+      <point x="74" y="248"/>
+      <point x="75" y="240"/>
+      <point x="60" y="225"/>
+      <point x="51" y="225"/>
+    </polygon>
+  </shape>
+</turtleShape>

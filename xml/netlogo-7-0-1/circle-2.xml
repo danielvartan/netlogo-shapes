@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="circle 2" rotatable="false" editableColorIndex="0">
+    <circle x="0" y="0" marked="true" color="-1920102913" diameter="300" filled="true"/>
+    <circle x="30" y="30" marked="false" color="255" diameter="240" filled="true"/>
+  </shape>
+</turtleShape>

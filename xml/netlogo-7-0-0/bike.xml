@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="bike" rotatable="false" editableColorIndex="1">
+    <line endX="228" startY="183" marked="false" color="-1920102913" endY="184" startX="163"/>
+    <circle x="213" y="184" marked="false" color="-1920102913" diameter="22" filled="false"/>
+    <circle x="156" y="187" marked="false" color="-1920102913" diameter="16" filled="false"/>
+    <circle x="28" y="148" marked="false" color="255" diameter="95" filled="false"/>
+    <circle x="24" y="144" marked="false" color="255" diameter="102" filled="false"/>
+    <circle x="174" y="144" marked="false" color="255" diameter="102" filled="false"/>
+    <circle x="177" y="148" marked="false" color="255" diameter="95" filled="false"/>
+    <polygon color="-684578305" filled="true" marked="true">
+      <point x="75" y="195"/>
+      <point x="90" y="90"/>
+      <point x="98" y="92"/>
+      <point x="97" y="107"/>
+      <point x="192" y="122"/>
+      <point x="207" y="83"/>
+      <point x="215" y="85"/>
+      <point x="202" y="123"/>
+      <point x="211" y="133"/>
+      <point x="225" y="195"/>
+      <point x="165" y="195"/>
+      <point x="164" y="188"/>
+      <point x="214" y="188"/>
+      <point x="202" y="133"/>
+      <point x="94" y="116"/>
+      <point x="82" y="195"/>
+    </polygon>
+    <polygon color="-684578305" filled="true" marked="true">
+      <point x="208" y="83"/>
+      <point x="164" y="193"/>
+      <point x="171" y="196"/>
+      <point x="217" y="85"/>
+    </polygon>
+    <polygon color="-684578305" filled="true" marked="true">
+      <point x="165" y="188"/>
+      <point x="91" y="120"/>
+      <point x="90" y="131"/>
+      <point x="164" y="196"/>
+    </polygon>
+    <line endX="170" startY="173" marked="false" color="-1920102913" endY="219" startX="159"/>
+    <line endX="166" startY="172" marked="false" color="-1920102913" endY="172" startX="155"/>
+    <line endX="177" startY="219" marked="false" color="-1920102913" endY="219" startX="166"/>
+    <polygon color="255" filled="true" marked="false">
+      <point x="187" y="92"/>
+      <point x="198" y="92"/>
+      <point x="208" y="97"/>
+      <point x="217" y="100"/>
+      <point x="231" y="93"/>
+      <point x="231" y="84"/>
+      <point x="216" y="82"/>
+      <point x="201" y="83"/>
+      <point x="184" y="85"/>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="71" y="86"/>
+      <point x="98" y="93"/>
+      <point x="101" y="85"/>
+      <point x="74" y="81"/>
+    </polygon>
+    <rectangle endX="75" startY="75" marked="false" color="255" endY="90" startX="75" filled="true"/>
+    <polygon color="255" filled="true" marked="false">
+      <point x="70" y="87"/>
+      <point x="70" y="72"/>
+      <point x="78" y="71"/>
+      <point x="78" y="89"/>
+    </polygon>
+    <circle x="153" y="184" marked="false" color="-1920102913" diameter="22" filled="false"/>
+    <line endX="228" startY="206" marked="false" color="-1920102913" endY="205" startX="159"/>
+  </shape>
+</turtleShape>

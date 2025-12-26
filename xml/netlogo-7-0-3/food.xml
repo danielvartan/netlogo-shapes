@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="food" rotatable="false" editableColorIndex="0">
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="30" y="105"/>
+      <point x="45" y="255"/>
+      <point x="105" y="255"/>
+      <point x="120" y="105"/>
+    </polygon>
+    <rectangle endX="135" startY="90" marked="true" color="-1920102913" endY="105" startX="15" filled="true"/>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="75" y="90"/>
+      <point x="105" y="15"/>
+      <point x="120" y="15"/>
+      <point x="90" y="90"/>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="135" y="225"/>
+      <point x="150" y="240"/>
+      <point x="195" y="255"/>
+      <point x="225" y="255"/>
+      <point x="270" y="240"/>
+      <point x="285" y="225"/>
+      <point x="150" y="225"/>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="135" y="180"/>
+      <point x="150" y="165"/>
+      <point x="195" y="150"/>
+      <point x="225" y="150"/>
+      <point x="270" y="165"/>
+      <point x="285" y="180"/>
+      <point x="150" y="180"/>
+    </polygon>
+    <rectangle endX="285" startY="195" marked="true" color="-1920102913" endY="210" startX="135" filled="true"/>
+  </shape>
+</turtleShape>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="molecule water" rotatable="true" editableColorIndex="0">
+    <circle x="183" y="63" marked="false" color="-1" diameter="84" filled="true"/>
+    <circle x="183" y="63" marked="false" color="255" diameter="84" filled="false"/>
+    <circle x="75" y="75" marked="true" color="-1920102913" diameter="150" filled="true"/>
+    <circle x="75" y="75" marked="false" color="255" diameter="150" filled="false"/>
+    <circle x="33" y="63" marked="false" color="-1" diameter="84" filled="true"/>
+    <circle x="33" y="63" marked="false" color="255" diameter="84" filled="false"/>
+  </shape>
+</turtleShape>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="electric outlet" rotatable="false" editableColorIndex="0">
+    <rectangle endX="255" startY="0" marked="true" color="-1920102913" endY="297" startX="45" filled="true"/>
+    <polygon color="255" filled="false" marked="false">
+      <point x="120" y="270"/>
+      <point x="90" y="240"/>
+      <point x="90" y="195"/>
+      <point x="120" y="165"/>
+      <point x="180" y="165"/>
+      <point x="210" y="195"/>
+      <point x="210" y="240"/>
+      <point x="180" y="270"/>
+    </polygon>
+    <rectangle endX="177" startY="199" marked="false" color="255" endY="236" startX="169" filled="true"/>
+    <rectangle endX="177" startY="64" marked="false" color="255" endY="101" startX="169" filled="true"/>
+    <polygon color="255" filled="false" marked="false">
+      <point x="120" y="30"/>
+      <point x="90" y="60"/>
+      <point x="90" y="105"/>
+      <point x="120" y="135"/>
+      <point x="180" y="135"/>
+      <point x="210" y="105"/>
+      <point x="210" y="60"/>
+      <point x="180" y="30"/>
+    </polygon>
+    <rectangle endX="131" startY="64" marked="false" color="255" endY="101" startX="123" filled="true"/>
+    <rectangle endX="131" startY="199" marked="false" color="255" endY="236" startX="123" filled="true"/>
+    <rectangle endX="255" startY="0" marked="false" color="255" endY="296" startX="45" filled="false"/>
+  </shape>
+</turtleShape>

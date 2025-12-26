@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="dollar bill" rotatable="false" editableColorIndex="0">
+    <rectangle endX="285" startY="90" marked="true" color="-1920102913" endY="210" startX="15" filled="true"/>
+    <rectangle endX="270" startY="105" marked="false" color="-1" endY="195" startX="30" filled="true"/>
+    <circle x="120" y="120" marked="true" color="-1920102913" diameter="60" filled="true"/>
+    <circle x="120" y="135" marked="true" color="-1920102913" diameter="60" filled="true"/>
+    <circle x="254" y="178" marked="true" color="-1920102913" diameter="26" filled="true"/>
+    <circle x="248" y="98" marked="true" color="-1920102913" diameter="26" filled="true"/>
+    <circle x="18" y="97" marked="true" color="-1920102913" diameter="36" filled="true"/>
+    <circle x="21" y="178" marked="true" color="-1920102913" diameter="26" filled="true"/>
+    <circle x="66" y="135" marked="true" color="-1920102913" diameter="28" filled="true"/>
+    <circle x="72" y="141" marked="false" color="-1" diameter="16" filled="true"/>
+    <circle x="201" y="138" marked="true" color="-1920102913" diameter="32" filled="true"/>
+    <circle x="209" y="146" marked="false" color="-1" diameter="16" filled="true"/>
+    <rectangle endX="86" startY="112" marked="false" color="255" endY="118" startX="64" filled="true"/>
+    <rectangle endX="124" startY="112" marked="false" color="255" endY="118" startX="90" filled="true"/>
+    <rectangle endX="188" startY="112" marked="false" color="255" endY="118" startX="128" filled="true"/>
+    <rectangle endX="237" startY="112" marked="false" color="255" endY="118" startX="191" filled="true"/>
+    <rectangle endX="128" startY="199" marked="false" color="-1" endY="205" startX="106" filled="true"/>
+    <rectangle endX="209" startY="96" marked="false" color="-1" endY="98" startX="90" filled="true"/>
+    <rectangle endX="103" startY="168" marked="true" color="-1920102913" endY="176" startX="60" filled="true"/>
+    <rectangle endX="230" startY="127" marked="true" color="-1920102913" endY="133" startX="199" filled="true"/>
+    <line endX="104" startY="184" marked="true" color="-1920102913" endY="184" startX="59"/>
+    <line endX="196" startY="189" marked="true" color="-1920102913" endY="189" startX="241"/>
+    <line endX="104" startY="189" marked="true" color="-1920102913" endY="189" startX="59"/>
+    <line endX="71" startY="124" marked="false" color="255" endY="124" startX="116"/>
+    <polygon color="-1" filled="true" marked="false">
+      <point x="127" y="179"/>
+      <point x="142" y="167"/>
+      <point x="142" y="160"/>
+      <point x="130" y="150"/>
+      <point x="126" y="148"/>
+      <point x="142" y="132"/>
+      <point x="158" y="132"/>
+      <point x="173" y="152"/>
+      <point x="167" y="156"/>
+      <point x="164" y="167"/>
+      <point x="174" y="176"/>
+      <point x="161" y="193"/>
+      <point x="135" y="192"/>
+    </polygon>
+    <rectangle endX="184" startY="199" marked="false" color="-1" endY="205" startX="134" filled="true"/>
+  </shape>
+</turtleShape>

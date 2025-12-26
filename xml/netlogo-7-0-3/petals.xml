@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="petals" rotatable="false" editableColorIndex="0">
+    <circle x="117" y="12" marked="true" color="-1920102913" diameter="66" filled="true"/>
+    <circle x="116" y="221" marked="true" color="-1920102913" diameter="67" filled="true"/>
+    <circle x="41" y="41" marked="true" color="-1920102913" diameter="67" filled="true"/>
+    <circle x="11" y="116" marked="true" color="-1920102913" diameter="67" filled="true"/>
+    <circle x="41" y="191" marked="true" color="-1920102913" diameter="67" filled="true"/>
+    <circle x="191" y="191" marked="true" color="-1920102913" diameter="67" filled="true"/>
+    <circle x="221" y="116" marked="true" color="-1920102913" diameter="67" filled="true"/>
+    <circle x="191" y="41" marked="true" color="-1920102913" diameter="67" filled="true"/>
+    <circle x="60" y="60" marked="true" color="-1920102913" diameter="180" filled="true"/>
+  </shape>
+</turtleShape>

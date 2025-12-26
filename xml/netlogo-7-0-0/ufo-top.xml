@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="ufo top" rotatable="false" editableColorIndex="0">
+    <circle x="15" y="15" marked="false" color="-1" diameter="270" filled="true"/>
+    <circle x="15" y="15" marked="false" color="255" diameter="270" filled="false"/>
+    <circle x="75" y="75" marked="true" color="-1920102913" diameter="150" filled="true"/>
+    <circle x="75" y="75" marked="false" color="255" diameter="150" filled="false"/>
+    <circle x="60" y="60" marked="true" color="-1920102913" diameter="30" filled="true"/>
+    <circle x="135" y="30" marked="true" color="-1920102913" diameter="30" filled="true"/>
+    <circle x="210" y="60" marked="true" color="-1920102913" diameter="30" filled="true"/>
+    <circle x="240" y="135" marked="true" color="-1920102913" diameter="30" filled="true"/>
+    <circle x="210" y="210" marked="true" color="-1920102913" diameter="30" filled="true"/>
+    <circle x="135" y="240" marked="true" color="-1920102913" diameter="30" filled="true"/>
+    <circle x="60" y="210" marked="true" color="-1920102913" diameter="30" filled="true"/>
+    <circle x="30" y="135" marked="true" color="-1920102913" diameter="30" filled="true"/>
+    <circle x="30" y="135" marked="false" color="255" diameter="30" filled="false"/>
+    <circle x="60" y="210" marked="false" color="255" diameter="30" filled="false"/>
+    <circle x="135" y="240" marked="false" color="255" diameter="30" filled="false"/>
+    <circle x="210" y="210" marked="false" color="255" diameter="30" filled="false"/>
+    <circle x="240" y="135" marked="false" color="255" diameter="30" filled="false"/>
+    <circle x="210" y="60" marked="false" color="255" diameter="30" filled="false"/>
+    <circle x="135" y="30" marked="false" color="255" diameter="30" filled="false"/>
+    <circle x="60" y="60" marked="false" color="255" diameter="30" filled="false"/>
+  </shape>
+</turtleShape>

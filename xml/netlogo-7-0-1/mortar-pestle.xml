@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="mortar pestle" rotatable="false" editableColorIndex="0">
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="60" y="150"/>
+      <point x="30" y="150"/>
+      <point x="30" y="165"/>
+      <point x="45" y="165"/>
+      <point x="45" y="195"/>
+      <point x="60" y="225"/>
+      <point x="90" y="255"/>
+      <point x="150" y="270"/>
+      <point x="210" y="255"/>
+      <point x="240" y="225"/>
+      <point x="255" y="195"/>
+      <point x="255" y="165"/>
+      <point x="270" y="165"/>
+      <point x="270" y="150"/>
+    </polygon>
+    <polygon color="-1653716737" filled="true" marked="false">
+      <point x="75" y="150"/>
+      <point x="30" y="105"/>
+      <point x="15" y="105"/>
+      <point x="15" y="90"/>
+      <point x="45" y="60"/>
+      <point x="60" y="60"/>
+      <point x="60" y="75"/>
+      <point x="150" y="150"/>
+    </polygon>
+    <line endX="75" startY="120" marked="false" color="255" endY="90" startX="45"/>
+    <line endX="125" startY="150" marked="false" color="255" endY="128" startX="105"/>
+  </shape>
+</turtleShape>

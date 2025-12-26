@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="plant" rotatable="false" editableColorIndex="0">
+    <rectangle endX="165" startY="90" marked="true" color="-1920102913" endY="300" startX="135" filled="true"/>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="135" y="255"/>
+      <point x="90" y="210"/>
+      <point x="45" y="195"/>
+      <point x="75" y="255"/>
+      <point x="135" y="285"/>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="165" y="255"/>
+      <point x="210" y="210"/>
+      <point x="255" y="195"/>
+      <point x="225" y="255"/>
+      <point x="165" y="285"/>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="135" y="180"/>
+      <point x="90" y="135"/>
+      <point x="45" y="120"/>
+      <point x="75" y="180"/>
+      <point x="135" y="210"/>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="165" y="180"/>
+      <point x="165" y="210"/>
+      <point x="225" y="180"/>
+      <point x="255" y="120"/>
+      <point x="210" y="135"/>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="135" y="105"/>
+      <point x="90" y="60"/>
+      <point x="45" y="45"/>
+      <point x="75" y="105"/>
+      <point x="135" y="135"/>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="165" y="105"/>
+      <point x="165" y="135"/>
+      <point x="225" y="105"/>
+      <point x="255" y="45"/>
+      <point x="210" y="60"/>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="135" y="90"/>
+      <point x="120" y="45"/>
+      <point x="150" y="15"/>
+      <point x="180" y="45"/>
+      <point x="165" y="90"/>
+    </polygon>
+  </shape>
+</turtleShape>

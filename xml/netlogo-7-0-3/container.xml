@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="container" rotatable="false" editableColorIndex="0">
+    <rectangle endX="300" startY="75" marked="false" color="-1920102913" endY="225" startX="0" filled="false"/>
+    <rectangle endX="300" startY="75" marked="true" color="-1920102913" endY="225" startX="0" filled="true"/>
+    <line endX="300" startY="210" marked="false" color="255" endY="210" startX="0"/>
+    <line endX="300" startY="90" marked="false" color="255" endY="90" startX="0"/>
+    <line endX="150" startY="90" marked="false" color="255" endY="210" startX="150"/>
+    <line endX="120" startY="90" marked="false" color="255" endY="210" startX="120"/>
+    <line endX="90" startY="90" marked="false" color="255" endY="210" startX="90"/>
+    <line endX="240" startY="90" marked="false" color="255" endY="210" startX="240"/>
+    <line endX="270" startY="90" marked="false" color="255" endY="210" startX="270"/>
+    <line endX="30" startY="90" marked="false" color="255" endY="210" startX="30"/>
+    <line endX="60" startY="90" marked="false" color="255" endY="210" startX="60"/>
+    <line endX="210" startY="90" marked="false" color="255" endY="210" startX="210"/>
+    <line endX="180" startY="90" marked="false" color="255" endY="210" startX="180"/>
+  </shape>
+</turtleShape>

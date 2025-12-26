@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="wolf 7" rotatable="false" editableColorIndex="0">
+    <circle x="183" y="138" marked="false" color="255" diameter="24" filled="true"/>
+    <circle x="93" y="138" marked="false" color="255" diameter="24" filled="true"/>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="30" y="105"/>
+      <point x="30" y="150"/>
+      <point x="90" y="195"/>
+      <point x="120" y="270"/>
+      <point x="120" y="300"/>
+      <point x="180" y="300"/>
+      <point x="180" y="270"/>
+      <point x="210" y="195"/>
+      <point x="270" y="150"/>
+      <point x="270" y="105"/>
+      <point x="210" y="75"/>
+      <point x="90" y="75"/>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="255" y="105"/>
+      <point x="285" y="60"/>
+      <point x="255" y="0"/>
+      <point x="210" y="45"/>
+      <point x="195" y="75"/>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="45" y="105"/>
+      <point x="15" y="60"/>
+      <point x="45" y="0"/>
+      <point x="90" y="45"/>
+      <point x="105" y="75"/>
+    </polygon>
+    <circle x="90" y="135" marked="false" color="255" diameter="30" filled="true"/>
+    <circle x="180" y="135" marked="false" color="255" diameter="30" filled="true"/>
+    <polygon color="255" filled="true" marked="false">
+      <point x="120" y="300"/>
+      <point x="150" y="255"/>
+      <point x="180" y="300"/>
+    </polygon>
+  </shape>
+</turtleShape>

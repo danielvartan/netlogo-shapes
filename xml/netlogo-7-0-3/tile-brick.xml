@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="tile brick" rotatable="false" editableColorIndex="0">
+    <rectangle endX="300" startY="0" marked="false" color="-1" endY="300" startX="0" filled="true"/>
+    <rectangle endX="150" startY="225" marked="true" color="-1920102913" endY="285" startX="15" filled="true"/>
+    <rectangle endX="300" startY="225" marked="true" color="-1920102913" endY="285" startX="165" filled="true"/>
+    <rectangle endX="210" startY="150" marked="true" color="-1920102913" endY="210" startX="75" filled="true"/>
+    <rectangle endX="60" startY="150" marked="true" color="-1920102913" endY="210" startX="0" filled="true"/>
+    <rectangle endX="300" startY="150" marked="true" color="-1920102913" endY="210" startX="225" filled="true"/>
+    <rectangle endX="300" startY="75" marked="true" color="-1920102913" endY="135" startX="165" filled="true"/>
+    <rectangle endX="150" startY="75" marked="true" color="-1920102913" endY="135" startX="15" filled="true"/>
+    <rectangle endX="60" startY="0" marked="true" color="-1920102913" endY="60" startX="0" filled="true"/>
+    <rectangle endX="300" startY="0" marked="true" color="-1920102913" endY="60" startX="225" filled="true"/>
+    <rectangle endX="210" startY="0" marked="true" color="-1920102913" endY="60" startX="75" filled="true"/>
+  </shape>
+</turtleShape>

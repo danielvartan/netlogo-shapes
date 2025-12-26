@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="factory" rotatable="false" editableColorIndex="0">
+    <rectangle endX="285" startY="194" marked="true" color="-1920102913" endY="270" startX="76" filled="true"/>
+    <rectangle endX="59" startY="95" marked="true" color="-1920102913" endY="231" startX="36" filled="true"/>
+    <rectangle endX="270" startY="210" marked="false" color="255" endY="240" startX="90" filled="true"/>
+    <line endX="90" startY="195" marked="true" color="-1920102913" endY="255" startX="90"/>
+    <line endX="120" startY="195" marked="true" color="-1920102913" endY="255" startX="120"/>
+    <line endX="150" startY="195" marked="true" color="-1920102913" endY="240" startX="150"/>
+    <line endX="180" startY="195" marked="true" color="-1920102913" endY="255" startX="180"/>
+    <line endX="210" startY="210" marked="true" color="-1920102913" endY="240" startX="210"/>
+    <line endX="240" startY="210" marked="true" color="-1920102913" endY="240" startX="240"/>
+    <line endX="270" startY="225" marked="true" color="-1920102913" endY="225" startX="90"/>
+    <circle x="37" y="73" marked="false" color="-1" diameter="32" filled="true"/>
+    <circle x="55" y="38" marked="false" color="-1" diameter="54" filled="true"/>
+    <circle x="96" y="21" marked="false" color="-1" diameter="42" filled="true"/>
+    <circle x="105" y="40" marked="false" color="-1" diameter="32" filled="true"/>
+    <circle x="129" y="19" marked="false" color="-1" diameter="42" filled="true"/>
+    <rectangle endX="78" startY="228" marked="true" color="-1920102913" endY="270" startX="14" filled="true"/>
+  </shape>
+</turtleShape>

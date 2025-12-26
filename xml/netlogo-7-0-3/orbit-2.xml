@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="orbit 2" rotatable="true" editableColorIndex="0">
+    <circle x="116" y="221" marked="true" color="-1920102913" diameter="67" filled="true"/>
+    <circle x="116" y="11" marked="true" color="-1920102913" diameter="67" filled="true"/>
+    <circle x="44" y="44" marked="true" color="-1920102913" diameter="212" filled="false"/>
+  </shape>
+</turtleShape>

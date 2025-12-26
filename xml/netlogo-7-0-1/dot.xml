@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="dot" rotatable="false" editableColorIndex="0">
+    <circle x="90" y="90" marked="true" color="-1920102913" diameter="120" filled="true"/>
+  </shape>
+</turtleShape>

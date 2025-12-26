@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="boat" rotatable="false" editableColorIndex="0">
+    <polygon color="-1" filled="true" marked="false">
+      <point x="63" y="162"/>
+      <point x="90" y="207"/>
+      <point x="223" y="207"/>
+      <point x="290" y="162"/>
+    </polygon>
+    <rectangle endX="157" startY="32" marked="false" color="-1653716737" endY="162" startX="150" filled="true"/>
+    <polygon color="878553599" filled="true" marked="false">
+      <point x="150" y="34"/>
+      <point x="131" y="49"/>
+      <point x="145" y="47"/>
+      <point x="147" y="48"/>
+      <point x="149" y="49"/>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="158" y="33"/>
+      <point x="230" y="157"/>
+      <point x="182" y="150"/>
+      <point x="169" y="151"/>
+      <point x="157" y="156"/>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="149" y="55"/>
+      <point x="88" y="143"/>
+      <point x="103" y="139"/>
+      <point x="111" y="136"/>
+      <point x="117" y="139"/>
+      <point x="126" y="145"/>
+      <point x="130" y="147"/>
+      <point x="139" y="147"/>
+      <point x="146" y="146"/>
+      <point x="149" y="55"/>
+    </polygon>
+  </shape>
+</turtleShape>

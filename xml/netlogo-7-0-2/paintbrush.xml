@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="paintbrush" rotatable="false" editableColorIndex="0">
+    <polygon color="-1" filled="true" marked="false">
+      <point x="87" y="191"/>
+      <point x="103" y="218"/>
+      <point x="238" y="53"/>
+      <point x="223" y="38"/>
+    </polygon>
+    <polygon color="878553599" filled="true" marked="false">
+      <point x="104" y="204"/>
+      <point x="104" y="218"/>
+      <point x="239" y="53"/>
+      <point x="235" y="47"/>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="99" y="173"/>
+      <point x="83" y="175"/>
+      <point x="71" y="186"/>
+      <point x="64" y="207"/>
+      <point x="52" y="235"/>
+      <point x="45" y="251"/>
+      <point x="77" y="238"/>
+      <point x="108" y="227"/>
+      <point x="124" y="205"/>
+      <point x="118" y="185"/>
+    </polygon>
+  </shape>
+</turtleShape>

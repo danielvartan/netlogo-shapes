@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="acorn" rotatable="false" editableColorIndex="0">
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="146" y="297"/>
+      <point x="120" y="285"/>
+      <point x="105" y="270"/>
+      <point x="75" y="225"/>
+      <point x="60" y="180"/>
+      <point x="60" y="150"/>
+      <point x="75" y="105"/>
+      <point x="225" y="105"/>
+      <point x="240" y="150"/>
+      <point x="240" y="180"/>
+      <point x="225" y="225"/>
+      <point x="195" y="270"/>
+      <point x="180" y="285"/>
+      <point x="155" y="297"/>
+    </polygon>
+    <polygon color="-1653716737" filled="true" marked="false">
+      <point x="121" y="15"/>
+      <point x="136" y="58"/>
+      <point x="94" y="53"/>
+      <point x="68" y="65"/>
+      <point x="46" y="90"/>
+      <point x="46" y="105"/>
+      <point x="75" y="115"/>
+      <point x="234" y="117"/>
+      <point x="256" y="105"/>
+      <point x="256" y="90"/>
+      <point x="239" y="68"/>
+      <point x="209" y="57"/>
+      <point x="157" y="59"/>
+      <point x="136" y="8"/>
+    </polygon>
+    <circle x="223" y="95" marked="false" color="255" diameter="18" filled="false"/>
+    <circle x="219" y="77" marked="false" color="255" diameter="18" filled="false"/>
+    <circle x="205" y="88" marked="false" color="255" diameter="18" filled="false"/>
+    <line endX="223" startY="68" marked="false" color="255" endY="71" startX="214"/>
+    <line endX="225" startY="72" marked="false" color="255" endY="78" startX="223"/>
+    <line endX="207" startY="88" marked="false" color="255" endY="82" startX="212"/>
+    <line endX="195" startY="82" marked="false" color="255" endY="82" startX="206"/>
+    <line endX="201" startY="114" marked="false" color="255" endY="107" startX="197"/>
+    <line endX="193" startY="106" marked="false" color="255" endY="97" startX="201"/>
+    <line endX="189" startY="66" marked="false" color="255" endY="60" startX="198"/>
+    <line endX="180" startY="87" marked="false" color="255" endY="80" startX="176"/>
+    <line endX="161" startY="105" marked="false" color="255" endY="98" startX="157"/>
+    <line endX="150" startY="65" marked="false" color="255" endY="56" startX="158"/>
+    <line endX="172" startY="79" marked="false" color="255" endY="70" startX="180"/>
+    <line endX="197" startY="73" marked="false" color="255" endY="66" startX="193"/>
+    <line endX="252" startY="82" marked="false" color="255" endY="84" startX="237"/>
+    <line endX="253" startY="86" marked="false" color="255" endY="97" startX="249"/>
+    <line endX="252" startY="104" marked="false" color="255" endY="96" startX="240"/>
+  </shape>
+</turtleShape>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="bird 2" rotatable="false" editableColorIndex="0">
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="2" y="6"/>
+      <point x="2" y="39"/>
+      <point x="270" y="298"/>
+      <point x="297" y="298"/>
+      <point x="299" y="271"/>
+      <point x="187" y="160"/>
+      <point x="279" y="75"/>
+      <point x="276" y="22"/>
+      <point x="100" y="67"/>
+      <point x="31" y="0"/>
+    </polygon>
+  </shape>
+</turtleShape>

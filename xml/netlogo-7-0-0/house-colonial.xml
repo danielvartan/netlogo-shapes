@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="house colonial" rotatable="false" editableColorIndex="0">
+    <rectangle endX="285" startY="75" marked="true" color="-1920102913" endY="255" startX="270" filled="true"/>
+    <rectangle endX="270" startY="135" marked="true" color="-1920102913" endY="255" startX="45" filled="true"/>
+    <rectangle endX="187" startY="195" marked="false" color="255" endY="256" startX="124" filled="true"/>
+    <rectangle endX="105" startY="195" marked="false" color="255" endY="240" startX="60" filled="true"/>
+    <rectangle endX="105" startY="150" marked="false" color="255" endY="180" startX="60" filled="true"/>
+    <rectangle endX="255" startY="150" marked="false" color="255" endY="180" startX="210" filled="true"/>
+    <line endX="270" startY="135" marked="false" color="255" endY="255" startX="270"/>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="30" y="135"/>
+      <point x="285" y="135"/>
+      <point x="240" y="90"/>
+      <point x="75" y="90"/>
+    </polygon>
+    <line endX="285" startY="135" marked="false" color="255" endY="135" startX="30"/>
+    <line endX="285" startY="105" marked="false" color="255" endY="135" startX="255"/>
+    <line endX="154" startY="195" marked="true" color="-1920102913" endY="255" startX="154"/>
+    <rectangle endX="255" startY="195" marked="false" color="255" endY="240" startX="210" filled="true"/>
+    <rectangle endX="180" startY="150" marked="false" color="255" endY="180" startX="135" filled="true"/>
+  </shape>
+</turtleShape>

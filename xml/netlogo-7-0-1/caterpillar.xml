@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="caterpillar" rotatable="true" editableColorIndex="0">
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="165" y="210"/>
+      <point x="165" y="225"/>
+      <point x="135" y="255"/>
+      <point x="105" y="270"/>
+      <point x="90" y="270"/>
+      <point x="75" y="255"/>
+      <point x="75" y="240"/>
+      <point x="90" y="210"/>
+      <point x="120" y="195"/>
+      <point x="135" y="165"/>
+      <point x="165" y="135"/>
+      <point x="165" y="105"/>
+      <point x="150" y="75"/>
+      <point x="150" y="60"/>
+      <point x="135" y="60"/>
+      <point x="120" y="45"/>
+      <point x="120" y="30"/>
+      <point x="135" y="15"/>
+      <point x="150" y="15"/>
+      <point x="180" y="30"/>
+      <point x="180" y="45"/>
+      <point x="195" y="45"/>
+      <point x="210" y="60"/>
+      <point x="225" y="105"/>
+      <point x="225" y="135"/>
+      <point x="210" y="150"/>
+      <point x="210" y="165"/>
+      <point x="195" y="195"/>
+      <point x="180" y="210"/>
+    </polygon>
+    <line endX="90" startY="255" marked="false" color="255" endY="210" startX="135"/>
+    <line endX="120" startY="225" marked="false" color="255" endY="195" startX="165"/>
+    <line endX="180" startY="165" marked="false" color="255" endY="210" startX="135"/>
+    <line endX="201" startY="150" marked="false" color="255" endY="186" startX="150"/>
+    <line endX="210" startY="135" marked="false" color="255" endY="150" startX="165"/>
+    <line endX="225" startY="120" marked="false" color="255" endY="120" startX="165"/>
+    <line endX="221" startY="106" marked="false" color="255" endY="90" startX="165"/>
+    <line endX="210" startY="91" marked="false" color="255" endY="60" startX="157"/>
+    <line endX="180" startY="60" marked="false" color="255" endY="45" startX="150"/>
+    <line endX="96" startY="30" marked="false" color="255" endY="26" startX="120"/>
+    <line endX="135" startY="0" marked="false" color="255" endY="15" startX="124"/>
+  </shape>
+</turtleShape>

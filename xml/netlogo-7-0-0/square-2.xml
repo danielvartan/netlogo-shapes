@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="square 2" rotatable="false" editableColorIndex="0">
+    <rectangle endX="270" startY="30" marked="true" color="-1920102913" endY="270" startX="30" filled="true"/>
+    <rectangle endX="240" startY="60" marked="false" color="255" endY="240" startX="60" filled="true"/>
+  </shape>
+</turtleShape>

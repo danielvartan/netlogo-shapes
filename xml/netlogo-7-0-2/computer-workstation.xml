@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="computer workstation" rotatable="false" editableColorIndex="0">
+    <rectangle endX="240" startY="45" marked="true" color="-1920102913" endY="180" startX="60" filled="true"/>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="90" y="180"/>
+      <point x="105" y="195"/>
+      <point x="135" y="195"/>
+      <point x="135" y="210"/>
+      <point x="165" y="210"/>
+      <point x="165" y="195"/>
+      <point x="195" y="195"/>
+      <point x="210" y="180"/>
+    </polygon>
+    <rectangle endX="225" startY="60" marked="false" color="255" endY="165" startX="75" filled="true"/>
+    <rectangle endX="255" startY="210" marked="true" color="-1920102913" endY="255" startX="45" filled="true"/>
+    <rectangle endX="237" startY="223" marked="false" color="1504722175" endY="217" startX="249" filled="true"/>
+    <line endX="120" startY="225" marked="false" color="255" endY="225" startX="60"/>
+  </shape>
+</turtleShape>

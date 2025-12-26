@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="line" rotatable="true" editableColorIndex="0">
+    <line endX="150" startY="0" marked="true" color="-1920102913" endY="300" startX="150"/>
+  </shape>
+</turtleShape>

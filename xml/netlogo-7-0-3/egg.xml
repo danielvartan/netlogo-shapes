@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="egg" rotatable="false" editableColorIndex="0">
+    <circle x="96" y="76" marked="true" color="-1920102913" diameter="108" filled="true"/>
+    <circle x="72" y="104" marked="true" color="-1920102913" diameter="156" filled="true"/>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="221" y="149"/>
+      <point x="195" y="101"/>
+      <point x="106" y="99"/>
+      <point x="80" y="148"/>
+    </polygon>
+  </shape>
+</turtleShape>

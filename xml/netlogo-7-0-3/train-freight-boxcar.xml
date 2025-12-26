@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="train freight boxcar" rotatable="false" editableColorIndex="0">
+    <rectangle endX="290" startY="100" marked="true" color="-1920102913" endY="195" startX="10" filled="true"/>
+    <rectangle endX="289" startY="99" marked="false" color="255" endY="195" startX="9" filled="false"/>
+    <circle x="253" y="195" marked="false" color="255" diameter="30" filled="true"/>
+    <circle x="220" y="195" marked="false" color="255" diameter="30" filled="true"/>
+    <circle x="50" y="195" marked="false" color="255" diameter="30" filled="true"/>
+    <circle x="17" y="195" marked="false" color="255" diameter="30" filled="true"/>
+    <rectangle endX="299" startY="180" marked="false" color="255" endY="195" startX="290" filled="true"/>
+    <rectangle endX="135" startY="90" marked="false" color="255" endY="90" startX="105" filled="true"/>
+    <rectangle endX="10" startY="180" marked="false" color="255" endY="195" startX="1" filled="true"/>
+    <rectangle endX="195" startY="105" marked="false" color="255" endY="180" startX="105" filled="false"/>
+    <line endX="150" startY="105" marked="false" color="255" endY="180" startX="150"/>
+  </shape>
+</turtleShape>

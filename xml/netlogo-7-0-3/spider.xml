@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShape>
+  <shape name="spider" rotatable="true" editableColorIndex="0">
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="134" y="255"/>
+      <point x="104" y="240"/>
+      <point x="96" y="210"/>
+      <point x="98" y="196"/>
+      <point x="114" y="171"/>
+      <point x="134" y="150"/>
+      <point x="119" y="135"/>
+      <point x="119" y="120"/>
+      <point x="134" y="105"/>
+      <point x="164" y="105"/>
+      <point x="179" y="120"/>
+      <point x="179" y="135"/>
+      <point x="164" y="150"/>
+      <point x="185" y="173"/>
+      <point x="199" y="195"/>
+      <point x="203" y="210"/>
+      <point x="194" y="240"/>
+      <point x="164" y="255"/>
+    </polygon>
+    <line endX="170" startY="109" marked="true" color="-1920102913" endY="90" startX="167"/>
+    <line endX="156" startY="91" marked="true" color="-1920102913" endY="88" startX="170"/>
+    <line endX="144" startY="91" marked="true" color="-1920102913" endY="88" startX="130"/>
+    <line endX="130" startY="109" marked="true" color="-1920102913" endY="90" startX="133"/>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="167" y="117"/>
+      <point x="207" y="102"/>
+      <point x="216" y="71"/>
+      <point x="227" y="27"/>
+      <point x="227" y="72"/>
+      <point x="212" y="117"/>
+      <point x="167" y="132"/>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="164" y="210"/>
+      <point x="158" y="194"/>
+      <point x="195" y="195"/>
+      <point x="225" y="210"/>
+      <point x="195" y="285"/>
+      <point x="240" y="210"/>
+      <point x="210" y="180"/>
+      <point x="164" y="180"/>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="136" y="210"/>
+      <point x="142" y="194"/>
+      <point x="105" y="195"/>
+      <point x="75" y="210"/>
+      <point x="105" y="285"/>
+      <point x="60" y="210"/>
+      <point x="90" y="180"/>
+      <point x="136" y="180"/>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="133" y="117"/>
+      <point x="93" y="102"/>
+      <point x="84" y="71"/>
+      <point x="73" y="27"/>
+      <point x="73" y="72"/>
+      <point x="88" y="117"/>
+      <point x="133" y="132"/>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="163" y="140"/>
+      <point x="214" y="129"/>
+      <point x="234" y="114"/>
+      <point x="255" y="74"/>
+      <point x="242" y="126"/>
+      <point x="216" y="143"/>
+      <point x="164" y="152"/>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="161" y="183"/>
+      <point x="203" y="167"/>
+      <point x="239" y="180"/>
+      <point x="268" y="239"/>
+      <point x="249" y="171"/>
+      <point x="202" y="153"/>
+      <point x="163" y="162"/>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="137" y="140"/>
+      <point x="86" y="129"/>
+      <point x="66" y="114"/>
+      <point x="45" y="74"/>
+      <point x="58" y="126"/>
+      <point x="84" y="143"/>
+      <point x="136" y="152"/>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="139" y="183"/>
+      <point x="97" y="167"/>
+      <point x="61" y="180"/>
+      <point x="32" y="239"/>
+      <point x="51" y="171"/>
+      <point x="98" y="153"/>
+      <point x="137" y="162"/>
+    </polygon>
+  </shape>
+</turtleShape>
