@@ -36,7 +36,7 @@ These vectors are optimized for [Inkscape](https://inkscape.org)
 [SVG](https://en.wikipedia.org/wiki/SVG) standards, stripping
 unnecessary metadata to maintain the smallest possible file size.
 
-The collection features all 230 default shapes from
+The collection features all 230 shapes from
 [NetLogo](https://www.netlogo.org/) 7.0.3:
 
 <table>
@@ -740,9 +740,8 @@ The collection features all 230 default shapes from
 
 ### Canvas & Coordinate System
 
-Each shape is centered on a **300×300 pixel** canvas. Following NetLogo
-XML and SVG standards, the origin `(0, 0)` is located at the top-left
-corner.
+Each shape is drawn on a **300×300 pixel** canvas. The origin `(0, 0)`
+is located at the top-left corner.
 
 [![](images/netlogo-turtle-shape-editor.png)](https://docs.netlogo.org/shapes.html)
 
@@ -756,21 +755,21 @@ format for cross-compatibility.
 | Color                          | Name      | NetLogo | Hex      | XML         |
 |:-------------------------------|:----------|--------:|:---------|:------------|
 | ![\#000000](images/000000.png) | black     |       0 | \#000000 | 255         |
-| ![\#1D9F78](images/1D9F78.png) | white     |      10 | \#FFFFFF | -1          |
-| ![\#2CD13B](images/2CD13B.png) | gray      |       5 | \#8D8D8D | -1920102913 |
-| ![\#2D8DBE](images/2D8DBE.png) | red       |      15 | \#D73229 | -684578305  |
-| ![\#345DA9](images/345DA9.png) | orange    |      25 | \#F16A15 | -244705793  |
-| ![\#54C4C4](images/54C4C4.png) | brown     |      35 | \#9D6E48 | -1653716737 |
-| ![\#59B03C](images/59B03C.png) | yellow    |      45 | \#ECEC29 | -303222273  |
-| ![\#7C50A4](images/7C50A4.png) | green     |      55 | \#59B03C | 1504722175  |
-| ![\#8D8D8D](images/8D8D8D.png) | lime      |      65 | \#2CD13B | 751909887   |
-| ![\#9D6E48](images/9D6E48.png) | turquoise |      75 | \#1D9F78 | 496990463   |
-| ![\#A71B6A](images/A71B6A.png) | cyan      |      85 | \#54C4C4 | 1422181631  |
-| ![\#D73229](images/D73229.png) | sky       |      95 | \#2D8DBE | 764264191   |
-| ![\#D9637F](images/D9637F.png) | blue      |     105 | \#345DA9 | 878553599   |
-| ![\#ECEC29](images/ECEC29.png) | violet    |     115 | \#7C50A4 | 2085659903  |
-| ![\#F16A15](images/F16A15.png) | magenta   |     125 | \#A71B6A | -1491375361 |
-| ![\#FFFFFF](images/FFFFFF.png) | pink      |     135 | \#D9637F | -528509185  |
+| ![\#FFFFFF](images/FFFFFF.png) | white     |      10 | \#FFFFFF | -1          |
+| ![\#8D8D8D](images/8D8D8D.png) | gray      |       5 | \#8D8D8D | -1920102913 |
+| ![\#D73229](images/D73229.png) | red       |      15 | \#D73229 | -684578305  |
+| ![\#F16A15](images/F16A15.png) | orange    |      25 | \#F16A15 | -244705793  |
+| ![\#9D6E48](images/9D6E48.png) | brown     |      35 | \#9D6E48 | -1653716737 |
+| ![\#ECEC29](images/ECEC29.png) | yellow    |      45 | \#ECEC29 | -303222273  |
+| ![\#59B03C](images/59B03C.png) | green     |      55 | \#59B03C | 1504722175  |
+| ![\#2CD13B](images/2CD13B.png) | lime      |      65 | \#2CD13B | 751909887   |
+| ![\#1D9F78](images/1D9F78.png) | turquoise |      75 | \#1D9F78 | 496990463   |
+| ![\#54C4C4](images/54C4C4.png) | cyan      |      85 | \#54C4C4 | 1422181631  |
+| ![\#2D8DBE](images/2D8DBE.png) | sky       |      95 | \#2D8DBE | 764264191   |
+| ![\#345DA9](images/345DA9.png) | blue      |     105 | \#345DA9 | 878553599   |
+| ![\#7C50A4](images/7C50A4.png) | violet    |     115 | \#7C50A4 | 2085659903  |
+| ![\#A71B6A](images/A71B6A.png) | magenta   |     125 | \#A71B6A | -1491375361 |
+| ![\#D9637F](images/D9637F.png) | pink      |     135 | \#D9637F | -528509185  |
 
 ## Contributing
 

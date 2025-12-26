@@ -59,7 +59,7 @@ cat(
 
 All shapes are located in the repository [`shapes` directory](https://github.com/danielvartan/netlogo-shapes/tree/main/shapes/). These vectors are optimized for [Inkscape](https://inkscape.org) [SVG](https://en.wikipedia.org/wiki/SVG) standards, stripping unnecessary metadata to maintain the smallest possible file size.
 
-The collection features all 230 default shapes from [NetLogo](https://www.netlogo.org/) 7.0.3:
+The collection features all 230 shapes from [NetLogo](https://www.netlogo.org/) 7.0.3:
 
 ```{r}
 #| include: false
@@ -112,7 +112,7 @@ tags$table(
 
 ### Canvas & Coordinate System
 
-Each shape is centered on a **300×300 pixel** canvas. Following NetLogo XML and SVG standards, the origin `(0, 0)` is located at the top-left corner.
+Each shape is drawn on a **300×300 pixel** canvas. The origin `(0, 0)` is located at the top-left corner.
 
 [![NetLogo Turtle Shape Editor](images/netlogo-turtle-shape-editor.png)](https://docs.netlogo.org/shapes.html)
 
@@ -217,12 +217,13 @@ library(stringr)
 tibble(
   Color = paste0(
     "![",
-    hex_images |>
-      basename() |>
-      str_remove("\\.png$") %>%
-      paste0("#", .),
+    netlogo_hex_colors |>
+      unname(),
     "](",
-    hex_images,
+    netlogo_hex_colors |>
+      unname() |>
+      str_remove("#") %>%
+      paste0("images/", ., ".png"),
     ")"
   ),
   Name = names(netlogo_base_colors),

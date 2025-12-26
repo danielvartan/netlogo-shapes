@@ -25,7 +25,8 @@
     "scipen",
     "sigfig",
     "stringr",
-    "tibble"
+    "tibble",
+    "Vartanian"
   ],
   "workbench.colorCustomizations": {
     "activityBar.activeBackground": "#fe3d2c",
