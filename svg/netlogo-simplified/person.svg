@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="person.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.3216667"
+     inkscape:cx="149.81084"
+     inkscape:cy="161.53846"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     id="circle1"
+     style="fill:#000000"
+     d="m 150,5 c -22.09139,0 -40,17.90861 -40,40 -2.1e-4,13.845312 5.23169,26.706196 17,34 V 90 H 105 L 60,150 75,180 111.36328,134.54492 120,195 l -30,90 15,15 h 30 l 15,-75 15,75 h 30 l 15,-15 -30,-90 8.63672,-60.45508 L 225,180 240,150 195,90 H 172 V 79 C 184.05001,71.418157 189.37685,58.786099 190,45 190,22.90861 172.09139,5 150,5 Z"
+     sodipodi:nodetypes="scccccccccccccccccccccccs"
+     inkscape:label="Shape" />
+</svg>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="300"
+   height="300"
+   viewBox="0 0 300 300"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="sheep.svg"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.3216667"
+     inkscape:cx="158.89029"
+     inkscape:cy="178.94073"
+     inkscape:window-width="1920"
+     inkscape:window-height="1011"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     id="circle1"
+     style="fill:#ffffff"
+     d="M 151,65 C 131.14779,65.000415 111.98701,72.291356 97.15625,85.488281 90.904791,83.836562 84.465981,83.0002 78,83 36.578644,83 3,116.57864 3,158 c -9.63e-5,15.87972 5.0400676,31.34967 14.394531,44.18164 L 30,240 v 45 h 15 v -59.65039 c 6.327491,3.1006 13.060359,5.29404 20,6.51562 V 296 h 15 v -63.02734 c 14.021984,-0.37407 27.65806,-4.6729 39.35938,-12.40821 10.0081,4.24686 20.76873,6.43552 31.64062,6.43555 4.35453,-2.5e-4 8.70196,-0.35165 13,-1.05078 V 298 h 15 v -75 c 3.06825,-1.5674 4.52432,-2.57454 5.97266,-3.46875 3.23027,1.48281 6.58591,2.67565 10.02734,3.56445 V 285 h 15 v -60 c 33.13708,0 60,-26.86292 60,-60 -3.7e-4,-5.78193 -0.83649,-11.53346 -2.48242,-17.07617 C 281.96028,140.31068 291.00017,125.32641 291,109 291,84.699471 271.30053,65 247,65 230.66233,65.000484 215.67002,74.053323 208.0625,88.511719 192.88967,73.451339 172.37825,64.999927 151,65 Z"
+     sodipodi:nodetypes="cccccccccccccccccccccccccccccc"
+     inkscape:label="Body" />
+  <g
+     id="g1"
+     inkscape:label="Head"
+     style="fill:#8d8d8d">
+    <path
+       id="polygon4"
+       style="fill:#8d8d8d"
+       d="M 247.5 72 A 33.5 33.5 0 0 0 214 105.5 A 33.5 33.5 0 0 0 220.80664 125.74219 A 33.5 33.5 0 0 0 220.80859 125.74414 L 240 165 L 255 165 L 278 120 L 277.69922 120 A 33.5 33.5 0 0 0 281 105.5 A 33.5 33.5 0 0 0 247.5 72 z " />
+    <path
+       id="polygon11"
+       style="fill:#8d8d8d"
+       d="m 276,85 9,20 17,-6 -8,-16 Z" />
+    <path
+       id="polygon12"
+       style="fill:#8d8d8d"
+       d="m 219,85 -9,20 -17,-6 8,-16 Z" />
+  </g>
+</svg>

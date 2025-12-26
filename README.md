@@ -30,9 +30,10 @@ of quality.
 
 ## Usage
 
-All shapes are located in the repository [`svg`
-directory](https://github.com/danielvartan/netlogo-shapes/tree/main/svg/).
-These vectors are optimized for [Inkscape](https://inkscape.org)
+All shapes are located in the repository
+[`svg`](https://github.com/danielvartan/netlogo-shapes/tree/main/svg/)
+directory. These vectors are optimized for
+[Inkscape](https://inkscape.org)
 [SVG](https://en.wikipedia.org/wiki/SVG) standards, stripping
 unnecessary metadata to maintain the smallest possible file size.
 
