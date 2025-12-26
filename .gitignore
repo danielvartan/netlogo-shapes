@@ -1,3 +1,6 @@
 /*_cache/
 /cache/
 /docs/
+
+/.quarto/
+**/*.quarto_ipynb

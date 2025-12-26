@@ -1,0 +1,291 @@
+# NetLogo-Shapes <a href = "https://github.com/danielvartan/netlogo-shapes"><img src = "images/logo.svg" align="right" width="120" /></a>
+
+<!-- Quarto render -->
+
+```{r}
+#| label: Setup
+#| include: false
+
+library(badger)
+library(dplyr)
+library(fs)
+library(here)
+library(htmltools)
+library(knitr)
+library(pal)
+library(stringr)
+
+source(here("R", "_setup.R"))
+```
+
+<!-- badges: start -->
+```{r}
+#| echo: false
+#| output: asis
+#| message: false
+#| warning: false
+
+cat(
+  badge_repostatus("active"),
+  badge_license(
+    license = "GPLv3",
+    color = "bd0000",
+    url = "https://www.gnu.org/licenses/gpl-3.0",
+    alt = "GNU GPLv3 License"
+  ),
+  badge_custom(
+    x = "Contributor%20Covenant",
+    y = "3.0",
+    color = "4baaaa",
+    url = "https://www.contributor-covenant.org/version/3/0/code_of_conduct/",
+    alt = "Contributor Covenant 3.0 Code of Conduct Badge"
+  )
+)
+```
+<!-- badges: end -->
+
+## Overview
+
+`NetLogo-Shapes` provides a library of [NetLogo](https://www.netlogo.org/) [vector graphics](https://en.wikipedia.org/wiki/Vector_graphics). Whether you are building custom simulations or creating educational content, these assets allow you to modify and scale [NetLogo’s iconic shapes](https://docs.netlogo.org/shapes.html) without losing quality.
+
+> If you find this project useful, please consider giving it a star! &nbsp; [![GitHub repo stars](https://img.shields.io/github/stars/danielvartan/netlogo-shapes)](https://github.com/danielvartan/netlogo-shapes/)
+
+```{=gfm}
+> [!IMPORTANT]
+> `NetLogo-Shapes` is an independent project with no affiliation to [NetLogo](https://www.netlogo.org/) or its developers. If you use any shapes from the NetLogo libraries, please give proper credit to the original creators. See [NetLogo's licensing information](https://github.com/NetLogo/NetLogo/blob/main/shared/resources/main/system/about.txt) for details.
+```
+
+## Usage
+
+All shapes are located in the repository [`shapes` directory](https://github.com/danielvartan/netlogo-shapes/tree/main/shapes/). These vectors are optimized for [Inkscape](https://inkscape.org) [SVG](https://en.wikipedia.org/wiki/SVG) standards, stripping unnecessary metadata to maintain the smallest possible file size.
+
+The collection features all 230 default shapes from [NetLogo](https://www.netlogo.org/) 7.0.3:
+
+```{r}
+#| include: false
+
+library(here)
+library(fs)
+
+shapes <-
+  dir_ls(here("shapes", "netlogo-7-0-3")) |>
+  path_rel(here())
+```
+
+```{r}
+#| echo: false
+#| output: asis
+
+library(htmltools)
+library(stringr)
+
+tags$table(
+  tags$tr(
+    tags$td(
+      lapply(
+        shapes,
+        function(x) {
+          tags$a(
+            href = x,
+            tags$img(
+              src = x,
+              alt = paste(
+                x |>
+                  basename() |>
+                  str_remove("\\.svg$") |>
+                  str_replace_all("-", " ") |>
+                  str_to_title(),
+                "Shape"
+              ),
+              width = "50"
+            )
+          )
+        }
+      )
+    ),
+    bgcolor = "#1e1e1e"
+  )
+)
+```
+
+## Technical Specifications
+
+### Canvas & Coordinate System
+
+Each shape is centered on a **300×300 pixel** canvas. Following NetLogo XML and SVG standards, the origin `(0, 0)` is located at the top-left corner.
+
+[![NetLogo Turtle Shape Editor](images/netlogo-turtle-shape-editor.png)](https://docs.netlogo.org/shapes.html)
+
+### Color Mapping
+
+The library uses the standard [NetLogo base colors](https://docs.netlogo.org/dictionary.html#base-colors). The table below maps these to Hexadecimal and NetLogo’s internal XML integer format for cross-compatibility.
+
+```{r}
+#| include: false
+
+library(here)
+library(fs)
+
+hex_images <-
+  dir_ls(
+    path = here("images"),
+    regexp = "[0-9A-F]{6}\\.png$"
+  ) |>
+  path_rel(here())
+```
+
+```{r}
+#| include: false
+
+netlogo_base_colors <- c(
+  "black" = 0,
+  "white" = 10,
+  "gray" = 5,
+  "red" = 15,
+  "orange" = 25,
+  "brown" = 35,
+  "yellow" = 45,
+  "green" = 55,
+  "lime" = 65,
+  "turquoise" = 75,
+  "cyan" = 85,
+  "sky" = 95,
+  "blue" = 105,
+  "violet" = 115,
+  "magenta" = 125,
+  "pink" = 135
+)
+```
+
+```{r}
+#| include: false
+
+netlogo_hex_colors <- c(
+  "black" = "#000000",
+  "white" = "#FFFFFF",
+  "gray" = "#8D8D8D",
+  "red" = "#D73229",
+  "orange" = "#F16A15",
+  "brown" = "#9D6E48",
+  "yellow" = "#ECEC29",
+  "green" = "#59B03C",
+  "lime" = "#2CD13B",
+  "turquoise" = "#1D9F78",
+  "cyan" = "#54C4C4",
+  "sky" = "#2D8DBE",
+  "blue" = "#345DA9",
+  "violet" = "#7C50A4",
+  "magenta" = "#A71B6A",
+  "pink" = "#D9637F"
+)
+```
+
+```{r}
+#| include: false
+
+netlogo_xml_colors <- c(
+  "black" = "255",
+  "white" = "-1",
+  "gray" = "-1920102913",
+  "red" = "-684578305",
+  "orange" = "-244705793",
+  "brown" = "-1653716737",
+  "yellow" = "-303222273",
+  "green" = "1504722175",
+  "lime" = "751909887",
+  "turquoise" = "496990463",
+  "cyan" = "1422181631",
+  "sky" = "764264191",
+  "blue" = "878553599",
+  "violet" = "2085659903",
+  "magenta" = "-1491375361",
+  "pink" = "-528509185"
+)
+```
+
+```{r}
+#| echo: false
+#| output: asis
+
+library(dplyr)
+library(fs)
+library(here)
+library(knitr)
+library(pal)
+library(stringr)
+
+tibble(
+  Color = paste0(
+    "![",
+    hex_images |>
+      basename() |>
+      str_remove("\\.png$") %>%
+      paste0("#", .),
+    "](",
+    hex_images,
+    ")"
+  ),
+  Name = names(netlogo_base_colors),
+  NetLogo = unname(netlogo_base_colors),
+  Hex = unname(netlogo_hex_colors),
+  XML = unname(netlogo_xml_colors)
+) |>
+  kable(format = "markdown")
+```
+
+## Contributing
+
+```{r}
+#| echo: false
+#| output: asis
+
+cat(
+  badge_custom(
+    x = "Contributor%20Covenant",
+    y = "3.0",
+    color = "4baaaa",
+    url = "https://www.contributor-covenant.org/version/3/0/code_of_conduct/",
+    alt = "Contributor Covenant 3.0 Code of Conduct"
+  )
+)
+```
+
+Contributions are always welcome! Whether you want to report bugs, suggest new features, or help improve the code or documentation, your input makes a difference.
+
+Before opening a new issue, please check the [issues tab](https://github.com/danielvartan/netlogo-shapes/issues) to see if your topic has already been reported.
+
+## License
+
+```{r}
+#| echo: false
+#| output: asis
+
+cat(
+  badge_license(
+    license = "GPLv3",
+    color = "bd0000",
+    url = "https://www.gnu.org/licenses/gpl-3.0",
+    alt = "GNU GPLv3 License"
+  )
+)
+```
+
+```text
+Copyright (C) 2025 Daniel Vartanian
+
+NetLogo-Shapes is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+this program. If not, see <https://www.gnu.org/licenses/>.
+```
+
+## Acknowledgments
+
+`NetLogo-Shapes` brand identity is based on the [NetLogo 7](https://www.netlogo.org/) brand identity.
