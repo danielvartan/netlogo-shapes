@@ -1,4 +1,4 @@
-# NetLogo-Shapes <a href = "https://github.com/danielvartan/netlogo-shapes"><img src = "images/logo.svg" align="right" width="120" /></a>
+# LogoShapes <a href = "https://github.com/danielvartan/logoshapes"><img src = "images/logo.svg" align="right" width="120" /></a>
 
 <!-- Quarto render -->
 
@@ -14,7 +14,7 @@ Badge](https://img.shields.io/badge/Contributor%20Covenant-3.0-4baaaa.svg)](http
 
 ## Overview
 
-`NetLogo-Shapes` is a library of [NetLogo](https://www.netlogo.org/)
+`LogoShapes` is a library of [NetLogo](https://www.netlogo.org/)
 [vector graphics](https://en.wikipedia.org/wiki/Vector_graphics). It
 provides scalable, editable versions of [NetLogo’s iconic
 shapes](https://docs.netlogo.org/shapes.html), making it easy to
@@ -23,15 +23,15 @@ of quality.
 
 > If you find this project useful, please consider giving it a star!  
 > [![GitHub repo
-> stars](https://img.shields.io/github/stars/danielvartan/netlogo-shapes)](https://github.com/danielvartan/netlogo-shapes/)
+> stars](https://img.shields.io/github/stars/danielvartan/logoshapes)](https://github.com/danielvartan/logoshapes/)
 
 > [!IMPORTANT]
-> `NetLogo-Shapes` is an independent project with no affiliation to [NetLogo](https://www.netlogo.org/) or its developers. If you use any shapes from the NetLogo libraries, please give proper credit to the original creators. See [NetLogo's licensing information](https://github.com/NetLogo/NetLogo/blob/main/shared/resources/main/system/about.txt) for details.
+> `LogoShapes` is an independent project with no affiliation to [NetLogo](https://www.netlogo.org/) or its developers. If you use any shapes from the NetLogo libraries, please give proper credit to the original creators. See [NetLogo's licensing information](https://github.com/NetLogo/NetLogo/blob/main/shared/resources/main/system/about.txt) for details.
 
 ## Usage
 
 All shapes are located in the repository
-[`svg`](https://github.com/danielvartan/netlogo-shapes/tree/main/svg/)
+[`svg`](https://github.com/danielvartan/logoshapes/tree/main/svg/)
 directory. These vectors are optimized for
 [Inkscape](https://inkscape.org)
 [SVG](https://en.wikipedia.org/wiki/SVG) standards, stripping
@@ -1012,7 +1012,7 @@ suggest new features, or help improve the code or documentation, your
 input makes a difference.
 
 Before opening a new issue, please check the [issues
-tab](https://github.com/danielvartan/netlogo-shapes/issues) to see if
+tab](https://github.com/danielvartan/logoshapes/issues) to see if
 your topic has already been reported.
 
 ## License
@@ -1022,7 +1022,7 @@ your topic has already been reported.
 ``` text
 Copyright (C) 2025 Daniel Vartanian
 
-NetLogo-Shapes is free software: you can redistribute it and/or modify it under
+LogoShapes is free software: you can redistribute it and/or modify it under
 the terms of the GNU General Public License as published by the Free Software
 Foundation, either version 3 of the License, or (at your option) any later
 version.
@@ -1037,5 +1037,5 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 
 ## Acknowledgments
 
-`NetLogo-Shapes` brand identity is based on the [NetLogo
+`LogoShapes` brand identity is based on the [NetLogo
 7](https://www.netlogo.org/) brand identity.

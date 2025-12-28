@@ -1,4 +1,4 @@
-# NetLogo-Shapes <a href = "https://github.com/danielvartan/netlogo-shapes"><img src = "images/logo.svg" align="right" width="120" /></a>
+# LogoShapes <a href = "https://github.com/danielvartan/logoshapes"><img src = "images/logo.svg" align="right" width="120" /></a>
 
 <!-- Quarto render -->
 
@@ -46,18 +46,18 @@ cat(
 
 ## Overview
 
-`NetLogo-Shapes` is a library of [NetLogo](https://www.netlogo.org/) [vector graphics](https://en.wikipedia.org/wiki/Vector_graphics). It provides scalable, editable versions of [NetLogo’s iconic shapes](https://docs.netlogo.org/shapes.html), making it easy to customize visuals for simulations and educational materials without loss of quality.
+`LogoShapes` is a library of [NetLogo](https://www.netlogo.org/) [vector graphics](https://en.wikipedia.org/wiki/Vector_graphics). It provides scalable, editable versions of [NetLogo’s iconic shapes](https://docs.netlogo.org/shapes.html), making it easy to customize visuals for simulations and educational materials without loss of quality.
 
-> If you find this project useful, please consider giving it a star! &nbsp; [![GitHub repo stars](https://img.shields.io/github/stars/danielvartan/netlogo-shapes)](https://github.com/danielvartan/netlogo-shapes/)
+> If you find this project useful, please consider giving it a star! &nbsp; [![GitHub repo stars](https://img.shields.io/github/stars/danielvartan/logoshapes)](https://github.com/danielvartan/logoshapes/)
 
 ```{=gfm}
 > [!IMPORTANT]
-> `NetLogo-Shapes` is an independent project with no affiliation to [NetLogo](https://www.netlogo.org/) or its developers. If you use any shapes from the NetLogo libraries, please give proper credit to the original creators. See [NetLogo's licensing information](https://github.com/NetLogo/NetLogo/blob/main/shared/resources/main/system/about.txt) for details.
+> `LogoShapes` is an independent project with no affiliation to [NetLogo](https://www.netlogo.org/) or its developers. If you use any shapes from the NetLogo libraries, please give proper credit to the original creators. See [NetLogo's licensing information](https://github.com/NetLogo/NetLogo/blob/main/shared/resources/main/system/about.txt) for details.
 ```
 
 ## Usage
 
-All shapes are located in the repository [`svg`](https://github.com/danielvartan/netlogo-shapes/tree/main/svg/) directory. These vectors are optimized for [Inkscape](https://inkscape.org) [SVG](https://en.wikipedia.org/wiki/SVG) standards, stripping unnecessary metadata to maintain the smallest possible file size.
+All shapes are located in the repository [`svg`](https://github.com/danielvartan/logoshapes/tree/main/svg/) directory. These vectors are optimized for [Inkscape](https://inkscape.org) [SVG](https://en.wikipedia.org/wiki/SVG) standards, stripping unnecessary metadata to maintain the smallest possible file size.
 
 The collection features all 230 shapes from [NetLogo](https://www.netlogo.org/) 7.0.3:
 
@@ -254,7 +254,7 @@ cat(
 
 Contributions are always welcome! Whether you want to report bugs, suggest new features, or help improve the code or documentation, your input makes a difference.
 
-Before opening a new issue, please check the [issues tab](https://github.com/danielvartan/netlogo-shapes/issues) to see if your topic has already been reported.
+Before opening a new issue, please check the [issues tab](https://github.com/danielvartan/logoshapes/issues) to see if your topic has already been reported.
 
 ## License
 
@@ -275,7 +275,7 @@ cat(
 ```text
 Copyright (C) 2025 Daniel Vartanian
 
-NetLogo-Shapes is free software: you can redistribute it and/or modify it under
+LogoShapes is free software: you can redistribute it and/or modify it under
 the terms of the GNU General Public License as published by the Free Software
 Foundation, either version 3 of the License, or (at your option) any later
 version.
@@ -290,4 +290,4 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 
 ## Acknowledgments
 
-`NetLogo-Shapes` brand identity is based on the [NetLogo 7](https://www.netlogo.org/) brand identity.
+`LogoShapes` brand identity is based on the [NetLogo 7](https://www.netlogo.org/) brand identity.
