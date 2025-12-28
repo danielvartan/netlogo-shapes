@@ -1,5 +1,7 @@
 # v1.0.0.9000 (development version)
 
+- The hex logo has been updated to reflect the latest NetLogo design.
+
 # v1.0.0
 
 First release! 🎉
