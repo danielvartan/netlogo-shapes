@@ -1235,7 +1235,7 @@ License](https://img.shields.io/badge/license-GPLv3-bd0000.svg)](https://www.gnu
 License](https://img.shields.io/badge/license-CC%20BY--NC--SA-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 > [!IMPORTANT]
-> Some shapes are derived from third-party sources and may be subject to additional licensing terms and conditions. Please review the attribution information for each shape before use.
+> Some shapes are derived from third-party sources and may be subject to additional licensing terms and conditions. Please review the licensing information for each shape before use.
 
 The code in this repository is licensed under the [GNU General Public
 License v3.0](https://www.gnu.org/licenses/gpl-3.0). Other materials are

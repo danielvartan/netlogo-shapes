@@ -1,4 +1,6 @@
-# v1.0.1.9000 (development version)
+# v1.1.0.9000 (development version)
+
+# v1.1.0
 
 - Added [Corey Brady](https://forum.netlogo.org/t/making-turtle-shapes/578) shapes to the collection (with permission).
 - Added the *NetLogo Simplified* shapes to the collection.
