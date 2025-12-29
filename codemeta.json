@@ -55,6 +55,7 @@
   "codeRepository": "https://github.com/danielvartan/logoshapes",
   "issueTracker": "https://github.com/danielvartan/logoshapes/issues",
   "relatedLink": [
+    "https://doi.org/10.5281/zenodo.18081753",
     "https://github.com/sponsors/danielvartan"
   ],
   "programmingLanguage": {
@@ -66,6 +67,5 @@
   "developmentStatus": "active",
   "readme": "https://github.com/danielvartan/logoshapes/blob/main/README.md",
   "releaseNotes": "https://github.com/danielvartan/logoshapes/blob/main/NEWS.md",
-  "version": "v1.1.1",
-  "releaseDate": "2025-12-25"
+  "version": "v1.1.1.9000"
 }

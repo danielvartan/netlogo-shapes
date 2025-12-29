@@ -58,7 +58,8 @@
     "Vartanian",
     "viewbox",
     "xspace",
-    "yspace"
+    "yspace",
+    "zenodo"
   ],
   "workbench.colorCustomizations": {
     "activityBar.activeBackground": "#fe3d2c",

@@ -28,13 +28,13 @@ source(here("R", "_setup.R"))
 
 cat(
   badge_repostatus("active"),
-  # badge_custom(
-  #   x = "doi",
-  #   y = "10.17605/OSF.IO/Q682A",
-  #   color = "1284C5",
-  #   url = "https://doi.org/10.17605/OSF.IO/Q682A",
-  #   alt = "OSF DOI Badge"
-  # ),
+  badge_custom(
+    x = "doi",
+    y = "10.5281/zenodo.18081753",
+    color = "1284C5",
+    url = "https://doi.org/10.5281/zenodo.18081753",
+    alt = "DOI Badge"
+  ),
   paste0(
     "[![",
     "FAIR checklist badge",
@@ -333,6 +333,21 @@ SVG files follow [Inkscape](https://inkscape.org) standards and are stripped of 
 
 ## Citation
 
+```{r}
+#| echo: false
+#| output: asis
+
+cat(
+  badge_custom(
+    x = "doi",
+    y = "10.5281/zenodo.18081753",
+    color = "1284C5",
+    url = "https://doi.org/10.5281/zenodo.18081753",
+    alt = "DOI Badge"
+  )
+)
+```
+
 ```{=gfm}
 > [!IMPORTANT]
 > You must also give proper credit to the original creators of the shapes. Please review the attribution information for each shape before use.
@@ -342,7 +357,7 @@ If you use `LogoShapes` in your work, please cite it to acknowledge the effort i
 
 To cite `LogoShapes` in publications please use the following format:
 
-Vartanian, D. (n.d.). *LogoShapes: A library of NetLogo vector graphics* [Computer software]. <https://github.com/danielvartan/logoshapes>
+Vartanian, D. (n.d.). *LogoShapes: A library of NetLogo vector graphics* [Computer software]. <https://doi.org/10.5281/zenodo.18081753>
 
 A BibLaTeX entry for LaTeX users is:
 
@@ -350,7 +365,7 @@ A BibLaTeX entry for LaTeX users is:
 @software{vartanian,
   title = {LogoShapes: A library of NetLogo vector graphics},
   author = {Daniel Vartanian},
-  url = {https://github.com/danielvartan/logoshapes},
+  doi = {10.5281/zenodo.18081753},
   note = {Computer software}
 }
 ```
