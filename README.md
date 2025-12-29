@@ -44,18 +44,13 @@ formats. You can browse them in the repository’s
 [`xml`](https://github.com/danielvartan/logoshapes/tree/main/xml/)
 directories.
 
-SVG files follow [Inkscape](https://inkscape.org) standards and are
-stripped of unnecessary metadata for minimal file size.
-
-Below are sample shapes from the collection:
-
 > [!IMPORTANT]
 > Please credit this project and the original creators when using shapes from this collection. Shapes without specific attribution were created by the project author. For details, see the [License](#license) section.
 
 ### NetLogo 7.0.3
 
 All 230 shapes from [NetLogo](https://www.netlogo.org/) 7.0.3 are
-included in this collection.
+included.
 
 See [NetLogo’s licensing
 information](https://github.com/NetLogo/NetLogo/blob/main/shared/resources/main/system/about.txt)
@@ -993,7 +988,7 @@ for details on usage rights.
 These shapes were created by [Corey
 Brady](https://forum.netlogo.org/t/making-turtle-shapes/578/), who
 shared them on the [NetLogo Users Forum](https://forum.netlogo.org/).
-Corey has generously permitted their inclusion in this collection.
+Corey has generously permitted their inclusion in this library.
 
 You can also find Corey’s NetLogo model featuring these shapes, along
 with animated versions, [here](nlogox/corey-brady.nlogox).
@@ -1096,7 +1091,7 @@ reducing the amount of nodes and paths to optimize performance in
 simulations while maintaining visual fidelity.
 
 > [!NOTE]
-> These shapes cannot be use in NetLogo directly due to their simplified structure. They are intended for use in external graphics applications.
+> These shapes cannot be use in NetLogo directly due to their simplified structure. They are intended for use in external applications.
 
 <table>
 <tr bgcolor="#1e1e1e">
@@ -1190,6 +1185,11 @@ ensure compatibility.
 | ![\#A71B6A](images/A71B6A.png) | magenta   |     125 | \#A71B6A | -1491375361 |
 | ![\#D9637F](images/D9637F.png) | pink      |     135 | \#D9637F | -528509185  |
 
+### SVG Specifications
+
+SVG files follow [Inkscape](https://inkscape.org) standards and are
+stripped of unnecessary metadata for minimal file size.
+
 ## Citation
 
 > [!IMPORTANT]
@@ -1234,9 +1234,8 @@ License](https://img.shields.io/badge/license-GPLv3-bd0000.svg)](https://www.gnu
 [![CC BY-NC-SA 4.0
 License](https://img.shields.io/badge/license-CC%20BY--NC--SA-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-> \[!IMPORTANT\] Some shapes are derived from third-party sources and
-> may be subject to additional licensing terms and conditions. Please
-> review the attribution information for each shape before use.
+> [!IMPORTANT]
+> Some shapes are derived from third-party sources and may be subject to additional licensing terms and conditions. Please review the attribution information for each shape before use.
 
 The code in this repository is licensed under the [GNU General Public
 License v3.0](https://www.gnu.org/licenses/gpl-3.0). Other materials are
