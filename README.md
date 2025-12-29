@@ -6,39 +6,60 @@
 [![Project Status: Active - The project has reached a stable, usable
 state and is being actively
 developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![FAIR checklist
+badge](https://img.shields.io/badge/fairsoftwarechecklist.net--00a7d9)](https://fairsoftwarechecklist.net/v0.2?f=21&a=32113&i=02112&r=123)
+[![fair-software.eu](https://img.shields.io/badge/fair--software.eu-%E2%97%8F%20%E2%97%8F%20%E2%97%8F%20%E2%97%8F%20%E2%97%8B-yellow)](https://fair-software.eu)
 [![GNU GPLv3
 License](https://img.shields.io/badge/license-GPLv3-bd0000.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![CC BY-NC-SA 4.0
+License](https://img.shields.io/badge/license-CC%20BY--NC--SA-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Contributor Covenant 3.0 Code of Conduct
 Badge](https://img.shields.io/badge/Contributor%20Covenant-3.0-4baaaa.svg)](https://www.contributor-covenant.org/version/3/0/code_of_conduct/)
 <!-- badges: end -->
 
 ## Overview
 
-`LogoShapes` is a library of [NetLogo](https://www.netlogo.org/)
-[vector graphics](https://en.wikipedia.org/wiki/Vector_graphics). It
-provides scalable, editable versions of [NetLogo’s iconic
-shapes](https://docs.netlogo.org/shapes.html), making it easy to
-customize visuals for simulations and educational materials without loss
-of quality.
+`LogoShapes` is a library of [NetLogo](https://www.netlogo.org/) [vector
+graphics](https://en.wikipedia.org/wiki/Vector_graphics). It offers
+scalable, editable versions of [NetLogo’s iconic
+shapes](https://docs.netlogo.org/shapes.html) as well as new designs,
+enabling you to customize visuals for simulations and educational
+materials without loss of quality.
 
 > If you find this project useful, please consider giving it a star!  
 > [![GitHub repo
 > stars](https://img.shields.io/github/stars/danielvartan/logoshapes)](https://github.com/danielvartan/logoshapes/)
 
-> [!IMPORTANT]
-> `LogoShapes` is an independent project with no affiliation to [NetLogo](https://www.netlogo.org/) or its developers. If you use any shapes from the NetLogo libraries, please give proper credit to the original creators. See [NetLogo's licensing information](https://github.com/NetLogo/NetLogo/blob/main/shared/resources/main/system/about.txt) for details.
+> The continuous development of `LogoShapes` depends on community
+> support. If you can afford to do so, please consider becoming a
+> sponsor.  
+> [![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/danielvartan)
 
 ## Usage
 
-All shapes are located in the repository
-[`svg`](https://github.com/danielvartan/logoshapes/tree/main/svg/)
-directory. These vectors are optimized for
-[Inkscape](https://inkscape.org)
-[SVG](https://en.wikipedia.org/wiki/SVG) standards, stripping
-unnecessary metadata to maintain the smallest possible file size.
+Shapes are provided in both [SVG](https://en.wikipedia.org/wiki/SVG) and
+[NetLogo XML](https://github.com/NetLogo/NetLogo/wiki/XML-File-Format)
+formats. You can browse them in the repository’s
+[`svg`](https://github.com/danielvartan/logoshapes/tree/main/svg/) and
+[`xml`](https://github.com/danielvartan/logoshapes/tree/main/xml/)
+directories.
 
-The collection features all 230 shapes from
-[NetLogo](https://www.netlogo.org/) 7.0.3:
+SVG files follow [Inkscape](https://inkscape.org) standards and are
+stripped of unnecessary metadata for minimal file size.
+
+Below are sample shapes from the collection:
+
+> [!IMPORTANT]
+> Please credit this project and the original creators when using shapes from this collection. Shapes without specific attribution were created by the project author. For details, see the [License](#license) section.
+
+### NetLogo 7.0.3
+
+All 230 shapes from [NetLogo](https://www.netlogo.org/) 7.0.3 are
+included in this collection.
+
+See [NetLogo’s licensing
+information](https://github.com/NetLogo/NetLogo/blob/main/shared/resources/main/system/about.txt)
+for details on usage rights.
 
 <table>
 <tr bgcolor="#1e1e1e">
@@ -967,7 +988,172 @@ The collection features all 230 shapes from
 </tr>
 </table>
 
+### Corey Brady Shapes
+
+These shapes were created by [Corey
+Brady](https://forum.netlogo.org/t/making-turtle-shapes/578/), who
+shared them on the [NetLogo Users Forum](https://forum.netlogo.org/).
+Corey has generously permitted their inclusion in this collection.
+
+You can also find Corey’s NetLogo model featuring these shapes, along
+with animated versions, [here](nlogox/corey-brady.nlogox).
+
+<table>
+<tr bgcolor="#1e1e1e">
+<td>
+<a href="svg/corey-brady/black-widow.svg">
+<img src="svg/corey-brady/black-widow.svg" alt="Black Widow Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/corey-brady/crab.svg">
+<img src="svg/corey-brady/crab.svg" alt="Crab Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/corey-brady/gecko-2.svg">
+<img src="svg/corey-brady/gecko-2.svg" alt="Gecko 2 Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/corey-brady/gecko.svg">
+<img src="svg/corey-brady/gecko.svg" alt="Gecko Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/corey-brady/hammerhead-shark-2.svg">
+<img src="svg/corey-brady/hammerhead-shark-2.svg" alt="Hammerhead Shark 2 Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/corey-brady/hammerhead-shark.svg">
+<img src="svg/corey-brady/hammerhead-shark.svg" alt="Hammerhead Shark Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/corey-brady/horseshoe-crab.svg">
+<img src="svg/corey-brady/horseshoe-crab.svg" alt="Horseshoe Crab Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/corey-brady/lobster.svg">
+<img src="svg/corey-brady/lobster.svg" alt="Lobster Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/corey-brady/platypus.svg">
+<img src="svg/corey-brady/platypus.svg" alt="Platypus Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/corey-brady/sea-turtle.svg">
+<img src="svg/corey-brady/sea-turtle.svg" alt="Sea Turtle Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/corey-brady/snake-2.svg">
+<img src="svg/corey-brady/snake-2.svg" alt="Snake 2 Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/corey-brady/snake-coiled-2.svg">
+<img src="svg/corey-brady/snake-coiled-2.svg" alt="Snake Coiled 2 Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/corey-brady/snake-coiled.svg">
+<img src="svg/corey-brady/snake-coiled.svg" alt="Snake Coiled Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/corey-brady/snake-straight-2.svg">
+<img src="svg/corey-brady/snake-straight-2.svg" alt="Snake Straight 2 Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/corey-brady/snake-straight.svg">
+<img src="svg/corey-brady/snake-straight.svg" alt="Snake Straight Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/corey-brady/snake.svg">
+<img src="svg/corey-brady/snake.svg" alt="Snake Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/corey-brady/tarantula.svg">
+<img src="svg/corey-brady/tarantula.svg" alt="Tarantula Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/corey-brady/toad.svg">
+<img src="svg/corey-brady/toad.svg" alt="Toad Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/corey-brady/tree-frog-2.svg">
+<img src="svg/corey-brady/tree-frog-2.svg" alt="Tree Frog 2 Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/corey-brady/tree-frog-3.svg">
+<img src="svg/corey-brady/tree-frog-3.svg" alt="Tree Frog 3 Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/corey-brady/tree-frog.svg">
+<img src="svg/corey-brady/tree-frog.svg" alt="Tree Frog Shape" width="50"/>
+&nbsp;
+</a>
+</td>
+</tr>
+</table>
+
+### NetLogo Simplified Shapes
+
+These shapes are simplified versions of NetLogo’s original shapes,
+reducing the amount of nodes and paths to optimize performance in
+simulations while maintaining visual fidelity.
+
+> [!NOTE]
+> These shapes cannot be use in NetLogo directly due to their simplified structure. They are intended for use in external graphics applications.
+
+<table>
+<tr bgcolor="#1e1e1e">
+<td>
+<a href="svg/netlogo-simplified/acorn.svg">
+<img src="svg/netlogo-simplified/acorn.svg" alt="Acorn Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/netlogo-simplified/default.svg">
+<img src="svg/netlogo-simplified/default.svg" alt="Default Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/netlogo-simplified/person.svg">
+<img src="svg/netlogo-simplified/person.svg" alt="Person Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/netlogo-simplified/plant-medium.svg">
+<img src="svg/netlogo-simplified/plant-medium.svg" alt="Plant Medium Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/netlogo-simplified/plant-small.svg">
+<img src="svg/netlogo-simplified/plant-small.svg" alt="Plant Small Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/netlogo-simplified/plant.svg">
+<img src="svg/netlogo-simplified/plant.svg" alt="Plant Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/netlogo-simplified/sheep.svg">
+<img src="svg/netlogo-simplified/sheep.svg" alt="Sheep Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/netlogo-simplified/wolf.svg">
+<img src="svg/netlogo-simplified/wolf.svg" alt="Wolf Shape" width="50"/>
+&nbsp;
+</a>
+</td>
+</tr>
+</table>
+
+## Planned Features
+
+Integration of [open emoji sets](https://github.com/svgmoji/svgmoji) and
+other popular icon collections as NetLogo-compatible vector shapes is
+planned for future releases. There is currently no fixed timeline for
+these additions.
+
+If you are interested in contributing to this effort, please refer to
+the [Contributing](#contributing) section.
+
 ## Technical Specifications
+
+### Elements and Structure
+
+See [NetLogo’s XML
+documentation](https://github.com/NetLogo/NetLogo/wiki/XML-File-Format#turtle-shapes)
+for details on the supported elements and structure of turtle shapes.
 
 ### Canvas & Coordinate System
 
@@ -978,11 +1164,12 @@ is located at the top-left corner.
 
 ### Color Mapping
 
-The library uses the standard [NetLogo base
+NetLogo turtle shapes use a fixed set of [base
 colors](https://docs.netlogo.org/dictionary.html#base-colors). The table
-below maps these to Hexadecimal and NetLogo’s internal
-[XML](https://en.wikipedia.org/wiki/XML) integer format for
-cross-compatibility.
+below lists each color’s name, Hex code, NetLogo numeric code, and
+internal [XML](https://en.wikipedia.org/wiki/XML) integer
+representation, making it easy to convert colors between formats and
+ensure compatibility.
 
 | Color                          | Name      | NetLogo | Hex      | XML         |
 |:-------------------------------|:----------|--------:|:---------|:------------|
@@ -1003,6 +1190,31 @@ cross-compatibility.
 | ![\#A71B6A](images/A71B6A.png) | magenta   |     125 | \#A71B6A | -1491375361 |
 | ![\#D9637F](images/D9637F.png) | pink      |     135 | \#D9637F | -528509185  |
 
+## Citation
+
+> [!IMPORTANT]
+> You must also give proper credit to the original creators of the shapes. Please review the attribution information for each shape before use.
+
+If you use `LogoShapes` in your work, please cite it to acknowledge the
+effort invested in its development and maintenance. Your citation helps
+support the ongoing improvement of the project.
+
+To cite `LogoShapes` in publications please use the following format:
+
+Vartanian, D. (n.d.). *LogoShapes: A library of NetLogo vector graphics*
+\[Computer software\]. <https://github.com/danielvartan/logoshapes>
+
+A BibLaTeX entry for LaTeX users is:
+
+``` latex
+@software{vartanian,
+  title = {LogoShapes: A library of NetLogo vector graphics},
+  author = {Daniel Vartanian},
+  url = {https://github.com/danielvartan/logoshapes},
+  note = {Computer software}
+}
+```
+
 ## Contributing
 
 [![](https://img.shields.io/badge/Contributor%20Covenant-3.0-4baaaa.svg)](https://www.contributor-covenant.org/version/3/0/code_of_conduct/)
@@ -1012,12 +1224,25 @@ suggest new features, or help improve the code or documentation, your
 input makes a difference.
 
 Before opening a new issue, please check the [issues
-tab](https://github.com/danielvartan/logoshapes/issues) to see if
-your topic has already been reported.
+tab](https://github.com/danielvartan/logoshapes/issues) to see if your
+topic has already been reported.
 
 ## License
 
-[![](https://img.shields.io/badge/license-GPLv3-bd0000.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![GNU GPLv3
+License](https://img.shields.io/badge/license-GPLv3-bd0000.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![CC BY-NC-SA 4.0
+License](https://img.shields.io/badge/license-CC%20BY--NC--SA-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+> \[!IMPORTANT\] Some shapes are derived from third-party sources and
+> may be subject to additional licensing terms and conditions. Please
+> review the attribution information for each shape before use.
+
+The code in this repository is licensed under the [GNU General Public
+License v3.0](https://www.gnu.org/licenses/gpl-3.0). Other materials are
+available under the [Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International
+License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 ``` text
 Copyright (C) 2025 Daniel Vartanian
@@ -1036,6 +1261,9 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 ```
 
 ## Acknowledgments
+
+`LogoShapes` is an independent project with no affiliation to
+[NetLogo](https://www.netlogo.org/) or its developers.
 
 `LogoShapes` brand identity is based on the [NetLogo
 7](https://www.netlogo.org/) brand identity.

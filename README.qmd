@@ -7,6 +7,7 @@
 #| include: false
 
 library(badger)
+library(checkmate)
 library(dplyr)
 library(fs)
 library(here)
@@ -27,11 +28,49 @@ source(here("R", "_setup.R"))
 
 cat(
   badge_repostatus("active"),
+  # badge_custom(
+  #   x = "doi",
+  #   y = "10.17605/OSF.IO/Q682A",
+  #   color = "1284C5",
+  #   url = "https://doi.org/10.17605/OSF.IO/Q682A",
+  #   alt = "OSF DOI Badge"
+  # ),
+  paste0(
+    "[![",
+    "FAIR checklist badge",
+    "](",
+    "https://img.shields.io/badge/",
+    "fairsoftwarechecklist.net", "-",
+    "-",
+    "00a7d9",
+    ")](",
+    "https://fairsoftwarechecklist.net/v0.2?f=21&a=32113&i=02112&r=123",
+    ")"
+  ),
+  paste0(
+    "[![",
+    "fair-software.eu",
+    "](",
+    "https://img.shields.io/badge/",
+    "fair--software.eu", "-",
+    "%E2%97%8F%20%E2%97%8F%20%E2%97%8F%20%E2%97%8F%20%E2%97%8B",
+    "-",
+    "yellow",
+    ")](",
+    "https://fair-software.eu",
+    ")"
+  ),
   badge_license(
     license = "GPLv3",
     color = "bd0000",
     url = "https://www.gnu.org/licenses/gpl-3.0",
     alt = "GNU GPLv3 License"
+  ),
+  badge_license(
+    license = "CC BY-NC-SA",
+    color = "lightgrey",
+    url = "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    alt = "CC BY-NC-SA 4.0 License"
   ),
   badge_custom(
     x = "Contributor%20Covenant",
@@ -46,70 +85,127 @@ cat(
 
 ## Overview
 
-`LogoShapes` is a library of [NetLogo](https://www.netlogo.org/) [vector graphics](https://en.wikipedia.org/wiki/Vector_graphics). It provides scalable, editable versions of [NetLogo’s iconic shapes](https://docs.netlogo.org/shapes.html), making it easy to customize visuals for simulations and educational materials without loss of quality.
+`LogoShapes` is a library of [NetLogo](https://www.netlogo.org/) [vector graphics](https://en.wikipedia.org/wiki/Vector_graphics). It offers scalable, editable versions of [NetLogo's iconic shapes](https://docs.netlogo.org/shapes.html) as well as new designs, enabling you to customize visuals for simulations and educational materials without loss of quality.
 
 > If you find this project useful, please consider giving it a star! &nbsp; [![GitHub repo stars](https://img.shields.io/github/stars/danielvartan/logoshapes)](https://github.com/danielvartan/logoshapes/)
 
-```{=gfm}
-> [!IMPORTANT]
-> `LogoShapes` is an independent project with no affiliation to [NetLogo](https://www.netlogo.org/) or its developers. If you use any shapes from the NetLogo libraries, please give proper credit to the original creators. See [NetLogo's licensing information](https://github.com/NetLogo/NetLogo/blob/main/shared/resources/main/system/about.txt) for details.
-```
+> The continuous development of `LogoShapes` depends on community support. If you can afford to do so, please consider becoming a sponsor. &nbsp; [![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/danielvartan)
 
 ## Usage
 
-All shapes are located in the repository [`svg`](https://github.com/danielvartan/logoshapes/tree/main/svg/) directory. These vectors are optimized for [Inkscape](https://inkscape.org) [SVG](https://en.wikipedia.org/wiki/SVG) standards, stripping unnecessary metadata to maintain the smallest possible file size.
+Shapes are provided in both [SVG](https://en.wikipedia.org/wiki/SVG) and [NetLogo XML](https://github.com/NetLogo/NetLogo/wiki/XML-File-Format) formats. You can browse them in the repository’s [`svg`](https://github.com/danielvartan/logoshapes/tree/main/svg/) and [`xml`](https://github.com/danielvartan/logoshapes/tree/main/xml/) directories.
 
-The collection features all 230 shapes from [NetLogo](https://www.netlogo.org/) 7.0.3:
+SVG files follow [Inkscape](https://inkscape.org) standards and are stripped of unnecessary metadata for minimal file size.
+
+Below are sample shapes from the collection:
+
+```{=gfm}
+> [!IMPORTANT]
+> Please credit this project and the original creators when using shapes from this collection. Shapes without specific attribution were created by the project author. For details, see the [License](#license) section.
+```
 
 ```{r}
 #| include: false
 
-library(here)
-library(fs)
+library(checkmate)
+library(htmltools)
+library(stringr)
 
-shapes <-
-  dir_ls(here("svg", "netlogo-7-0-3")) |>
-  path_rel(here())
+create_svg_shapes_table <- function(svg_shapes) {
+  assert_character(svg_shapes)
+  assert_file_exists(svg_shapes)
+
+  svg_shapes |>
+    lapply(
+      function(x) {
+        tags$a(
+          href = x,
+          tags$img(
+            src = x,
+            alt = paste(
+              x |>
+                basename() |>
+                str_remove("\\.svg$") |>
+                str_replace_all("-", " ") |>
+                str_to_title(),
+              "Shape"
+            ),
+            width = "50"
+          ),
+          HTML("&nbsp;")
+        )
+      }
+    ) |>
+    tags$td() |>
+    tags$tr(
+      bgcolor = "#1e1e1e"
+    ) |>
+    tags$table()
+}
+```
+
+### NetLogo 7.0.3
+
+All 230 shapes from [NetLogo](https://www.netlogo.org/) 7.0.3 are included in this collection.
+
+See [NetLogo's licensing information](https://github.com/NetLogo/NetLogo/blob/main/shared/resources/main/system/about.txt) for details on usage rights.
+
+```{r}
+#| echo: false
+#| output: asis
+
+here("svg", "netlogo-7-0-3") |>
+  dir_ls() |>
+  path_rel(here()) |>
+  create_svg_shapes_table()
+```
+
+### Corey Brady Shapes
+
+These shapes were created by [Corey Brady](https://forum.netlogo.org/t/making-turtle-shapes/578/), who shared them on the [NetLogo Users Forum](https://forum.netlogo.org/). Corey has generously permitted their inclusion in this collection.
+
+You can also find Corey's NetLogo model featuring these shapes, along with animated versions, [here](nlogox/corey-brady.nlogox).
+
+```{r}
+#| echo: false
+#| output: asis
+
+here("svg", "corey-brady") |>
+  dir_ls() |>
+  path_rel(here()) |>
+  create_svg_shapes_table()
+```
+
+### NetLogo Simplified Shapes
+
+These shapes are simplified versions of NetLogo's original shapes, reducing the amount of nodes and paths to optimize performance in simulations while maintaining visual fidelity.
+
+```{=gfm}
+> [!NOTE]
+> These shapes cannot be use in NetLogo directly due to their simplified structure. They are intended for use in external graphics applications.
 ```
 
 ```{r}
 #| echo: false
 #| output: asis
 
-library(htmltools)
-library(stringr)
-
-tags$table(
-  tags$tr(
-    tags$td(
-      lapply(
-        shapes,
-        function(x) {
-          tags$a(
-            href = x,
-            tags$img(
-              src = x,
-              alt = paste(
-                x |>
-                  basename() |>
-                  str_remove("\\.svg$") |>
-                  str_replace_all("-", " ") |>
-                  str_to_title(),
-                "Shape"
-              ),
-              width = "50"
-            ),
-            HTML("&nbsp;")
-          )
-        }
-      )
-    ),
-    bgcolor = "#1e1e1e"
-  )
-)
+here("svg", "netlogo-simplified") |>
+  dir_ls() |>
+  path_rel(here()) |>
+  create_svg_shapes_table()
 ```
 
+## Planned Features
+
+Integration of [open emoji sets](https://github.com/svgmoji/svgmoji) and other popular icon collections as NetLogo-compatible vector shapes is planned for future releases. There is currently no fixed timeline for these additions.
+
+If you are interested in contributing to this effort, please refer to the [Contributing](#contributing) section.
+
 ## Technical Specifications
+
+### Elements and Structure
+
+See [NetLogo's XML documentation](https://github.com/NetLogo/NetLogo/wiki/XML-File-Format#turtle-shapes) for details on the supported elements and structure of turtle shapes.
 
 ### Canvas & Coordinate System
 
@@ -119,7 +215,7 @@ Each shape is drawn on a **300×300 pixel** canvas. The origin `(0, 0)` is locat
 
 ### Color Mapping
 
-The library uses the standard [NetLogo base colors](https://docs.netlogo.org/dictionary.html#base-colors). The table below maps these to Hexadecimal and NetLogo’s internal [XML](https://en.wikipedia.org/wiki/XML) integer format for cross-compatibility.
+NetLogo turtle shapes use a fixed set of [base colors](https://docs.netlogo.org/dictionary.html#base-colors). The table below lists each color’s name, Hex code, NetLogo numeric code, and internal [XML](https://en.wikipedia.org/wiki/XML) integer representation, making it easy to convert colors between formats and ensure compatibility.
 
 ```{r}
 #| include: false
@@ -235,6 +331,30 @@ tibble(
   kable(format = "markdown")
 ```
 
+## Citation
+
+```{=gfm}
+> [!IMPORTANT]
+> You must also give proper credit to the original creators of the shapes. Please review the attribution information for each shape before use.
+```
+
+If you use `LogoShapes` in your work, please cite it to acknowledge the effort invested in its development and maintenance. Your citation helps support the ongoing improvement of the project.
+
+To cite `LogoShapes` in publications please use the following format:
+
+Vartanian, D. (n.d.). *LogoShapes: A library of NetLogo vector graphics* [Computer software]. <https://github.com/danielvartan/logoshapes>
+
+A BibLaTeX entry for LaTeX users is:
+
+```latex
+@software{vartanian,
+  title = {LogoShapes: A library of NetLogo vector graphics},
+  author = {Daniel Vartanian},
+  url = {https://github.com/danielvartan/logoshapes},
+  note = {Computer software}
+}
+```
+
 ## Contributing
 
 ```{r}
@@ -268,9 +388,20 @@ cat(
     color = "bd0000",
     url = "https://www.gnu.org/licenses/gpl-3.0",
     alt = "GNU GPLv3 License"
+  ),
+  badge_license(
+    license = "CC BY-NC-SA",
+    color = "lightgrey",
+    url = "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    alt = "CC BY-NC-SA 4.0 License"
   )
 )
 ```
+
+> [!IMPORTANT]
+> Some shapes are derived from third-party sources and may be subject to additional licensing terms and conditions. Please review the attribution information for each shape before use.
+
+The code in this repository is licensed under the [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0). Other materials are available under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
 ```text
 Copyright (C) 2025 Daniel Vartanian
@@ -289,5 +420,7 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 ```
 
 ## Acknowledgments
+
+`LogoShapes` is an independent project with no affiliation to [NetLogo](https://www.netlogo.org/) or its developers.
 
 `LogoShapes` brand identity is based on the [NetLogo 7](https://www.netlogo.org/) brand identity.

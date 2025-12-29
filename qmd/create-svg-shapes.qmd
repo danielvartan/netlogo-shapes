@@ -17,13 +17,13 @@ library(xml2)
 ### Set Source
 
 ```{r}
-netlogo_xml_file <- here("nlogox", "netlogo-7-0-3.nlogox")
+xml_file <- here("nlogox", "corey-brady.nlogox")
 ```
 
 ### Set SVG Directory
 
 ```{r}
-svg_dir <- here("svg", "netlogo-7-0-3")
+svg_dir <- here("svg", "corey-brady")
 ```
 
 ```{r}
@@ -35,7 +35,7 @@ if (!dir.exists(svg_dir)) {
 ### Import Functions
 
 ::: {.callout-note}
-Generated with [Posit](https://posit.co/) [Databot](https://positron.posit.co/databot.html) and [Claude Opus 4.5](https://claude.ai/).
+Generated with the help of [Posit](https://posit.co/) [Databot](https://positron.posit.co/databot.html) and [Claude Opus 4.5](https://claude.ai/).
 
 This code needs to be refactored.
 :::
@@ -391,6 +391,6 @@ convert_turtle_shapes_to_svg <- function(xml_file, output_dir = svg_dir) {
 ## Create SVG Shapes
 
 ```{r}
-netlogo_xml_file |>
+xml_file |>
   convert_turtle_shapes_to_svg()
 ```

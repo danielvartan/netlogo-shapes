@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShapes>
+  <shape name="hammerhead-shark-2" rotatable="true" editableColorIndex="0">
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="148" y="29"></point>
+      <point x="95" y="39"></point>
+      <point x="89" y="38"></point>
+      <point x="84" y="40"></point>
+      <point x="79" y="47"></point>
+      <point x="79" y="60"></point>
+      <point x="88" y="70"></point>
+      <point x="95" y="68"></point>
+      <point x="129" y="68"></point>
+      <point x="124" y="83"></point>
+      <point x="122" y="100"></point>
+      <point x="122" y="113"></point>
+      <point x="93" y="131"></point>
+      <point x="69" y="155"></point>
+      <point x="125" y="144"></point>
+      <point x="133" y="177"></point>
+      <point x="138" y="199"></point>
+      <point x="128" y="216"></point>
+      <point x="141" y="213"></point>
+      <point x="145" y="230"></point>
+      <point x="121" y="252"></point>
+      <point x="105" y="275"></point>
+      <point x="150" y="249"></point>
+      <point x="195" y="275"></point>
+      <point x="178" y="252"></point>
+      <point x="156" y="229"></point>
+      <point x="160" y="213"></point>
+      <point x="172" y="216"></point>
+      <point x="162" y="200"></point>
+      <point x="175" y="144"></point>
+      <point x="231" y="155"></point>
+      <point x="208" y="132"></point>
+      <point x="178" y="114"></point>
+      <point x="176" y="89"></point>
+      <point x="170" y="68"></point>
+      <point x="204" y="68"></point>
+      <point x="213" y="71"></point>
+      <point x="220" y="62"></point>
+      <point x="221" y="46"></point>
+      <point x="215" y="38"></point>
+      <point x="208" y="38"></point>
+      <point x="206" y="39"></point>
+      <point x="164" y="30"></point>
+      <point x="151" y="29"></point>
+      <point x="149" y="29"></point>
+    </polygon>
+  </shape>
+</turtleShapes>

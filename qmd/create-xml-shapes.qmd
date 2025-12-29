@@ -10,22 +10,20 @@ This document creates [XML](https://en.wikipedia.org/wiki/XML) files for each tu
 library(cli)
 library(here)
 library(groomr) # github.com/danielvartan/groomr
-library(magick)
 library(magrittr)
-library(stringr)
 library(xml2)
 ```
 
 ### Set Source
 
 ```{r}
-netlogo_xml_file <- here("nlogox", "netlogo-7-0-3.nlogox")
+xml_file <- here("nlogox", "corey-brady.nlogox")
 ```
 
 ### Set XML Directory
 
 ```{r}
-xml_dir <- here("xml", "netlogo-7-0-3")
+xml_dir <- here("xml", "corey-brady")
 ```
 
 ```{r}
@@ -37,13 +35,13 @@ if (!dir.exists(xml_dir)) {
 ## Import XML Data
 
 ```{r}
-netlogo_xml <- netlogo_xml_file |> read_xml()
+xml_data <- xml_file |> read_xml()
 ```
 
 ## Extract Turtle Shapes
 
 ```{r}
-turtle_shapes <- netlogo_xml |> xml_find_all("//turtleShapes/shape")
+turtle_shapes <- xml_data |> xml_find_all("//turtleShapes/shape")
 ```
 
 ## Create XML Shapes
@@ -61,14 +59,16 @@ for (i in seq_along(turtle_shapes)) {
 
   xml_add_child(shape_doc, shape)
 
-  filename <-
+  file_name <-
     shape_name |>
     make_machine_readable() |>
     paste0(".xml")
 
-  filepath <- file.path(xml_dir, filename)
-
-  write_xml(shape_doc, filepath, options = c("format", "no_empty_tags"))
+  shape_doc |>
+    write_xml(
+      file = file.path(xml_dir, file_name),
+      options = c("format", "no_empty_tags")
+    )
 
   cli_progress_update()
 }

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShapes>
+  <shape name="hammerhead-shark" rotatable="true" editableColorIndex="0">
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="148" y="0"></point>
+      <point x="160" y="0"></point>
+      <point x="173" y="2"></point>
+      <point x="220" y="12"></point>
+      <point x="223" y="11"></point>
+      <point x="229" y="12"></point>
+      <point x="234" y="16"></point>
+      <point x="237" y="25"></point>
+      <point x="237" y="32"></point>
+      <point x="236" y="40"></point>
+      <point x="233" y="45"></point>
+      <point x="230" y="48"></point>
+      <point x="227" y="49"></point>
+      <point x="222" y="49"></point>
+      <point x="219" y="47"></point>
+      <point x="177" y="47"></point>
+      <point x="183" y="76"></point>
+      <point x="185" y="90"></point>
+      <point x="185" y="104"></point>
+      <point x="225" y="130"></point>
+      <point x="241" y="143"></point>
+      <point x="251" y="153"></point>
+      <point x="239" y="153"></point>
+      <point x="181" y="139"></point>
+      <point x="175" y="170"></point>
+      <point x="166" y="208"></point>
+      <point x="178" y="228"></point>
+      <point x="163" y="225"></point>
+      <point x="159" y="246"></point>
+      <point x="196" y="287"></point>
+      <point x="206" y="295"></point>
+      <point x="200" y="293"></point>
+      <point x="193" y="293"></point>
+      <point x="162" y="282"></point>
+      <point x="149" y="262"></point>
+    </polygon>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="152" y="0"></point>
+      <point x="140" y="0"></point>
+      <point x="127" y="2"></point>
+      <point x="80" y="12"></point>
+      <point x="77" y="11"></point>
+      <point x="71" y="12"></point>
+      <point x="66" y="16"></point>
+      <point x="63" y="25"></point>
+      <point x="63" y="32"></point>
+      <point x="64" y="40"></point>
+      <point x="67" y="45"></point>
+      <point x="70" y="48"></point>
+      <point x="73" y="49"></point>
+      <point x="78" y="49"></point>
+      <point x="81" y="47"></point>
+      <point x="123" y="47"></point>
+      <point x="117" y="76"></point>
+      <point x="115" y="90"></point>
+      <point x="115" y="104"></point>
+      <point x="75" y="130"></point>
+      <point x="59" y="143"></point>
+      <point x="49" y="153"></point>
+      <point x="61" y="153"></point>
+      <point x="119" y="139"></point>
+      <point x="125" y="170"></point>
+      <point x="134" y="208"></point>
+      <point x="122" y="228"></point>
+      <point x="137" y="225"></point>
+      <point x="141" y="246"></point>
+      <point x="104" y="287"></point>
+      <point x="94" y="295"></point>
+      <point x="100" y="293"></point>
+      <point x="107" y="293"></point>
+      <point x="138" y="282"></point>
+      <point x="151" y="262"></point>
+    </polygon>
+  </shape>
+</turtleShapes>

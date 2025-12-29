@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShapes>
+  <shape name="horseshoe-crab" rotatable="true" editableColorIndex="0">
+    <circle x="116" y="116" marked="true" color="-1920102913" diameter="67" filled="true"></circle>
+    <polygon color="-1920102913" filled="true" marked="true">
+      <point x="149" y="25"></point>
+      <point x="107" y="37"></point>
+      <point x="80" y="71"></point>
+      <point x="80" y="77"></point>
+      <point x="81" y="117"></point>
+      <point x="87" y="146"></point>
+      <point x="111" y="115"></point>
+      <point x="119" y="116"></point>
+      <point x="95" y="161"></point>
+      <point x="99" y="163"></point>
+      <point x="119" y="125"></point>
+      <point x="123" y="142"></point>
+      <point x="105" y="174"></point>
+      <point x="109" y="175"></point>
+      <point x="125" y="147"></point>
+      <point x="130" y="161"></point>
+      <point x="116" y="186"></point>
+      <point x="120" y="188"></point>
+      <point x="132" y="166"></point>
+      <point x="138" y="179"></point>
+      <point x="146" y="173"></point>
+      <point x="148" y="259"></point>
+      <point x="149" y="275"></point>
+      <point x="151" y="275"></point>
+      <point x="152" y="256"></point>
+      <point x="154" y="173"></point>
+      <point x="162" y="179"></point>
+      <point x="168" y="166"></point>
+      <point x="180" y="188"></point>
+      <point x="184" y="186"></point>
+      <point x="170" y="162"></point>
+      <point x="175" y="147"></point>
+      <point x="191" y="175"></point>
+      <point x="195" y="174"></point>
+      <point x="177" y="141"></point>
+      <point x="180" y="125"></point>
+      <point x="201" y="163"></point>
+      <point x="204" y="161"></point>
+      <point x="189" y="133"></point>
+      <point x="181" y="116"></point>
+      <point x="189" y="115"></point>
+      <point x="212" y="146"></point>
+      <point x="218" y="117"></point>
+      <point x="220" y="72"></point>
+      <point x="192" y="37"></point>
+    </polygon>
+  </shape>
+</turtleShapes>
