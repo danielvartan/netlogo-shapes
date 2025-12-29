@@ -1,5 +1,9 @@
 # v1.1.0.9000 (development version)
 
+# v1.1.1 (2025-12-29)
+
+- `CITATION.cff` and `codemeta.json` files were updated to fix metadata issues.
+
 # v1.1.0 (2025-12-29)
 
 - Added [Corey Brady](https://forum.netlogo.org/t/making-turtle-shapes/578) shapes to the collection (with permission).
