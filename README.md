@@ -7,7 +7,7 @@
 state and is being actively
 developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![DOI
-Badge](https://img.shields.io/badge/doi-10.5281/zenodo.18081753-1284C5.svg)](https://doi.org/10.5281/zenodo.18081753)
+Badge](https://img.shields.io/badge/doi-10.5281/zenodo.18081752-1284C5.svg)](https://doi.org/10.5281/zenodo.18081752)
 [![FAIR checklist
 badge](https://img.shields.io/badge/fairsoftwarechecklist.net--00a7d9)](https://fairsoftwarechecklist.net/v0.2?f=21&a=32113&i=02112&r=123)
 [![fair-software.eu](https://img.shields.io/badge/fair--software.eu-%E2%97%8F%20%E2%97%8F%20%E2%97%8F%20%E2%97%8F%20%E2%97%8B-yellow)](https://fair-software.eu)
@@ -1194,7 +1194,7 @@ stripped of unnecessary metadata for minimal file size.
 
 ## Citation
 
-[![](https://img.shields.io/badge/doi-10.5281/zenodo.18081753-1284C5.svg)](https://doi.org/10.5281/zenodo.18081753)
+[![](https://img.shields.io/badge/doi-10.5281/zenodo.18081752-1284C5.svg)](https://doi.org/10.5281/zenodo.18081752)
 
 > [!IMPORTANT]
 > You must also give proper credit to the original creators of the shapes. Please review the attribution information for each shape before use.
@@ -1206,7 +1206,7 @@ support the ongoing improvement of the project.
 To cite `LogoShapes` in publications please use the following format:
 
 Vartanian, D. (n.d.). *LogoShapes: A library of NetLogo vector graphics*
-\[Computer software\]. <https://doi.org/10.5281/zenodo.18081753>
+\[Computer software\]. <https://doi.org/10.5281/zenodo.18081752>
 
 A BibLaTeX entry for LaTeX users is:
 
@@ -1214,7 +1214,7 @@ A BibLaTeX entry for LaTeX users is:
 @software{vartanian,
   title = {LogoShapes: A library of NetLogo vector graphics},
   author = {Daniel Vartanian},
-  doi = {10.5281/zenodo.18081753},
+  doi = {10.5281/zenodo.18081752},
   note = {Computer software}
 }
 ```

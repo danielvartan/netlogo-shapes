@@ -30,9 +30,9 @@ cat(
   badge_repostatus("active"),
   badge_custom(
     x = "doi",
-    y = "10.5281/zenodo.18081753",
+    y = "10.5281/zenodo.18081752",
     color = "1284C5",
-    url = "https://doi.org/10.5281/zenodo.18081753",
+    url = "https://doi.org/10.5281/zenodo.18081752",
     alt = "DOI Badge"
   ),
   paste0(
@@ -340,9 +340,9 @@ SVG files follow [Inkscape](https://inkscape.org) standards and are stripped of 
 cat(
   badge_custom(
     x = "doi",
-    y = "10.5281/zenodo.18081753",
+    y = "10.5281/zenodo.18081752",
     color = "1284C5",
-    url = "https://doi.org/10.5281/zenodo.18081753",
+    url = "https://doi.org/10.5281/zenodo.18081752",
     alt = "DOI Badge"
   )
 )
@@ -357,7 +357,7 @@ If you use `LogoShapes` in your work, please cite it to acknowledge the effort i
 
 To cite `LogoShapes` in publications please use the following format:
 
-Vartanian, D. (n.d.). *LogoShapes: A library of NetLogo vector graphics* [Computer software]. <https://doi.org/10.5281/zenodo.18081753>
+Vartanian, D. (n.d.). *LogoShapes: A library of NetLogo vector graphics* [Computer software]. <https://doi.org/10.5281/zenodo.18081752>
 
 A BibLaTeX entry for LaTeX users is:
 
@@ -365,7 +365,7 @@ A BibLaTeX entry for LaTeX users is:
 @software{vartanian,
   title = {LogoShapes: A library of NetLogo vector graphics},
   author = {Daniel Vartanian},
-  doi = {10.5281/zenodo.18081753},
+  doi = {10.5281/zenodo.18081752},
   note = {Computer software}
 }
 ```
