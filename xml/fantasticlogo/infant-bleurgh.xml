@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShapes>
+  <shape name="infant-bleurgh" rotatable="false" editableColorIndex="0">
+    <polygon color="496990463" filled="true" marked="false">
+      <point x="135" y="120"></point>
+      <point x="165" y="165"></point>
+      <point x="180" y="210"></point>
+      <point x="180" y="240"></point>
+      <point x="150" y="300"></point>
+      <point x="165" y="300"></point>
+      <point x="195" y="240"></point>
+      <point x="195" y="195"></point>
+      <point x="165" y="135"></point>
+    </polygon>
+    <polygon color="-303222273" filled="true" marked="false">
+      <point x="180" y="150"></point>
+      <point x="180" y="120"></point>
+      <point x="165" y="97"></point>
+      <point x="135" y="84"></point>
+      <point x="128" y="121"></point>
+      <point x="147" y="148"></point>
+      <point x="165" y="165"></point>
+    </polygon>
+    <polygon color="-1491375361" filled="true" marked="false">
+      <point x="170" y="155"></point>
+      <point x="131" y="163"></point>
+      <point x="175" y="167"></point>
+      <point x="196" y="136"></point>
+    </polygon>
+    <polygon color="-1491375361" filled="false" marked="false">
+      <point x="150" y="150"></point>
+      <point x="120" y="120"></point>
+      <point x="135" y="75"></point>
+      <point x="165" y="90"></point>
+      <point x="180" y="120"></point>
+      <point x="180" y="150"></point>
+      <point x="165" y="165"></point>
+    </polygon>
+  </shape>
+</turtleShapes>

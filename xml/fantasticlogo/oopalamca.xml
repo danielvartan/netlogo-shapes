@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShapes>
+  <shape name="oopalamca" rotatable="false" editableColorIndex="0">
+    <rectangle endX="180" startY="225" marked="false" color="-528509185" endY="255" startX="165" filled="true"></rectangle>
+    <rectangle endX="180" startY="225" marked="false" color="-1491375361" endY="255" startX="165" filled="false"></rectangle>
+    <rectangle endX="135" startY="225" marked="false" color="-528509185" endY="270" startX="120" filled="true"></rectangle>
+    <rectangle endX="135" startY="225" marked="false" color="-1491375361" endY="270" startX="120" filled="false"></rectangle>
+    <circle x="63" y="63" marked="false" color="-528509185" diameter="175" filled="true"></circle>
+    <circle x="150" y="105" marked="false" color="-1" diameter="60" filled="true"></circle>
+    <circle x="165" y="120" marked="false" color="255" diameter="30" filled="true"></circle>
+    <circle x="60" y="60" marked="false" color="-1491375361" diameter="180" filled="false"></circle>
+  </shape>
+</turtleShapes>

@@ -17,13 +17,13 @@ library(xml2)
 ### Set Source
 
 ```{r}
-xml_file <- here("nlogox", "corey-brady.nlogox")
+xml_file <- here("nlogox", "fantasticlogo.nlogox")
 ```
 
 ### Set XML Directory
 
 ```{r}
-xml_dir <- here("xml", "corey-brady")
+xml_dir <- here("xml", "fantasticlogo")
 ```
 
 ```{r}

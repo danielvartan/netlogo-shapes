@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turtleShapes>
+  <shape name="bleurgh" rotatable="false" editableColorIndex="0">
+    <polygon color="496990463" filled="true" marked="false">
+      <point x="135" y="120"></point>
+      <point x="165" y="165"></point>
+      <point x="180" y="210"></point>
+      <point x="180" y="240"></point>
+      <point x="150" y="300"></point>
+      <point x="165" y="300"></point>
+      <point x="195" y="240"></point>
+      <point x="195" y="195"></point>
+      <point x="165" y="135"></point>
+    </polygon>
+    <circle x="65" y="20" marked="false" color="-303222273" diameter="170" filled="true"></circle>
+    <circle x="59" y="14" marked="false" color="-1491375361" diameter="182" filled="false"></circle>
+  </shape>
+</turtleShapes>

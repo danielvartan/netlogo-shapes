@@ -17,13 +17,13 @@ library(xml2)
 ### Set Source
 
 ```{r}
-xml_file <- here("nlogox", "corey-brady.nlogox")
+xml_file <- here("nlogox", "fantasticlogo.nlogox")
 ```
 
 ### Set SVG Directory
 
 ```{r}
-svg_dir <- here("svg", "corey-brady")
+svg_dir <- here("svg", "fantasticlogo")
 ```
 
 ```{r}
