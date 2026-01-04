@@ -47,4 +47,4 @@ identifiers:
     description: GitHub Code Repository
 repository-code: https://github.com/danielvartan/logoshapes
 license: GPL-3.0-or-later
-version: 1.2.0
+version: 1.2.0.9000
