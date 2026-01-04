@@ -1,4 +1,4 @@
-# v1.2.1.9000 (development version)
+# v1.2.0.9000 (development version)
 
 # v1.2.0 (2026-01-04)
 
