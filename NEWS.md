@@ -1,5 +1,11 @@
 # v1.1.1.9000 (development version)
 
+# v1.2.0 (2026-01-04)
+
+- Added a new collection named `netlogo-refined`.
+- Optimized SVG files in the `netlogo-simplified` collection to reduce file size.
+- Updated the documentation to reflect the changes above.
+
 # v1.1.1 (2025-12-29)
 
 - `CITATION.cff` and `codemeta.json` files were updated to fix metadata issues.

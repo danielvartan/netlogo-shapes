@@ -172,13 +172,13 @@ here("svg", "corey-brady") |>
   create_svg_shapes_table()
 ```
 
-### NetLogo Simplified Shapes
+### NetLogo Simplified
 
 These shapes are simplified versions of NetLogo's original shapes, reducing the amount of nodes and paths to optimize performance in simulations while maintaining visual fidelity.
 
 ```{=gfm}
 > [!NOTE]
-> These shapes cannot be use in NetLogo directly due to their simplified structure. They are intended for use in external applications.
+> These shapes cannot be use in NetLogo directly due to their new structure. They are intended for use in external applications.
 ```
 
 ```{r}
@@ -186,6 +186,25 @@ These shapes are simplified versions of NetLogo's original shapes, reducing the 
 #| output: asis
 
 here("svg", "netlogo-simplified") |>
+  dir_ls() |>
+  path_rel(here()) |>
+  create_svg_shapes_table()
+```
+
+### NetLogo Refined
+
+These shapes are refined versions of NetLogo's original shapes, enhancing visual quality with smoother curves and improved details.
+
+```{=gfm}
+> [!NOTE]
+> These shapes cannot be use in NetLogo directly due to their new structure. They are intended for use in external applications.
+```
+
+```{r}
+#| echo: false
+#| output: asis
+
+here("svg", "netlogo-refined") |>
   dir_ls() |>
   path_rel(here()) |>
   create_svg_shapes_table()
@@ -390,6 +409,14 @@ cat(
 Contributions are always welcome! Whether you want to report bugs, suggest new features, or help improve the code or documentation, your input makes a difference.
 
 Before opening a new issue, please check the [issues tab](https://github.com/danielvartan/logoshapes/issues) to see if your topic has already been reported.
+
+[![GitHub Sponsor](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/danielvartan)
+
+You can also support the development of `LogoShapes` by becoming a
+sponsor.
+
+Click [here](https://github.com/sponsors/danielvartan) to make a
+donation. Please mention `LogoShapes` in your donation message.
 
 ## License
 

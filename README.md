@@ -1086,7 +1086,7 @@ with animated versions, [here](nlogox/corey-brady.nlogox).
 </tr>
 </table>
 
-### NetLogo Simplified Shapes
+### NetLogo Simplified
 
 These shapes are simplified versions of NetLogo’s original shapes,
 reducing the amount of nodes and paths to optimize performance in
@@ -1098,10 +1098,6 @@ simulations while maintaining visual fidelity.
 <table>
 <tr bgcolor="#1e1e1e">
 <td>
-<a href="svg/netlogo-simplified/acorn.svg">
-<img src="svg/netlogo-simplified/acorn.svg" alt="Acorn Shape" width="50"/>
-&nbsp;
-</a>
 <a href="svg/netlogo-simplified/default.svg">
 <img src="svg/netlogo-simplified/default.svg" alt="Default Shape" width="50"/>
 &nbsp;
@@ -1126,8 +1122,59 @@ simulations while maintaining visual fidelity.
 <img src="svg/netlogo-simplified/sheep.svg" alt="Sheep Shape" width="50"/>
 &nbsp;
 </a>
+<a href="svg/netlogo-simplified/turtle.svg">
+<img src="svg/netlogo-simplified/turtle.svg" alt="Turtle Shape" width="50"/>
+&nbsp;
+</a>
 <a href="svg/netlogo-simplified/wolf.svg">
 <img src="svg/netlogo-simplified/wolf.svg" alt="Wolf Shape" width="50"/>
+&nbsp;
+</a>
+</td>
+</tr>
+</table>
+
+### NetLogo Refined
+
+These shapes are refined versions of NetLogo’s original shapes,
+enhancing visual quality with smoother curves and improved details.
+
+> [!NOTE]
+> These shapes cannot be use in NetLogo directly due to their structure. They are intended for use in external applications.
+
+<table>
+<tr bgcolor="#1e1e1e">
+<td>
+<a href="svg/netlogo-refined/default.svg">
+<img src="svg/netlogo-refined/default.svg" alt="Default Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/netlogo-refined/person.svg">
+<img src="svg/netlogo-refined/person.svg" alt="Person Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/netlogo-refined/plant-medium.svg">
+<img src="svg/netlogo-refined/plant-medium.svg" alt="Plant Medium Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/netlogo-refined/plant-small.svg">
+<img src="svg/netlogo-refined/plant-small.svg" alt="Plant Small Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/netlogo-refined/plant.svg">
+<img src="svg/netlogo-refined/plant.svg" alt="Plant Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/netlogo-refined/sheep.svg">
+<img src="svg/netlogo-refined/sheep.svg" alt="Sheep Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/netlogo-refined/turtle.svg">
+<img src="svg/netlogo-refined/turtle.svg" alt="Turtle Shape" width="50"/>
+&nbsp;
+</a>
+<a href="svg/netlogo-refined/wolf.svg">
+<img src="svg/netlogo-refined/wolf.svg" alt="Wolf Shape" width="50"/>
 &nbsp;
 </a>
 </td>
@@ -1230,6 +1277,14 @@ input makes a difference.
 Before opening a new issue, please check the [issues
 tab](https://github.com/danielvartan/logoshapes/issues) to see if your
 topic has already been reported.
+
+[![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/danielvartan)
+
+You can also support the development of `LogoShapes` by becoming a
+sponsor.
+
+Click [here](https://github.com/sponsors/danielvartan) to make a
+donation. Please mention `LogoShapes` in your donation message.
 
 ## License
 
